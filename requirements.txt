@@ -1,0 +1,12 @@
+greenlet
+numpy
+pandas
+playwright
+pyee
+python-dateutil
+pytz
+six
+typing_extensions
+tzdata
+ujson
+openpyxl

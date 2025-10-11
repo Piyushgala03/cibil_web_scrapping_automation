@@ -1,0 +1,147 @@
+2025-10-11 16:10:20,609 - INFO - Running script...
+2025-10-11 16:10:20,610 - INFO - Starting batch search for date: 31-01-25
+2025-10-11 16:10:22,888 - INFO - Browser launched.
+2025-10-11 16:10:24,110 - INFO - Page loaded.
+2025-10-11 16:10:24,111 - INFO - Performing search for date=31-01-25, state=ANDAMAN AND NICOBAR ISLANDS
+2025-10-11 16:10:28,150 - INFO - Waiting for search results...
+2025-10-11 16:10:28,185 - INFO - Loader disappeared after clicking Search.
+2025-10-11 16:10:36,197 - INFO - Pagination text: View 1 - 3 of 3
+2025-10-11 16:10:36,200 - INFO - Fetched 3 out of 3 rows.
+2025-10-11 16:10:36,201 - INFO - Pagination limit = 1
+2025-10-11 16:10:36,241 - INFO - Found 3 rows.
+2025-10-11 16:10:36,611 - INFO - Row 1/3 extracted.
+2025-10-11 16:10:37,043 - INFO - Row 2/3 extracted.
+2025-10-11 16:10:37,846 - INFO - Saved 2 rows to cibil_data_31-01-25_ANDAMAN AND NICOBAR ISLANDS_state_page_1_20251011_161037.xlsx
+2025-10-11 16:10:38,007 - INFO - Loader disappeared.
+2025-10-11 16:10:39,050 - INFO - Found 2 director rows.
+2025-10-11 16:10:45,247 - INFO - Loader disappeared.
+2025-10-11 16:10:46,471 - INFO - Loader disappeared.
+2025-10-11 16:10:47,557 - INFO - Found 1 director rows.
+2025-10-11 16:10:53,605 - INFO - Loader disappeared.
+2025-10-11 16:10:57,564 - INFO - Browser launched.
+2025-10-11 16:10:58,999 - INFO - Page loaded.
+2025-10-11 16:10:59,000 - INFO - Performing search for date=31-01-25, state=ANDHRA PRADESH
+2025-10-11 16:11:03,008 - INFO - Waiting for search results...
+2025-10-11 16:11:03,059 - INFO - Loader disappeared after clicking Search.
+2025-10-11 16:11:11,126 - INFO - Pagination text: View 1 - 1,000 of 1,936
+2025-10-11 16:11:11,127 - INFO - Fetched 1000 out of 1936 rows.
+2025-10-11 16:11:11,127 - INFO - Pagination limit = 2
+2025-10-11 16:11:11,161 - INFO - Found 1000 rows.
+2025-10-11 16:11:11,910 - INFO - Row 1/1000 extracted.
+2025-10-11 16:11:12,622 - INFO - Row 2/1000 extracted.
+2025-10-11 16:11:12,687 - INFO - Saved 2 rows to cibil_data_31-01-25_ANDHRA PRADESH_state_page_1_20251011_161112.xlsx
+2025-10-11 16:11:21,143 - INFO - Found 936 rows.
+2025-10-11 16:11:21,869 - INFO - Row 1/936 extracted.
+2025-10-11 16:11:22,517 - INFO - Row 2/936 extracted.
+2025-10-11 16:11:22,543 - INFO - Saved 2 rows to cibil_data_31-01-25_ANDHRA PRADESH_state_page_2_20251011_161122.xlsx
+2025-10-11 16:11:24,834 - INFO - Loader disappeared.
+2025-10-11 16:11:25,905 - INFO - Found 1 director rows.
+2025-10-11 16:11:31,916 - INFO - Loader disappeared.
+2025-10-11 16:11:33,201 - INFO - Loader disappeared.
+2025-10-11 16:11:34,283 - INFO - Found 1 director rows.
+2025-10-11 16:11:40,328 - INFO - Loader disappeared.
+2025-10-11 16:11:41,638 - INFO - Loader disappeared.
+2025-10-11 16:11:42,669 - INFO - Found 1 director rows.
+2025-10-11 16:11:49,122 - INFO - Loader disappeared.
+2025-10-11 16:11:50,362 - INFO - Loader disappeared.
+2025-10-11 16:11:51,425 - INFO - Found 1 director rows.
+2025-10-11 16:11:58,011 - INFO - Loader disappeared.
+2025-10-11 16:12:01,985 - INFO - Browser launched.
+2025-10-11 16:12:03,242 - INFO - Page loaded.
+2025-10-11 16:12:03,243 - INFO - Performing search for date=31-01-25, state=ARUNACHAL PRADESH
+2025-10-11 16:12:07,235 - INFO - Waiting for search results...
+2025-10-11 16:12:07,282 - INFO - Loader disappeared after clicking Search.
+2025-10-11 16:12:15,229 - INFO - Pagination text: View 1 - 10 of 10
+2025-10-11 16:12:15,229 - INFO - Fetched 10 out of 10 rows.
+2025-10-11 16:12:15,229 - INFO - Pagination limit = 1
+2025-10-11 16:12:15,246 - INFO - Found 10 rows.
+2025-10-11 16:12:15,497 - INFO - Row 1/10 extracted.
+2025-10-11 16:12:15,737 - INFO - Row 2/10 extracted.
+2025-10-11 16:12:15,823 - INFO - Saved 2 rows to cibil_data_31-01-25_ARUNACHAL PRADESH_state_page_1_20251011_161215.xlsx
+2025-10-11 16:12:15,973 - INFO - Loader disappeared.
+2025-10-11 16:12:17,013 - INFO - Found 1 director rows.
+2025-10-11 16:12:22,992 - INFO - Loader disappeared.
+2025-10-11 16:12:24,186 - INFO - Loader disappeared.
+2025-10-11 16:12:25,276 - INFO - Found 1 director rows.
+2025-10-11 16:12:31,406 - INFO - Loader disappeared.
+2025-10-11 16:12:35,625 - INFO - Browser launched.
+2025-10-11 16:12:36,920 - INFO - Page loaded.
+2025-10-11 16:12:36,921 - INFO - Performing search for date=31-01-25, state=ASSAM
+2025-10-11 16:12:40,980 - INFO - Waiting for search results...
+2025-10-11 16:12:41,026 - INFO - Loader disappeared after clicking Search.
+2025-10-11 16:12:49,023 - INFO - Pagination text: View 1 - 189 of 189
+2025-10-11 16:12:49,023 - INFO - Fetched 189 out of 189 rows.
+2025-10-11 16:12:49,023 - INFO - Pagination limit = 1
+2025-10-11 16:12:49,048 - INFO - Found 189 rows.
+2025-10-11 16:12:49,528 - INFO - Row 1/189 extracted.
+2025-10-11 16:12:50,078 - INFO - Row 2/189 extracted.
+2025-10-11 16:12:50,171 - INFO - Saved 2 rows to cibil_data_31-01-25_ASSAM_state_page_1_20251011_161250.xlsx
+2025-10-11 16:12:50,378 - INFO - Loader disappeared.
+2025-10-11 16:12:51,420 - INFO - Found 2 director rows.
+2025-10-11 16:12:57,203 - INFO - Loader disappeared.
+2025-10-11 16:12:58,450 - INFO - Loader disappeared.
+2025-10-11 16:12:59,523 - INFO - Found 1 director rows.
+2025-10-11 16:13:05,584 - INFO - Loader disappeared.
+2025-10-11 16:13:10,027 - INFO - Browser launched.
+2025-10-11 16:13:12,059 - INFO - Page loaded.
+2025-10-11 16:13:12,060 - INFO - Performing search for date=31-01-25, state=BAHRAIN
+2025-10-11 16:13:16,626 - INFO - Waiting for search results...
+2025-10-11 16:13:16,675 - INFO - Loader disappeared after clicking Search.
+2025-10-11 16:13:24,571 - INFO - Pagination text: View 1 - 8 of 8
+2025-10-11 16:13:24,572 - INFO - Fetched 8 out of 8 rows.
+2025-10-11 16:13:24,572 - INFO - Pagination limit = 1
+2025-10-11 16:13:24,594 - INFO - Found 8 rows.
+2025-10-11 16:13:24,989 - INFO - Row 1/8 extracted.
+2025-10-11 16:13:25,469 - INFO - Row 2/8 extracted.
+2025-10-11 16:13:25,576 - INFO - Saved 2 rows to cibil_data_31-01-25_BAHRAIN_state_page_1_20251011_161325.xlsx
+2025-10-11 16:13:25,776 - INFO - Loader disappeared.
+2025-10-11 16:13:26,841 - INFO - Found 2 director rows.
+2025-10-11 16:13:33,271 - INFO - Loader disappeared.
+2025-10-11 16:13:34,481 - INFO - Loader disappeared.
+2025-10-11 16:13:35,528 - INFO - Found 4 director rows.
+2025-10-11 16:13:41,639 - INFO - Loader disappeared.
+2025-10-11 16:13:45,925 - INFO - Browser launched.
+2025-10-11 16:13:47,110 - INFO - Page loaded.
+2025-10-11 16:13:47,111 - INFO - Performing search for date=31-01-25, state=BIHAR
+2025-10-11 16:13:51,585 - INFO - Waiting for search results...
+2025-10-11 16:13:51,637 - INFO - Loader disappeared after clicking Search.
+2025-10-11 16:13:59,717 - INFO - Pagination text: View 1 - 327 of 327
+2025-10-11 16:13:59,719 - INFO - Fetched 327 out of 327 rows.
+2025-10-11 16:13:59,719 - INFO - Pagination limit = 1
+2025-10-11 16:13:59,804 - INFO - Found 327 rows.
+2025-10-11 16:14:00,462 - INFO - Row 1/327 extracted.
+2025-10-11 16:14:01,078 - INFO - Row 2/327 extracted.
+2025-10-11 16:14:01,167 - INFO - Saved 2 rows to cibil_data_31-01-25_BIHAR_state_page_1_20251011_161401.xlsx
+2025-10-11 16:14:01,355 - INFO - Loader disappeared.
+2025-10-11 16:14:02,407 - INFO - Found 1 director rows.
+2025-10-11 16:14:08,174 - INFO - Loader disappeared.
+2025-10-11 16:14:09,416 - INFO - Loader disappeared.
+2025-10-11 16:14:10,519 - INFO - Found 4 director rows.
+2025-10-11 16:14:16,740 - INFO - Loader disappeared.
+2025-10-11 16:14:20,590 - INFO - Browser launched.
+2025-10-11 16:14:21,851 - INFO - Page loaded.
+2025-10-11 16:14:21,851 - INFO - Performing search for date=31-01-25, state=CHANDIGARH
+2025-10-11 16:14:26,296 - INFO - Waiting for search results...
+2025-10-11 16:14:26,366 - INFO - Loader disappeared after clicking Search.
+2025-10-11 16:14:34,490 - INFO - Pagination text: View 1 - 417 of 417
+2025-10-11 16:14:34,490 - INFO - Fetched 417 out of 417 rows.
+2025-10-11 16:14:34,491 - INFO - Pagination limit = 1
+2025-10-11 16:14:34,531 - INFO - Found 417 rows.
+2025-10-11 16:14:35,192 - INFO - Row 1/417 extracted.
+2025-10-11 16:14:35,893 - INFO - Row 2/417 extracted.
+2025-10-11 16:14:35,988 - INFO - Saved 2 rows to cibil_data_31-01-25_CHANDIGARH_state_page_1_20251011_161435.xlsx
+2025-10-11 16:14:36,203 - INFO - Loader disappeared.
+2025-10-11 16:14:37,226 - INFO - Found 2 director rows.
+2025-10-11 16:14:43,228 - INFO - Loader disappeared.
+2025-10-11 16:14:44,440 - INFO - Loader disappeared.
+2025-10-11 16:14:45,546 - INFO - Found 1 director rows.
+2025-10-11 16:14:51,609 - INFO - Loader disappeared.
+2025-10-11 16:14:55,813 - INFO - Browser launched.
+2025-10-11 16:14:57,382 - INFO - Page loaded.
+2025-10-11 16:14:57,383 - INFO - Performing search for date=31-01-25, state=CHANDIGARH & DELHI
+2025-10-11 16:15:01,903 - INFO - Waiting for search results...
+2025-10-11 16:15:01,940 - INFO - Loader disappeared after clicking Search.
+2025-10-11 16:15:09,991 - INFO - Pagination text: No Records
+2025-10-11 16:15:09,991 - INFO - Found no records for given state
+2025-10-11 16:15:09,992 - INFO - Fetched 0 out of 0 rows.
+2025-10-11 16:15:09,992 - INFO - Pagination limit = 0
