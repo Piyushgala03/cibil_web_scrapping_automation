@@ -7,14 +7,15 @@ echo ===============================
 
 if not exist venv (
     echo Creating virtual environment...
-    python -m venv venv
+    python -m venv .venv
+    python.exe -m pip install --upgrade pip
 )
 
 echo Activating virtual environment...
-call venv\Scripts\activate
+call .venv\Scripts\activate
 
 echo Installing libraries from requirements.txt...
-pip install --upgrade pip
+python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 
 echo Installing Playwright browsers...
