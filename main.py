@@ -193,7 +193,7 @@ def extract_table_data(page, date, state, page_no, cibil_link_files):
 
     all_rows = []
 
-    for i in range(min(row_count, 2)):
+    for i in range(row_count):
         row = rows.nth(i)
         cells = row.locator("td")
         cell_count = cells.count()

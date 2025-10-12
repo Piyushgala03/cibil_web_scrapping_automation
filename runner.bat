@@ -2,7 +2,7 @@
 setlocal
 
 echo Activating virtual environment...
-call venv\Scripts\activate
+call .venv\Scripts\activate
 
 echo Running cibil web automation script...
 python main.py
