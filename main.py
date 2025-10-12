@@ -184,7 +184,7 @@ def extract_directors(page):
 # ----------------- Table Extraction -----------------
 def extract_table_data(page, date, state, page_no, cibil_link_files):
     print("▶ Extracting table data...")
-    page.wait_for_selector("table.ui-jqgrid-btable tr.jqgrow", timeout=60000)
+    page.wait_for_selector("table.ui-jqgrid-btable tr.jqgrow", timeout=30000)
 
     rows = page.locator("table.ui-jqgrid-btable tr.jqgrow")
     row_count = rows.count()
