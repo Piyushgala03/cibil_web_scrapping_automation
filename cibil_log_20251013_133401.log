@@ -1,0 +1,25 @@
+2025-10-13 13:34:01,080 - INFO - Running script...
+2025-10-13 13:34:01,082 - INFO - Starting batch search for date: 30-09-25
+2025-10-13 13:34:21,639 - INFO - Browser launched.
+2025-10-13 13:34:22,761 - INFO - Page loaded.
+2025-10-13 13:34:22,762 - INFO - Performing search for date=30-09-25, state=ANDAMAN AND NICOBAR ISLANDS
+2025-10-13 13:34:27,030 - INFO - Waiting for search results...
+2025-10-13 13:34:27,070 - INFO - Loader disappeared after clicking Search.
+2025-10-13 13:34:34,874 - INFO - Pagination text: No Records
+2025-10-13 13:34:34,874 - INFO - Found no records for given state
+2025-10-13 13:34:34,875 - INFO - Fetched 0 out of 0 rows.
+2025-10-13 13:34:34,875 - INFO - Pagination limit = 0
+2025-10-13 13:35:05,699 - ERROR - Error for ANDAMAN AND NICOBAR ISLANDS: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("table.ui-jqgrid-btable tr.jqgrow") to be visible
+
+2025-10-13 13:35:08,458 - INFO - Browser launched.
+2025-10-13 13:35:51,950 - INFO - Page loaded.
+2025-10-13 13:35:51,950 - INFO - Performing search for date=30-09-25, state=ANDHRA PRADESH
+2025-10-13 13:35:55,651 - ERROR - Error for ANDHRA PRADESH: Locator.inner_text: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("select#stateId option").nth(55)
+
+2025-10-13 13:35:58,127 - INFO - Browser launched.
+2025-10-13 13:35:59,180 - INFO - Page loaded.
+2025-10-13 13:35:59,181 - INFO - Performing search for date=30-09-25, state=ARUNACHAL PRADESH

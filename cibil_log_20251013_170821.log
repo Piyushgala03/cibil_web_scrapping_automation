@@ -1,0 +1,38 @@
+2025-10-13 17:08:21,680 - INFO - Running script...
+2025-10-13 17:08:21,681 - INFO - Starting batch search for date: 30-09-25
+2025-10-13 17:08:23,976 - INFO - Browser launched.
+2025-10-13 17:08:24,345 - INFO - Page loaded.
+2025-10-13 17:08:24,346 - INFO - Performing search for date:30-09-25, state:ANDAMAN AND NICOBAR ISLANDS, Defaulters type:['1 crore']
+2025-10-13 17:08:54,892 - ERROR - Error for ANDAMAN AND NICOBAR ISLANDS: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("select#stateId") to be visible
+    6 × waiting for" https://suit.cibil.com/" navigation to finish...
+      - navigated to "https://suit.cibil.com/"
+
+2025-10-13 17:08:57,212 - INFO - Browser launched.
+2025-10-13 17:08:57,640 - INFO - Page loaded.
+2025-10-13 17:08:57,641 - INFO - Performing search for date:30-09-25, state:ANDHRA PRADESH, Defaulters type:['1 crore']
+2025-10-13 17:09:28,167 - ERROR - Error for ANDHRA PRADESH: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("select#stateId") to be visible
+    2 × waiting for" https://suit.cibil.com/" navigation to finish...
+      - navigated to "https://suit.cibil.com/"
+
+2025-10-13 17:09:30,381 - INFO - Browser launched.
+2025-10-13 17:09:30,746 - INFO - Page loaded.
+2025-10-13 17:09:30,747 - INFO - Performing search for date:30-09-25, state:ARUNACHAL PRADESH, Defaulters type:['1 crore']
+2025-10-13 17:10:01,283 - ERROR - Error for ARUNACHAL PRADESH: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("select#stateId") to be visible
+    - waiting for" https://suit.cibil.com/" navigation to finish...
+    - navigated to "https://suit.cibil.com/"
+
+2025-10-13 17:10:05,177 - INFO - Browser launched.
+2025-10-13 17:10:05,979 - INFO - Page loaded.
+2025-10-13 17:10:05,980 - INFO - Performing search for date:30-09-25, state:ASSAM, Defaulters type:['1 crore']
+2025-10-13 17:10:10,497 - ERROR - Error for ASSAM: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("select#stateId") to be visible
+
+2025-10-13 17:10:11,048 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-55' coro=<Connection.run.<locals>.init() running at C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_connection.py:308> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_connection.py:228]>

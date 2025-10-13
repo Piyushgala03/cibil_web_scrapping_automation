@@ -78,17 +78,30 @@ def wait_for_loader_to_disappear(page, timeout=60000):
 
 
 # ----------------- Perform Search -----------------
-def perform_search(page, date, state):
+def perform_search(page, date, state, defaulters_type):
     print("▶ Performing search...")
-    logging.info(f"Performing search for date={date}, state={state}")
-    page.wait_for_selector("select#croreAccount", timeout=60000)
-    page.select_option("select#croreAccount", label="Search")
+    logging.info(f"Performing search for date:{date}, state:{state}, Defaulters type:{defaulters_type}")
+    if defaulters_type == '1 crore' or 'crore' in defaulters_type:
+        page.wait_for_selector("select#croreAccount", timeout=60000)
+        page.select_option("select#croreAccount", label="Search")
 
-    page.wait_for_selector("select#quarterIdCrore", timeout=60000)
-    page.select_option("select#quarterIdCrore", label=date)
+        page.wait_for_selector("select#quarterIdCrore", timeout=60000)
+        page.select_option("select#quarterIdCrore", label=date)
 
-    page.wait_for_selector("img#goForSuitFiledAccounts1CroreId", timeout=60000)
-    page.click("img#goForSuitFiledAccounts1CroreId")
+        page.wait_for_selector("img#goForSuitFiledAccounts1CroreId", timeout=60000)
+        page.click("img#goForSuitFiledAccounts1CroreId")
+
+    elif defaulters_type == '>25 lacs' or '25 lacs' in defaulters_type:
+        page.wait_for_selector("select#lakhAccount", timeout=60000)
+        page.select_option("select#lakhAccount", label="Search")
+
+        page.wait_for_selector("select#quarterIdLakh", timeout=60000)
+        page.select_option("select#quarterIdLakh", label=date)
+
+        page.wait_for_selector("img#goForSuitFiledAccounts1CroreId", timeout=60000)
+        page.click("img#goForSuitFiledAccounts1CroreId")
+
+
 
     page.wait_for_selector("select#stateId", timeout=30000)
     options = page.locator("select#stateId option")
@@ -232,7 +245,7 @@ def extract_table_data(page, date, state, page_no, cibil_link_files):
     return output_file, df
 
 # ----------------- Main Run -----------------
-def run(date, state):
+def run(date, state, defaulters_type):
     cibil_link_files = []
     print("▶ Starting Playwright...")
     with sync_playwright() as p:
@@ -247,7 +260,7 @@ def run(date, state):
         logging.info("Page loaded.")
 
         # perform_search(page, date, state)
-        pagination_limit = perform_search(page, date, state)
+        pagination_limit = perform_search(page, date, state, defaulters_type)
         logging.info(f"Pagination limit = {pagination_limit}")
 
         if pagination_limit > 1:
@@ -346,11 +359,12 @@ def data_search():
         search_details = json.load(f)
     date = search_details.get("date", "31-01-25")
     states = search_details.get("state", ["Delhi"])
+    defaulters_type = search_details.get("defaulters_type", ["1 crore"])
     print(f"▶ Starting batch search for date: {date}")
     logging.info(f"Starting batch search for date: {date}")
     for state in states:
         try:
-            run(date, state)
+            run(date, state, defaulters_type)
         except Exception as e:
             print(f"❌ Error for {state}: {e}")
             logging.error(f"Error for {state}: {e}")
