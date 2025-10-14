@@ -1,0 +1,28 @@
+2025-10-14 16:51:09,059 - INFO - Running script...
+2025-10-14 16:51:09,061 - INFO - Starting batch search for date: 30-11-24
+2025-10-14 16:51:10,624 - INFO - Browser launched.
+2025-10-14 16:51:12,592 - INFO - Page loaded.
+2025-10-14 16:51:12,593 - INFO - Performing search for date:30-11-24, state:HONG KONG, Defaulters type:>25 lacs
+2025-10-14 16:51:15,375 - INFO - Waiting for search results...
+2025-10-14 16:51:15,419 - INFO - Loader disappeared after clicking Search.
+2025-10-14 16:51:23,051 - INFO - Pagination text: View 1 - 2 of 2
+2025-10-14 16:51:23,052 - INFO - Fetched 2 out of 2 rows.
+2025-10-14 16:51:23,052 - INFO - Pagination limit = 1
+2025-10-14 16:51:23,065 - INFO - Found 2 rows.
+2025-10-14 16:51:23,269 - INFO - Row 1/2 extracted.
+2025-10-14 16:51:23,467 - INFO - Row 2/2 extracted.
+2025-10-14 16:51:23,743 - INFO - Saved 2 rows to cibil_data_30-11-24_HONG KONG_state_page_1_20251014_165123.xlsx
+2025-10-14 16:51:23,878 - INFO - Loader disappeared.
+2025-10-14 16:51:24,899 - INFO - Found 2 director rows.
+2025-10-14 16:51:30,961 - INFO - Loader disappeared.
+2025-10-14 16:51:32,096 - INFO - Loader disappeared.
+2025-10-14 16:51:33,135 - INFO - Found 2 director rows.
+2025-10-14 16:51:38,828 - INFO - Loader disappeared.
+2025-10-14 16:51:41,566 - INFO - Browser launched.
+2025-10-14 16:51:43,556 - INFO - Page loaded.
+2025-10-14 16:51:43,557 - INFO - Performing search for date:30-11-24, state:HYDERABAD, Defaulters type:>25 lacs
+2025-10-14 16:51:45,971 - INFO - Waiting for search results...
+2025-10-14 16:51:45,995 - INFO - Loader disappeared after clicking Search.
+2025-10-14 16:51:47,802 - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed

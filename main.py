@@ -6,12 +6,12 @@ import re
 import math
 import logging
 import os
+from pathlib import Path
 
 def ensure_processed_folder():
     processed_folder = "processed"
     os.makedirs(processed_folder, exist_ok=True)
     return processed_folder
-
 
 # ----------------- Basic Logging Setup -----------------
 logging.basicConfig(
@@ -98,10 +98,8 @@ def perform_search(page, date, state, defaulters_type):
         page.wait_for_selector("select#quarterIdLakh", timeout=60000)
         page.select_option("select#quarterIdLakh", label=date)
 
-        page.wait_for_selector("img#goForSuitFiledAccounts1CroreId", timeout=60000)
-        page.click("img#goForSuitFiledAccounts1CroreId")
-
-
+        page.wait_for_selector("img#goForSuitFiledAccounts25LacsId", timeout=60000)
+        page.click("img#goForSuitFiledAccounts25LacsId")
 
     page.wait_for_selector("select#stateId", timeout=30000)
     options = page.locator("select#stateId option")
@@ -151,7 +149,7 @@ def perform_search(page, date, state, defaulters_type):
 
 
 # ----------------- Director Extraction -----------------
-def extract_directors_from_href(page, href_js):
+def extract_directors_from_href(page, href_js, raw_output_folder, final_output_folder):
     try:
         page.evaluate(href_js)
         page.wait_for_load_state("networkidle")
@@ -195,7 +193,7 @@ def extract_directors(page):
     return directors
 
 # ----------------- Table Extraction -----------------
-def extract_table_data(page, date, state, page_no, cibil_link_files):
+def extract_table_data(page, date, state, page_no, cibil_link_files, raw_output_folder):
     print("▶ Extracting table data...")
     page.wait_for_selector("table.ui-jqgrid-btable tr.jqgrow", timeout=30000)
 
@@ -237,7 +235,8 @@ def extract_table_data(page, date, state, page_no, cibil_link_files):
     df = pd.DataFrame(all_rows)
     timestamp = time.strftime("%Y%m%d_%H%M%S")
     output_file = f"cibil_data_{date}_{state}_state_page_{page_no}_{timestamp}.xlsx"
-    df.to_excel(output_file, index=False)
+    raw_output_file = os.path.join(raw_output_folder, output_file)
+    df.to_excel(raw_output_file, index=False)
     print(f"💾 Saved {len(df)} rows to {output_file}")
     logging.info(f"Saved {len(df)} rows to {output_file}")
     print("✅ Extraction complete.")
@@ -245,7 +244,7 @@ def extract_table_data(page, date, state, page_no, cibil_link_files):
     return output_file, df
 
 # ----------------- Main Run -----------------
-def run(date, state, defaulters_type):
+def run(date, state, defaulters_type, raw_output_folder, final_output_folder):
     cibil_link_files = []
     print("▶ Starting Playwright...")
     with sync_playwright() as p:
@@ -268,8 +267,7 @@ def run(date, state, defaulters_type):
 
             for i in range(1, int(pagination_limit)+1):
                 page_no = i
-                output_file, cibil_df = extract_table_data(page, date, state, page_no, cibil_link_files)
-
+                output_file, cibil_df = extract_table_data(page, date, state, page_no, cibil_link_files, raw_output_folder)
 
                 next_button = page.locator('td#next_pagingDiv')
                 # Check if it is enabled
@@ -298,7 +296,7 @@ def run(date, state, defaulters_type):
                     href = row.get("directorName_href", "")
                     if isinstance(href, str) and href.startswith("javascript:getDirctorList"):
                         print(f"▶ Extracting directors for row {idx+1}: {row.get('borrowerName','')}")
-                        directors = extract_directors_from_href(page, href)
+                        directors = extract_directors_from_href(page, href, raw_output_folder, final_output_folder)
                         df_for_director_fetch.at[idx, "directors_data"] = directors
 
                         try:
@@ -348,8 +346,10 @@ def run(date, state, defaulters_type):
                         print("🔄 Page reloaded successfully.")
             timestamp = time.strftime("%Y%m%d_%H%M%S")
             output_with_directors = f"cibil_data_with_directors_{date}_{state}_state_page_{page_no}_{timestamp}.xlsx"
-            cibil_df.to_excel(output_with_directors, index=False)
-            print(f"💾 Saved enriched data to {output_with_directors}")
+            final_output_file = os.path.join(final_output_folder, output_file)
+
+            cibil_df.to_excel(final_output_file, index=False)
+            print(f"💾 Saved enriched data to {final_output_file}")
 
         browser.close()
 
@@ -358,13 +358,22 @@ def data_search():
     with open("search_details.json", "r") as f:
         search_details = json.load(f)
     date = search_details.get("date", "31-01-25")
-    states = search_details.get("state", ["Delhi"])
     defaulters_type = search_details.get("defaulters_type", ["1 crore"])
+    state_selection = search_details.get("state_selection", "state")
+    print(f'State selection configuration: {state_selection}')
+
+    with open('state_details.json', 'r') as ff:
+        state_details = json.load(ff)
+    states = state_details.get(state_selection, ["Delhi"])
+    print(f'Selected states: {states}')
+    
     print(f"▶ Starting batch search for date: {date}")
     logging.info(f"Starting batch search for date: {date}")
+    raw_output_folder = os.makedirs(f'cibil_data_{defaulters_type}_{date}_for_{state_selection}', exist_ok=True)
+    final_output_folder = os.makedirs(f'cibil_data_{defaulters_type}_{date}_for_{state_selection}', exist_ok=True)
     for state in states:
         try:
-            run(date, state, defaulters_type)
+            run(date, state, defaulters_type, raw_output_folder, final_output_folder)
         except Exception as e:
             print(f"❌ Error for {state}: {e}")
             logging.error(f"Error for {state}: {e}")

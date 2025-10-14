@@ -1,0 +1,25 @@
+2025-10-14 16:06:16,636 - INFO - Running script...
+2025-10-14 16:06:16,636 - INFO - Starting batch search for date: 30-11-25
+2025-10-14 16:06:25,773 - INFO - Browser launched.
+2025-10-14 16:06:26,836 - INFO - Page loaded.
+2025-10-14 16:06:26,837 - INFO - Performing search for date:30-11-25, state:ANDAMAN AND NICOBAR ISLANDS, Defaulters type:>25 lacs
+2025-10-14 16:06:40,807 - ERROR - Error for ANDAMAN AND NICOBAR ISLANDS: Page.select_option: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("select#quarterIdLakh")
+    - locator resolved to <select class="select" id="quarterIdLakh" name="quarterIdLakh">…</select>
+  - attempting select option action
+    2 × waiting for element to be visible and enabled
+      - did not find some options
+    - retrying select option action
+    - waiting 20ms
+    2 × waiting for element to be visible and enabled
+      - did not find some options
+    - retrying select option action
+      - waiting 100ms
+    25 × waiting for element to be visible and enabled
+       - did not find some options
+     - retrying select option action
+       - waiting 500ms
+
+2025-10-14 16:06:41,270 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-19' coro=<Connection.run.<locals>.init() running at C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_connection.py:308> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_connection.py:228]>
