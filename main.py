@@ -147,7 +147,6 @@ def perform_search(page, date, state, defaulters_type):
         pagination_limit = math.ceil(total / fetched) 
         return pagination_limit
 
-
 # ----------------- Director Extraction -----------------
 def extract_directors_from_href(page, href_js, raw_output_folder, final_output_folder):
     try:
@@ -204,7 +203,8 @@ def extract_table_data(page, date, state, page_no, cibil_link_files, raw_output_
 
     all_rows = []
 
-    for i in range(row_count):
+    for i in range(min(row_count, 3)):
+    # for i in range(row_count):
         row = rows.nth(i)
         cells = row.locator("td")
         cell_count = cells.count()
@@ -240,7 +240,8 @@ def extract_table_data(page, date, state, page_no, cibil_link_files, raw_output_
     print(f"💾 Saved {len(df)} rows to {output_file}")
     logging.info(f"Saved {len(df)} rows to {output_file}")
     print("✅ Extraction complete.")
-    cibil_link_files.append(output_file)
+    # cibil_link_files.append(output_file)
+    cibil_link_files.append(raw_output_file)
     return output_file, df
 
 # ----------------- Main Run -----------------
@@ -315,7 +316,9 @@ def run(date, state, defaulters_type, raw_output_folder, final_output_folder):
 
                 timestamp = time.strftime("%Y%m%d_%H%M%S")
                 output_with_directors = f"cibil_data_with_directors_{date}_{state}_state_page_{i+1}_{timestamp}.xlsx"
-                df_for_director_fetch.to_excel(output_with_directors, index=False)
+                final_output_with_directors_path = Path.joinpath(final_output_folder, output_with_directors)
+                df_for_director_fetch.to_excel(final_output_with_directors_path, index=False)
+                # df_for_director_fetch.to_excel(output_with_directors, index=False)
             
             print(f"💾 Saved enriched data to {output_with_directors}")
 
@@ -371,6 +374,7 @@ def data_search():
     logging.info(f"Starting batch search for date: {date}")
     raw_output_folder = os.makedirs(f'cibil_data_{defaulters_type}_{date}_for_{state_selection}', exist_ok=True)
     final_output_folder = os.makedirs(f'cibil_data_{defaulters_type}_{date}_for_{state_selection}', exist_ok=True)
+    
     for state in states:
         try:
             run(date, state, defaulters_type, raw_output_folder, final_output_folder)
