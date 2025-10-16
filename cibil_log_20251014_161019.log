@@ -1,8 +1,0 @@
-2025-10-14 16:10:19,572 - INFO - Running script...
-2025-10-14 16:10:19,572 - INFO - Starting batch search for date: 30-11-25
-2025-10-14 16:10:20,796 - INFO - Browser launched.
-2025-10-14 16:10:22,207 - INFO - Page loaded.
-2025-10-14 16:10:22,207 - INFO - Performing search for date:30-11-25, state:ANDAMAN AND NICOBAR ISLANDS, Defaulters type:>25 lacs
-2025-10-14 16:10:48,200 - ERROR - Future exception was never retrieved
-future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
-playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
