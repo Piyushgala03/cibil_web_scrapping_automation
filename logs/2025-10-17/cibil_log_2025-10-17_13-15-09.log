@@ -1,0 +1,94 @@
+2025-10-17 13:15:09,348 - INFO - Running script...
+2025-10-17 13:15:09,351 - INFO - Starting batch search for date: 31-12-24
+2025-10-17 13:15:09,352 - DEBUG - Using proactor: IocpProactor
+2025-10-17 13:15:10,651 - INFO - Browser launched.
+2025-10-17 13:15:11,667 - INFO - Page loaded.
+2025-10-17 13:15:11,668 - INFO - Performing search for date:31-12-24, state:GUJARAT, Defaulters type:>25 lacs
+2025-10-17 13:15:13,591 - INFO - Found 88 state options: ['ANDAMAN AND NICOBAR ISLANDS', 'ANDHRA PRADESH', 'ARUNACHAL PRADESH', 'ASSAM', 'BAHRAIN', 'BIHAR', 'CHANDIGARH', 'CHANDIGARH & DELHI', 'CHANDIGARH (U.T.) & DELHI', 'CHHATTISGARH', 'DADRA AND NAGAR HAVELI', 'DAMAN AND DIU', 'DELHI', 'GOA', 'GUJARAT', 'HARYANA', 'HIMACHAL PRADESH', 'HONG KONG', 'HYDERABAD', 'JAMMU & KASHMIR', 'JHARKHAND', 'KARNATAKA', 'KERALA', 'LAKSHADWEEP', 'LONDON', 'MADHYA PRADESH', 'MAHARASHTRA', 'MANIPUR', 'MEGHALAYA', 'MIZORAM', 'NAGALAND', 'ORISSA', 'PUDUCHERRY', 'PUNJAB', 'RAJASTHAN', 'ROHTAK', 'SIKKIM', 'SRI LANKA', 'TAMIL NADU', 'THAILAND', 'TRIPURA', 'UTTAR PRADESH', 'UTTARAKHAND', 'UTTARANCHAL', 'WEST BENGAL', 'BANGLADESH', 'BELGIUM', 'GERMANY', 'JAPAN', 'SINGAPORE', 'TELANGANA', 'NEW DELHI', 'LUXEMBOURG', 'BRITISH VIRGIN ISLAND', 'CYPRUS', 'SINGAPORE', 'MISSISSIPPI, USA', 'CAYMAN ISLAND', 'AMSTERDAM', 'JAKARTA', 'ATLANTA, USA', 'DUBAI, UAE', 'UNITED ARAB EMIRATES', 'UNITED KINGDOM', 'ISRAEL', 'UNITED STATES OF AMERICA', 'NEW YORK', 'ABCD', 'UTAH', 'BHOPAL', 'DUBAI', 'WASHINGTON', 'MANCHESTER', 'OVERSEAS', 'ENGLAND', 'BANGKOK', 'COLOMBO', 'PANAMA', 'OBU', 'MALDIVES', 'AUSTRALIA', 'SOUTH AFRICA', 'OMAN', 'KINGDOM OF BAHRAIN', 'QATAR', 'NOT REPORTED', 'UNITED ARAB EMIRATES UAE', 'PONDICHERRY']
+2025-10-17 13:15:14,253 - INFO - Waiting for search results...
+2025-10-17 13:15:14,273 - INFO - Loader disappeared after clicking Search.
+2025-10-17 13:15:21,916 - INFO - Pagination text: View 1 - 1,000 of 1,097
+2025-10-17 13:15:21,917 - INFO - Fetched 1000 out of 1097 rows.
+2025-10-17 13:15:21,917 - INFO - Pagination limit = 2
+2025-10-17 13:15:21,947 - INFO - Found 1000 rows for state: GUJARAT, page: 1.
+2025-10-17 13:15:22,383 - INFO - Row 1/1000 extracted for GUJARAT.
+2025-10-17 13:15:22,777 - INFO - Row 2/1000 extracted for GUJARAT.
+2025-10-17 13:15:22,847 - INFO - Saved 2 rows to cibil_data_31-12-24_GUJARAT_state_page_1_20251017_131522.xlsx
+2025-10-17 13:15:31,174 - INFO - Found 97 rows for state: GUJARAT, page: 2.
+2025-10-17 13:15:31,402 - INFO - Row 1/97 extracted for GUJARAT.
+2025-10-17 13:15:31,610 - INFO - Row 2/97 extracted for GUJARAT.
+2025-10-17 13:15:31,678 - INFO - Saved 2 rows to cibil_data_31-12-24_GUJARAT_state_page_2_20251017_131531.xlsx
+2025-10-17 13:15:33,852 - INFO - Loader disappeared.
+2025-10-17 13:15:34,893 - INFO - Found 7 director rows.
+2025-10-17 13:15:35,127 - INFO - Successfully extracted director data.
+2025-10-17 13:15:40,933 - INFO - Loader disappeared.
+2025-10-17 13:15:42,096 - INFO - Loader disappeared.
+2025-10-17 13:15:43,133 - INFO - Found 2 director rows.
+2025-10-17 13:15:43,200 - INFO - Successfully extracted director data.
+2025-10-17 13:15:48,984 - INFO - Loader disappeared.
+2025-10-17 13:15:50,235 - INFO - Loader disappeared.
+2025-10-17 13:15:51,274 - INFO - Found 1 director rows.
+2025-10-17 13:15:51,309 - INFO - Successfully extracted director data.
+2025-10-17 13:15:57,646 - INFO - Loader disappeared.
+2025-10-17 13:15:58,806 - INFO - Loader disappeared.
+2025-10-17 13:15:59,845 - INFO - Found 1 director rows.
+2025-10-17 13:15:59,879 - INFO - Successfully extracted director data.
+2025-10-17 13:16:05,763 - INFO - Loader disappeared.
+2025-10-17 13:16:07,142 - DEBUG - Using proactor: IocpProactor
+2025-10-17 13:16:08,356 - INFO - Browser launched.
+2025-10-17 13:16:09,995 - INFO - Page loaded.
+2025-10-17 13:16:09,995 - INFO - Performing search for date:31-12-24, state:MAHARASHTRA, Defaulters type:>25 lacs
+2025-10-17 13:16:12,345 - INFO - Found 88 state options: ['ANDAMAN AND NICOBAR ISLANDS', 'ANDHRA PRADESH', 'ARUNACHAL PRADESH', 'ASSAM', 'BAHRAIN', 'BIHAR', 'CHANDIGARH', 'CHANDIGARH & DELHI', 'CHANDIGARH (U.T.) & DELHI', 'CHHATTISGARH', 'DADRA AND NAGAR HAVELI', 'DAMAN AND DIU', 'DELHI', 'GOA', 'GUJARAT', 'HARYANA', 'HIMACHAL PRADESH', 'HONG KONG', 'HYDERABAD', 'JAMMU & KASHMIR', 'JHARKHAND', 'KARNATAKA', 'KERALA', 'LAKSHADWEEP', 'LONDON', 'MADHYA PRADESH', 'MAHARASHTRA', 'MANIPUR', 'MEGHALAYA', 'MIZORAM', 'NAGALAND', 'ORISSA', 'PUDUCHERRY', 'PUNJAB', 'RAJASTHAN', 'ROHTAK', 'SIKKIM', 'SRI LANKA', 'TAMIL NADU', 'THAILAND', 'TRIPURA', 'UTTAR PRADESH', 'UTTARAKHAND', 'UTTARANCHAL', 'WEST BENGAL', 'BANGLADESH', 'BELGIUM', 'GERMANY', 'JAPAN', 'SINGAPORE', 'TELANGANA', 'NEW DELHI', 'LUXEMBOURG', 'BRITISH VIRGIN ISLAND', 'CYPRUS', 'SINGAPORE', 'MISSISSIPPI, USA', 'CAYMAN ISLAND', 'AMSTERDAM', 'JAKARTA', 'ATLANTA, USA', 'DUBAI, UAE', 'UNITED ARAB EMIRATES', 'UNITED KINGDOM', 'ISRAEL', 'UNITED STATES OF AMERICA', 'NEW YORK', 'ABCD', 'UTAH', 'BHOPAL', 'DUBAI', 'WASHINGTON', 'MANCHESTER', 'OVERSEAS', 'ENGLAND', 'BANGKOK', 'COLOMBO', 'PANAMA', 'OBU', 'MALDIVES', 'AUSTRALIA', 'SOUTH AFRICA', 'OMAN', 'KINGDOM OF BAHRAIN', 'QATAR', 'NOT REPORTED', 'UNITED ARAB EMIRATES UAE', 'PONDICHERRY']
+2025-10-17 13:16:13,774 - INFO - Waiting for search results...
+2025-10-17 13:16:13,804 - INFO - Loader disappeared after clicking Search.
+2025-10-17 13:16:21,310 - INFO - Pagination text: View 1 - 1,000 of 3,328
+2025-10-17 13:16:21,310 - INFO - Fetched 1000 out of 3328 rows.
+2025-10-17 13:16:21,310 - INFO - Pagination limit = 4
+2025-10-17 13:16:21,340 - INFO - Found 1000 rows for state: MAHARASHTRA, page: 1.
+2025-10-17 13:16:21,792 - INFO - Row 1/1000 extracted for MAHARASHTRA.
+2025-10-17 13:16:22,195 - INFO - Row 2/1000 extracted for MAHARASHTRA.
+2025-10-17 13:16:22,281 - INFO - Saved 2 rows to cibil_data_31-12-24_MAHARASHTRA_state_page_1_20251017_131622.xlsx
+2025-10-17 13:16:30,612 - INFO - Found 1000 rows for state: MAHARASHTRA, page: 2.
+2025-10-17 13:16:31,058 - INFO - Row 1/1000 extracted for MAHARASHTRA.
+2025-10-17 13:16:31,481 - INFO - Row 2/1000 extracted for MAHARASHTRA.
+2025-10-17 13:16:31,575 - INFO - Saved 2 rows to cibil_data_31-12-24_MAHARASHTRA_state_page_2_20251017_131631.xlsx
+2025-10-17 13:16:39,899 - INFO - Found 1000 rows for state: MAHARASHTRA, page: 3.
+2025-10-17 13:16:40,360 - INFO - Row 1/1000 extracted for MAHARASHTRA.
+2025-10-17 13:16:40,760 - INFO - Row 2/1000 extracted for MAHARASHTRA.
+2025-10-17 13:16:40,830 - INFO - Saved 2 rows to cibil_data_31-12-24_MAHARASHTRA_state_page_3_20251017_131640.xlsx
+2025-10-17 13:16:49,158 - INFO - Found 328 rows for state: MAHARASHTRA, page: 4.
+2025-10-17 13:16:49,418 - INFO - Row 1/328 extracted for MAHARASHTRA.
+2025-10-17 13:16:49,676 - INFO - Row 2/328 extracted for MAHARASHTRA.
+2025-10-17 13:16:49,703 - INFO - Saved 2 rows to cibil_data_31-12-24_MAHARASHTRA_state_page_4_20251017_131649.xlsx
+2025-10-17 13:16:51,993 - INFO - Loader disappeared.
+2025-10-17 13:16:53,012 - INFO - Found 2 director rows.
+2025-10-17 13:16:53,095 - INFO - Successfully extracted director data.
+2025-10-17 13:16:59,467 - INFO - Loader disappeared.
+2025-10-17 13:17:00,746 - INFO - Loader disappeared.
+2025-10-17 13:17:01,778 - INFO - Found 3 director rows.
+2025-10-17 13:17:01,885 - INFO - Successfully extracted director data.
+2025-10-17 13:17:07,728 - INFO - Loader disappeared.
+2025-10-17 13:17:08,935 - INFO - Loader disappeared.
+2025-10-17 13:17:09,954 - INFO - Found 1 director rows.
+2025-10-17 13:17:09,987 - INFO - Successfully extracted director data.
+2025-10-17 13:17:15,875 - INFO - Loader disappeared.
+2025-10-17 13:17:17,157 - INFO - Loader disappeared.
+2025-10-17 13:17:18,180 - INFO - Found 1 director rows.
+2025-10-17 13:17:18,215 - INFO - Successfully extracted director data.
+2025-10-17 13:17:24,521 - INFO - Loader disappeared.
+2025-10-17 13:17:26,011 - INFO - Loader disappeared.
+2025-10-17 13:17:27,033 - INFO - Found 1 director rows.
+2025-10-17 13:17:27,066 - INFO - Successfully extracted director data.
+2025-10-17 13:17:33,067 - INFO - Loader disappeared.
+2025-10-17 13:17:34,231 - INFO - Loader disappeared.
+2025-10-17 13:17:35,272 - INFO - Found 1 director rows.
+2025-10-17 13:17:35,307 - INFO - Successfully extracted director data.
+2025-10-17 13:17:41,189 - INFO - Loader disappeared.
+2025-10-17 13:17:42,442 - INFO - Loader disappeared.
+2025-10-17 13:17:43,494 - INFO - Found 1 director rows.
+2025-10-17 13:17:43,528 - INFO - Successfully extracted director data.
+2025-10-17 13:17:49,234 - INFO - Loader disappeared.
+2025-10-17 13:17:50,413 - INFO - Loader disappeared.
+2025-10-17 13:17:51,445 - INFO - Found 2 director rows.
+2025-10-17 13:17:51,514 - INFO - Successfully extracted director data.
+2025-10-17 13:17:57,448 - INFO - Loader disappeared.

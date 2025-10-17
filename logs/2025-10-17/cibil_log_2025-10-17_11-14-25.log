@@ -1,0 +1,137 @@
+2025-10-17 11:14:26,030 - INFO - Running script...
+2025-10-17 11:14:26,033 - INFO - Starting batch search for date: 31-12-24
+2025-10-17 11:14:26,035 - DEBUG - Using proactor: IocpProactor
+2025-10-17 11:14:28,304 - INFO - Browser launched.
+2025-10-17 11:14:29,891 - INFO - Page loaded.
+2025-10-17 11:14:29,892 - INFO - Performing search for date:31-12-24, state:ANDAMAN AND NICOBAR ISLANDS, Defaulters type:>25 lacs
+2025-10-17 11:14:33,081 - INFO - Found 88 state options: ['ANDAMAN AND NICOBAR ISLANDS', 'ANDHRA PRADESH', 'ARUNACHAL PRADESH', 'ASSAM', 'BAHRAIN', 'BIHAR', 'CHANDIGARH', 'CHANDIGARH & DELHI', 'CHANDIGARH (U.T.) & DELHI', 'CHHATTISGARH', 'DADRA AND NAGAR HAVELI', 'DAMAN AND DIU', 'DELHI', 'GOA', 'GUJARAT', 'HARYANA', 'HIMACHAL PRADESH', 'HONG KONG', 'HYDERABAD', 'JAMMU & KASHMIR', 'JHARKHAND', 'KARNATAKA', 'KERALA', 'LAKSHADWEEP', 'LONDON', 'MADHYA PRADESH', 'MAHARASHTRA', 'MANIPUR', 'MEGHALAYA', 'MIZORAM', 'NAGALAND', 'ORISSA', 'PUDUCHERRY', 'PUNJAB', 'RAJASTHAN', 'ROHTAK', 'SIKKIM', 'SRI LANKA', 'TAMIL NADU', 'THAILAND', 'TRIPURA', 'UTTAR PRADESH', 'UTTARAKHAND', 'UTTARANCHAL', 'WEST BENGAL', 'BANGLADESH', 'BELGIUM', 'GERMANY', 'JAPAN', 'SINGAPORE', 'TELANGANA', 'NEW DELHI', 'LUXEMBOURG', 'BRITISH VIRGIN ISLAND', 'CYPRUS', 'SINGAPORE', 'MISSISSIPPI, USA', 'CAYMAN ISLAND', 'AMSTERDAM', 'JAKARTA', 'ATLANTA, USA', 'DUBAI, UAE', 'UNITED ARAB EMIRATES', 'UNITED KINGDOM', 'ISRAEL', 'UNITED STATES OF AMERICA', 'NEW YORK', 'ABCD', 'UTAH', 'BHOPAL', 'DUBAI', 'WASHINGTON', 'MANCHESTER', 'OVERSEAS', 'ENGLAND', 'BANGKOK', 'COLOMBO', 'PANAMA', 'OBU', 'MALDIVES', 'AUSTRALIA', 'SOUTH AFRICA', 'OMAN', 'KINGDOM OF BAHRAIN', 'QATAR', 'NOT REPORTED', 'UNITED ARAB EMIRATES UAE', 'PONDICHERRY']
+2025-10-17 11:14:34,106 - INFO - Waiting for search results...
+2025-10-17 11:14:34,170 - INFO - Loader disappeared after clicking Search.
+2025-10-17 11:14:41,992 - INFO - Pagination text: View 1 - 1 of 1
+2025-10-17 11:14:41,993 - INFO - Fetched 1 out of 1 rows.
+2025-10-17 11:14:41,994 - INFO - Pagination limit = 1
+2025-10-17 11:14:42,017 - INFO - Found 1 rows for state: ANDAMAN AND NICOBAR ISLANDS, page: 1.
+2025-10-17 11:14:42,427 - INFO - Row 1/1 extracted for ANDAMAN AND NICOBAR ISLANDS.
+2025-10-17 11:14:43,030 - INFO - Saved 1 rows to cibil_data_31-12-24_ANDAMAN AND NICOBAR ISLANDS_state_page_1_20251017_111442.xlsx
+2025-10-17 11:14:43,353 - INFO - Loader disappeared.
+2025-10-17 11:14:44,410 - INFO - Found 3 director rows.
+2025-10-17 11:14:44,637 - INFO - Successfully extracted director data.
+2025-10-17 11:14:51,040 - INFO - Loader disappeared.
+2025-10-17 11:14:52,719 - DEBUG - Using proactor: IocpProactor
+2025-10-17 11:14:55,681 - INFO - Browser launched.
+2025-10-17 11:14:57,481 - INFO - Page loaded.
+2025-10-17 11:14:57,482 - INFO - Performing search for date:31-12-24, state:ARUNACHAL PRADESH, Defaulters type:>25 lacs
+2025-10-17 11:15:00,839 - INFO - Found 88 state options: ['ANDAMAN AND NICOBAR ISLANDS', 'ANDHRA PRADESH', 'ARUNACHAL PRADESH', 'ASSAM', 'BAHRAIN', 'BIHAR', 'CHANDIGARH', 'CHANDIGARH & DELHI', 'CHANDIGARH (U.T.) & DELHI', 'CHHATTISGARH', 'DADRA AND NAGAR HAVELI', 'DAMAN AND DIU', 'DELHI', 'GOA', 'GUJARAT', 'HARYANA', 'HIMACHAL PRADESH', 'HONG KONG', 'HYDERABAD', 'JAMMU & KASHMIR', 'JHARKHAND', 'KARNATAKA', 'KERALA', 'LAKSHADWEEP', 'LONDON', 'MADHYA PRADESH', 'MAHARASHTRA', 'MANIPUR', 'MEGHALAYA', 'MIZORAM', 'NAGALAND', 'ORISSA', 'PUDUCHERRY', 'PUNJAB', 'RAJASTHAN', 'ROHTAK', 'SIKKIM', 'SRI LANKA', 'TAMIL NADU', 'THAILAND', 'TRIPURA', 'UTTAR PRADESH', 'UTTARAKHAND', 'UTTARANCHAL', 'WEST BENGAL', 'BANGLADESH', 'BELGIUM', 'GERMANY', 'JAPAN', 'SINGAPORE', 'TELANGANA', 'NEW DELHI', 'LUXEMBOURG', 'BRITISH VIRGIN ISLAND', 'CYPRUS', 'SINGAPORE', 'MISSISSIPPI, USA', 'CAYMAN ISLAND', 'AMSTERDAM', 'JAKARTA', 'ATLANTA, USA', 'DUBAI, UAE', 'UNITED ARAB EMIRATES', 'UNITED KINGDOM', 'ISRAEL', 'UNITED STATES OF AMERICA', 'NEW YORK', 'ABCD', 'UTAH', 'BHOPAL', 'DUBAI', 'WASHINGTON', 'MANCHESTER', 'OVERSEAS', 'ENGLAND', 'BANGKOK', 'COLOMBO', 'PANAMA', 'OBU', 'MALDIVES', 'AUSTRALIA', 'SOUTH AFRICA', 'OMAN', 'KINGDOM OF BAHRAIN', 'QATAR', 'NOT REPORTED', 'UNITED ARAB EMIRATES UAE', 'PONDICHERRY']
+2025-10-17 11:15:03,304 - INFO - Waiting for search results...
+2025-10-17 11:15:03,363 - INFO - Loader disappeared after clicking Search.
+2025-10-17 11:15:11,246 - INFO - Pagination text: View 1 - 2 of 2
+2025-10-17 11:15:11,247 - INFO - Fetched 2 out of 2 rows.
+2025-10-17 11:15:11,248 - INFO - Pagination limit = 1
+2025-10-17 11:15:11,299 - INFO - Found 2 rows for state: ARUNACHAL PRADESH, page: 1.
+2025-10-17 11:15:11,824 - INFO - Row 1/2 extracted for ARUNACHAL PRADESH.
+2025-10-17 11:15:12,277 - INFO - Row 2/2 extracted for ARUNACHAL PRADESH.
+2025-10-17 11:15:12,361 - INFO - Saved 2 rows to cibil_data_31-12-24_ARUNACHAL PRADESH_state_page_1_20251017_111512.xlsx
+2025-10-17 11:15:13,365 - INFO - Loader disappeared.
+2025-10-17 11:15:14,438 - INFO - Found 1 director rows.
+2025-10-17 11:15:14,593 - INFO - Successfully extracted director data.
+2025-10-17 11:15:21,059 - INFO - Loader disappeared.
+2025-10-17 11:15:22,694 - INFO - Loader disappeared.
+2025-10-17 11:15:23,769 - INFO - Found 1 director rows.
+2025-10-17 11:15:23,848 - INFO - Successfully extracted director data.
+2025-10-17 11:15:29,760 - INFO - Loader disappeared.
+2025-10-17 11:15:31,348 - DEBUG - Using proactor: IocpProactor
+2025-10-17 11:15:33,555 - INFO - Browser launched.
+2025-10-17 11:15:34,803 - INFO - Page loaded.
+2025-10-17 11:15:34,803 - INFO - Performing search for date:31-12-24, state:ASSAM, Defaulters type:>25 lacs
+2025-10-17 11:15:38,077 - INFO - Found 88 state options: ['ANDAMAN AND NICOBAR ISLANDS', 'ANDHRA PRADESH', 'ARUNACHAL PRADESH', 'ASSAM', 'BAHRAIN', 'BIHAR', 'CHANDIGARH', 'CHANDIGARH & DELHI', 'CHANDIGARH (U.T.) & DELHI', 'CHHATTISGARH', 'DADRA AND NAGAR HAVELI', 'DAMAN AND DIU', 'DELHI', 'GOA', 'GUJARAT', 'HARYANA', 'HIMACHAL PRADESH', 'HONG KONG', 'HYDERABAD', 'JAMMU & KASHMIR', 'JHARKHAND', 'KARNATAKA', 'KERALA', 'LAKSHADWEEP', 'LONDON', 'MADHYA PRADESH', 'MAHARASHTRA', 'MANIPUR', 'MEGHALAYA', 'MIZORAM', 'NAGALAND', 'ORISSA', 'PUDUCHERRY', 'PUNJAB', 'RAJASTHAN', 'ROHTAK', 'SIKKIM', 'SRI LANKA', 'TAMIL NADU', 'THAILAND', 'TRIPURA', 'UTTAR PRADESH', 'UTTARAKHAND', 'UTTARANCHAL', 'WEST BENGAL', 'BANGLADESH', 'BELGIUM', 'GERMANY', 'JAPAN', 'SINGAPORE', 'TELANGANA', 'NEW DELHI', 'LUXEMBOURG', 'BRITISH VIRGIN ISLAND', 'CYPRUS', 'SINGAPORE', 'MISSISSIPPI, USA', 'CAYMAN ISLAND', 'AMSTERDAM', 'JAKARTA', 'ATLANTA, USA', 'DUBAI, UAE', 'UNITED ARAB EMIRATES', 'UNITED KINGDOM', 'ISRAEL', 'UNITED STATES OF AMERICA', 'NEW YORK', 'ABCD', 'UTAH', 'BHOPAL', 'DUBAI', 'WASHINGTON', 'MANCHESTER', 'OVERSEAS', 'ENGLAND', 'BANGKOK', 'COLOMBO', 'PANAMA', 'OBU', 'MALDIVES', 'AUSTRALIA', 'SOUTH AFRICA', 'OMAN', 'KINGDOM OF BAHRAIN', 'QATAR', 'NOT REPORTED', 'UNITED ARAB EMIRATES UAE', 'PONDICHERRY']
+2025-10-17 11:15:39,331 - INFO - Waiting for search results...
+2025-10-17 11:15:39,400 - INFO - Loader disappeared after clicking Search.
+2025-10-17 11:15:46,943 - INFO - Pagination text: View 1 - 61 of 61
+2025-10-17 11:15:46,944 - INFO - Fetched 61 out of 61 rows.
+2025-10-17 11:15:46,944 - INFO - Pagination limit = 1
+2025-10-17 11:15:46,958 - INFO - Found 61 rows for state: ASSAM, page: 1.
+2025-10-17 11:15:47,170 - INFO - Row 1/61 extracted for ASSAM.
+2025-10-17 11:15:47,417 - INFO - Row 2/61 extracted for ASSAM.
+2025-10-17 11:15:47,493 - INFO - Saved 2 rows to cibil_data_31-12-24_ASSAM_state_page_1_20251017_111547.xlsx
+2025-10-17 11:15:49,223 - INFO - Loader disappeared.
+2025-10-17 11:15:50,249 - INFO - Found 1 director rows.
+2025-10-17 11:15:50,295 - INFO - Successfully extracted director data.
+2025-10-17 11:15:57,424 - INFO - Loader disappeared.
+2025-10-17 11:16:00,189 - INFO - Loader disappeared.
+2025-10-17 11:16:01,208 - INFO - Found 2 director rows.
+2025-10-17 11:16:01,277 - INFO - Successfully extracted director data.
+2025-10-17 11:16:09,263 - INFO - Loader disappeared.
+2025-10-17 11:16:10,670 - DEBUG - Using proactor: IocpProactor
+2025-10-17 11:16:12,473 - INFO - Browser launched.
+2025-10-17 11:16:14,773 - INFO - Page loaded.
+2025-10-17 11:16:14,773 - INFO - Performing search for date:31-12-24, state:BAHRAIN, Defaulters type:>25 lacs
+2025-10-17 11:16:19,271 - INFO - Found 88 state options: ['ANDAMAN AND NICOBAR ISLANDS', 'ANDHRA PRADESH', 'ARUNACHAL PRADESH', 'ASSAM', 'BAHRAIN', 'BIHAR', 'CHANDIGARH', 'CHANDIGARH & DELHI', 'CHANDIGARH (U.T.) & DELHI', 'CHHATTISGARH', 'DADRA AND NAGAR HAVELI', 'DAMAN AND DIU', 'DELHI', 'GOA', 'GUJARAT', 'HARYANA', 'HIMACHAL PRADESH', 'HONG KONG', 'HYDERABAD', 'JAMMU & KASHMIR', 'JHARKHAND', 'KARNATAKA', 'KERALA', 'LAKSHADWEEP', 'LONDON', 'MADHYA PRADESH', 'MAHARASHTRA', 'MANIPUR', 'MEGHALAYA', 'MIZORAM', 'NAGALAND', 'ORISSA', 'PUDUCHERRY', 'PUNJAB', 'RAJASTHAN', 'ROHTAK', 'SIKKIM', 'SRI LANKA', 'TAMIL NADU', 'THAILAND', 'TRIPURA', 'UTTAR PRADESH', 'UTTARAKHAND', 'UTTARANCHAL', 'WEST BENGAL', 'BANGLADESH', 'BELGIUM', 'GERMANY', 'JAPAN', 'SINGAPORE', 'TELANGANA', 'NEW DELHI', 'LUXEMBOURG', 'BRITISH VIRGIN ISLAND', 'CYPRUS', 'SINGAPORE', 'MISSISSIPPI, USA', 'CAYMAN ISLAND', 'AMSTERDAM', 'JAKARTA', 'ATLANTA, USA', 'DUBAI, UAE', 'UNITED ARAB EMIRATES', 'UNITED KINGDOM', 'ISRAEL', 'UNITED STATES OF AMERICA', 'NEW YORK', 'ABCD', 'UTAH', 'BHOPAL', 'DUBAI', 'WASHINGTON', 'MANCHESTER', 'OVERSEAS', 'ENGLAND', 'BANGKOK', 'COLOMBO', 'PANAMA', 'OBU', 'MALDIVES', 'AUSTRALIA', 'SOUTH AFRICA', 'OMAN', 'KINGDOM OF BAHRAIN', 'QATAR', 'NOT REPORTED', 'UNITED ARAB EMIRATES UAE', 'PONDICHERRY']
+2025-10-17 11:16:20,700 - INFO - Waiting for search results...
+2025-10-17 11:16:20,739 - INFO - Loader disappeared after clicking Search.
+2025-10-17 11:16:28,346 - INFO - Pagination text: No Records
+2025-10-17 11:16:28,346 - INFO - Found no records for given state
+2025-10-17 11:16:28,346 - INFO - Fetched 0 out of 0 rows.
+2025-10-17 11:16:28,346 - INFO - Pagination limit = 0
+2025-10-17 11:16:58,354 - ERROR - No data or error extracting table for BAHRAIN: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("table.ui-jqgrid-btable tr.jqgrow") to be visible
+Traceback (most recent call last):
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\utilities\extract_table_data.py", line 8, in extract_table_data
+    page.wait_for_selector("table.ui-jqgrid-btable tr.jqgrow", timeout=30000)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 8182, in wait_for_selector
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.wait_for_selector(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            selector=selector, timeout=timeout, state=state, strict=strict
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_page.py", line 423, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+        "waitForSelector", self._timeout, locals_to_params(locals())
+    )
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("table.ui-jqgrid-btable tr.jqgrow") to be visible
+
+2025-10-17 11:16:58,918 - INFO - Screenshot saved for state BAHRAIN, page 1.
+2025-10-17 11:16:59,381 - DEBUG - Using proactor: IocpProactor
+2025-10-17 11:17:01,237 - INFO - Browser launched.
+2025-10-17 11:17:02,916 - INFO - Page loaded.
+2025-10-17 11:17:02,917 - INFO - Performing search for date:31-12-24, state:BIHAR, Defaulters type:>25 lacs
+2025-10-17 11:17:07,503 - INFO - Found 88 state options: ['ANDAMAN AND NICOBAR ISLANDS', 'ANDHRA PRADESH', 'ARUNACHAL PRADESH', 'ASSAM', 'BAHRAIN', 'BIHAR', 'CHANDIGARH', 'CHANDIGARH & DELHI', 'CHANDIGARH (U.T.) & DELHI', 'CHHATTISGARH', 'DADRA AND NAGAR HAVELI', 'DAMAN AND DIU', 'DELHI', 'GOA', 'GUJARAT', 'HARYANA', 'HIMACHAL PRADESH', 'HONG KONG', 'HYDERABAD', 'JAMMU & KASHMIR', 'JHARKHAND', 'KARNATAKA', 'KERALA', 'LAKSHADWEEP', 'LONDON', 'MADHYA PRADESH', 'MAHARASHTRA', 'MANIPUR', 'MEGHALAYA', 'MIZORAM', 'NAGALAND', 'ORISSA', 'PUDUCHERRY', 'PUNJAB', 'RAJASTHAN', 'ROHTAK', 'SIKKIM', 'SRI LANKA', 'TAMIL NADU', 'THAILAND', 'TRIPURA', 'UTTAR PRADESH', 'UTTARAKHAND', 'UTTARANCHAL', 'WEST BENGAL', 'BANGLADESH', 'BELGIUM', 'GERMANY', 'JAPAN', 'SINGAPORE', 'TELANGANA', 'NEW DELHI', 'LUXEMBOURG', 'BRITISH VIRGIN ISLAND', 'CYPRUS', 'SINGAPORE', 'MISSISSIPPI, USA', 'CAYMAN ISLAND', 'AMSTERDAM', 'JAKARTA', 'ATLANTA, USA', 'DUBAI, UAE', 'UNITED ARAB EMIRATES', 'UNITED KINGDOM', 'ISRAEL', 'UNITED STATES OF AMERICA', 'NEW YORK', 'ABCD', 'UTAH', 'BHOPAL', 'DUBAI', 'WASHINGTON', 'MANCHESTER', 'OVERSEAS', 'ENGLAND', 'BANGKOK', 'COLOMBO', 'PANAMA', 'OBU', 'MALDIVES', 'AUSTRALIA', 'SOUTH AFRICA', 'OMAN', 'KINGDOM OF BAHRAIN', 'QATAR', 'NOT REPORTED', 'UNITED ARAB EMIRATES UAE', 'PONDICHERRY']
+2025-10-17 11:17:10,150 - INFO - Waiting for search results...
+2025-10-17 11:17:10,177 - INFO - Loader disappeared after clicking Search.
+2025-10-17 11:17:17,952 - INFO - Pagination text: View 1 - 111 of 111
+2025-10-17 11:17:17,953 - INFO - Fetched 111 out of 111 rows.
+2025-10-17 11:17:17,953 - INFO - Pagination limit = 1
+2025-10-17 11:17:17,979 - INFO - Found 111 rows for state: BIHAR, page: 1.
+2025-10-17 11:17:18,434 - INFO - Row 1/111 extracted for BIHAR.
+2025-10-17 11:17:18,892 - INFO - Row 2/111 extracted for BIHAR.
+2025-10-17 11:17:18,929 - INFO - Saved 2 rows to cibil_data_31-12-24_BIHAR_state_page_1_20251017_111718.xlsx
+2025-10-17 11:17:19,072 - INFO - Loader disappeared.
+2025-10-17 11:17:20,120 - INFO - Found 4 director rows.
+2025-10-17 11:17:20,442 - INFO - Successfully extracted director data.
+2025-10-17 11:17:26,674 - INFO - Loader disappeared.
+2025-10-17 11:17:28,886 - INFO - Loader disappeared.
+2025-10-17 11:17:29,964 - INFO - Found 1 director rows.
+2025-10-17 11:17:30,111 - INFO - Successfully extracted director data.
+2025-10-17 11:17:36,429 - INFO - Loader disappeared.
