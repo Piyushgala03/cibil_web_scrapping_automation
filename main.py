@@ -18,6 +18,8 @@ from utilities.cleaner import cleaner
 
 logging = setup_logger()
 
+os.environ["PLAYWRIGHT_BROWSERS_PATH"] = "0"
+
 # ----------------- Director Extraction -----------------
 def extract_directors_from_href(page, href_js, raw_output_folder, final_output_folder):
     try:
