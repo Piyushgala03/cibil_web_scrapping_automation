@@ -41,8 +41,8 @@ def perform_search(page, logging, date, state, defaulters_type):
         if text and text.upper() != "SELECT":
             option_texts.append(text)
 
-    print(f"✅ Found {len(option_texts)} state options: {option_texts}")
-    logging.info(f"Found {len(option_texts)} state options: {option_texts}")
+    # print(f"✅ Found {len(option_texts)} state options: {option_texts}")
+    # logging.info(f"Found {len(option_texts)} state options: {option_texts}")
 
     if state.lower() != 'all':
         page.select_option("#stateId", label=state.upper())

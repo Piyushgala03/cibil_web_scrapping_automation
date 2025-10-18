@@ -220,7 +220,8 @@ def data_search():
     date = search_details.get("date", "31-01-25")
     defaulters_type = search_details.get("defaulters_type", "1 crore")
     state_selection = search_details.get("state_selection", "state")
-    print(f'State selection configuration: {state_selection}')
+    # print(f'State selection configuration: {state_selection}')
+    logging.info(f'State selection configuration: {state_selection}')
 
     # with open('configurations/state_details.json', 'r') as ff:
     # with open(os.path.join(base_path, "configurations", "state_details.json"), "r") as ff:
@@ -229,7 +230,8 @@ def data_search():
     
     all_states = set(state_details.get("all_states", []))
     states = state_details.get(state_selection, ["Delhi"])
-    print(f'Selected states: {all_states}')
+    # print(f'Selected states: {all_states}')
+    logging.info(f'Selected states: {all_states}')
 
     # Filter only valid states
     valid_states = []

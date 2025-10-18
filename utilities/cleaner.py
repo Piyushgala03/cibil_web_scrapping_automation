@@ -8,6 +8,11 @@ def expand_directors_data(file_path, output_folder, logger):
     start_time = time.time()
     df = pd.read_excel(file_path, engine="openpyxl")
     logger.info(f"Loaded Excel file successfully with {len(df)} rows")
+
+    if len(df) == 0:
+        logger.warning(f"⚠️ Skipping empty file: {file_path}")
+        return  # nothing to expand
+    
     # df['directors_data'].head()
     if 'directors_data' not in df.columns:
         logger.error(f"'directors_data' column missing in {file_path}")
@@ -17,13 +22,16 @@ def expand_directors_data(file_path, output_folder, logger):
     df.drop(['borrowerName_href', 'directorName', 'directorName_href', 'source_date'], axis=1, inplace=True, errors='ignore')
 
     # Parse the JSON-like 'directors' column (string → list of dicts)
-    df["directors_data"] = df["directors_data"].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
+    # df["directors_data"] = df["directors_data"].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
+    df["directors_data"] = df["directors_data"].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x if isinstance(x, list) else [])
 
     # Expand each director into its own row
     expanded_rows = []
     for _, row in df.iterrows():
         # directors_list = row["directors_data"] if isinstance(row["directors_data"], list) else []
-        for director in row["directors_data"]:
+        directors_list = row["directors_data"] if isinstance(row["directors_data"], list) else []
+        # for director in row["directors_data"]:
+        for director in directors_list:
             new_row = row.copy()
             new_row["Director Name"] = director.get("Directors Reported by Credit Institutions", "")
             new_row["DIN Number"] = director.get("DIN Number", "")
@@ -46,25 +54,43 @@ def expand_directors_data(file_path, output_folder, logger):
         'PAN Number': 'Director PAN',
     }, inplace=True)
 
-    df_expanded['OutStanding Amount ( Rs. in Lacs)'] = (
-    df_expanded['OutStanding Amount ( Rs. in Lacs)']
-        .astype(str)                  # ensure everything is string
-        .str.replace(',', '', regex=False)  
-        .astype(float)                # convert back to float
-    )
-    df_expanded['Borrower Name'] = df_expanded['Borrower Name'].str.replace(r'\bPVT\b', 'PRIVATE', regex=True)
-    df_expanded['Borrower Name'] = df_expanded['Borrower Name'].str.replace(r'\bLTD\b', 'LIMITED', regex=True)
+    # Safely clean numeric field only if column exists
+    if 'OutStanding Amount ( Rs. in Lacs)' in df_expanded.columns:
+        df_expanded['OutStanding Amount ( Rs. in Lacs)'] = (
+            df_expanded['OutStanding Amount ( Rs. in Lacs)']
+                .astype(str)
+                .str.replace(',', '', regex=False)
+                .astype(float)
+        )
+    else:
+        logger.warning(f"⚠️ Missing column 'OutStanding Amount ( Rs. in Lacs)' in {file_path}")
+        df_expanded['OutStanding Amount ( Rs. in Lacs)'] = None
+
+    # df_expanded['OutStanding Amount ( Rs. in Lacs)'] = (
+    # df_expanded['OutStanding Amount ( Rs. in Lacs)']
+    #     .astype(str)                  # ensure everything is string
+    #     .str.replace(',', '   ', regex=False)  
+    #     .astype(float)                # convert back to float
+    # )
+
+    if 'Borrower Name' in df_expanded.columns:
+        df_expanded['Borrower Name'] = df_expanded['Borrower Name'].str.replace(r'\bPVT\b', 'PRIVATE', regex=True)
+        df_expanded['Borrower Name'] = df_expanded['Borrower Name'].str.replace(r'\bLTD\b', 'LIMITED', regex=True)
+    
     logger.info("Cleaned and standardized text/numeric fields")
 
     extra_cols = ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName','CIN NO','Order Type','Remarks']
-    df_expanded[extra_cols] = ''
+    for col in extra_cols:
+        if col not in df_expanded.columns:
+            df_expanded[col] = ''
 
     print('Column names', df_expanded.columns)
 
     new_order = ['Bank','Branch','Quarter','Borrower Name','Final Borrower Name','Borrower PAN','Registered Address','Director Name--DIN no. Detail','OutStanding Amount ( Rs. in Lacs)','State','Ind _Director Name','Final_DirectorName','DIN NO','Director PAN','CIN NO','Order Type','Remarks']
-    df_expanded = df_expanded[new_order]
+    existing_cols = [col for col in new_order if col in df_expanded.columns]
+    # df_expanded = df_expanded[new_order]
+    df_expanded = df_expanded[existing_cols]
     logger.info(f"Added extra columns: {extra_cols}")
-
 
     folder, filename = os.path.split(file_path)
     output_file = os.path.join(output_folder, f"final_preprocessed_{filename}")
