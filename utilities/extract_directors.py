@@ -4,6 +4,9 @@ def extract_directors(page, logging):
         page.wait_for_selector("table#DirectorInfoTable tr.jqgrow", timeout=60000)
         rows = page.locator("table#DirectorInfoTable tr.jqgrow")
         row_count = rows.count()
+        if row_count == 0:
+            logging.info("No director rows found in the table.")
+            return []
         logging.info(f"Found {row_count} director rows.")
     except Exception as e:
         logging.error(f"Failed to locate director rows: {e}", exc_info=True)

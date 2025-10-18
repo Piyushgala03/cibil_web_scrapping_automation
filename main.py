@@ -15,10 +15,61 @@ from utilities.extract_table_data import extract_table_data
 from utilities.extract_directors import extract_directors
 from utilities.merger import merge_data
 from utilities.cleaner import cleaner
+import sys, os
+
+
+def load_json_config(filename):
+    """
+    Always load JSON dynamically from external 'configurations' folder
+    next to the .exe or the script.
+    """
+    if getattr(sys, 'frozen', False):
+        base_path = os.path.dirname(sys.executable)
+    else:
+        base_path = os.path.dirname(os.path.abspath(__file__))
+
+    config_path = os.path.join(base_path, "configurations", filename)
+
+    if not os.path.exists(config_path):
+        raise FileNotFoundError(f"⚠️ Config file not found: {config_path}")
+
+    with open(config_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def get_base_path():
+    """
+    Returns two paths:
+      - read_path: location of bundled data (works inside exe)
+      - write_path: actual folder where the exe is running (for outputs/logs)
+    """
+    if getattr(sys, 'frozen', False):
+        read_path = sys._MEIPASS
+        write_path = os.path.dirname(sys.executable)
+    else:
+        read_path = os.path.dirname(os.path.abspath(__file__))
+        write_path = read_path
+    return read_path, write_path
+
+# import sys
+
+# def get_base_path():
+#     """Handle both normal and PyInstaller (.exe) environments"""
+#     if getattr(sys, 'frozen', False):
+#         # Running as compiled .exe
+#         return sys._MEIPASS
+#     else:
+#         # Running as normal script
+#         return os.path.dirname(os.path.abspath(__file__))
+
+read_path, write_path = get_base_path()
+print(f"Read path: {read_path}")
+print(f"Write path: {write_path}")
+
+# os.environ["PLAYWRIGHT_BROWSERS_PATH"] = os.path.join(base_path, "ms-playwright")
+os.environ["PLAYWRIGHT_BROWSERS_PATH"] = os.path.join(read_path, "ms-playwright")
 
 logging = setup_logger()
-
-os.environ["PLAYWRIGHT_BROWSERS_PATH"] = "0"
 
 # ----------------- Director Extraction -----------------
 def extract_directors_from_href(page, href_js, raw_output_folder, final_output_folder):
@@ -159,15 +210,22 @@ def data_search():
     # # When running from .exe, this ensures it finds the bundled browsers
     # os.environ["PLAYWRIGHT_BROWSERS_PATH"] = os.path.join(os.getcwd(), "ms-playwright")
 
-    with open("configurations/search_details.json", "r") as f:
-        search_details = json.load(f)
+    # with open("configurations/search_details.json", "r") as f:
+    # with open(os.path.join(base_path, "configurations", "search_details.json"), "r") as f:
+    # with open(os.path.join(read_path, "configurations", "search_details.json"), "r") as f:
+    #     search_details = json.load(f)
+    
+    search_details = load_json_config("search_details.json")
+    state_details = load_json_config("state_details.json")
     date = search_details.get("date", "31-01-25")
     defaulters_type = search_details.get("defaulters_type", "1 crore")
     state_selection = search_details.get("state_selection", "state")
     print(f'State selection configuration: {state_selection}')
 
-    with open('configurations/state_details.json', 'r') as ff:
-        state_details = json.load(ff)
+    # with open('configurations/state_details.json', 'r') as ff:
+    # with open(os.path.join(base_path, "configurations", "state_details.json"), "r") as ff:
+    # with open(os.path.join(read_path, "configurations", "state_details.json"), "r") as ff:
+    #     state_details = json.load(ff)
     
     all_states = set(state_details.get("all_states", []))
     states = state_details.get(state_selection, ["Delhi"])
@@ -192,7 +250,9 @@ def data_search():
     
     # Folder creation for output
     safe_def_type = re.sub(r'[^\w]+', '_', defaulters_type)
-    base_output_dir = Path("fetched_data")
+    # base_output_dir = Path("fetched_data")
+    # base_output_dir = Path(os.path.join(base_path, "fetched_data"))
+    base_output_dir = Path(os.path.join(write_path, "fetched_data"))
     raw_output_folder = base_output_dir / "raw" / f'cibil_data_{safe_def_type}_{date}_for_{state_selection}'
     final_output_folder = base_output_dir / "final" / f'cibil_data_with_directors_{safe_def_type}_{date}_for_{state_selection}'
 
@@ -211,5 +271,5 @@ if __name__ == "__main__":
     print("▶ Running script...")
     logging.info("Running script...")
     data_search()
-    merge_data()
-    cleaner()
+    merge_data(logging)
+    cleaner(logging)
