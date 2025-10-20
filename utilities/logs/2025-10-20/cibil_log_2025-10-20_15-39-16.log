@@ -1,0 +1,111 @@
+2025-10-20 15:39:16,886 - INFO - Running script...
+2025-10-20 15:39:16,889 - INFO - State selection configuration: state
+2025-10-20 15:39:16,889 - INFO - Selected states: {'CHANDIGARH & DELHI', 'ABCD', 'MIZORAM', 'BRITISH VIRGIN ISLAND', 'GOA', 'MANIPUR', 'HYDERABAD', 'PANAMA', 'TELANGANA', 'JAKARTA', 'ARUNACHAL PRADESH', 'CYPRUS', 'MANCHESTER', 'BANGKOK', 'ISRAEL', 'ENGLAND', 'SINGAPORE', 'ROHTAK', 'WASHINGTON', 'NEW YORK', 'AMSTERDAM', 'OMAN', 'NEW DELHI', 'MALDIVES', 'BHOPAL', 'MADHYA PRADESH', 'DADRA AND NAGAR HAVELI', 'TRIPURA', 'UTAH', 'ANDHRA PRADESH', 'BELGIUM', 'OVERSEAS', 'OBU', 'ANDAMAN AND NICOBAR ISLANDS', 'COLOMBO', 'GERMANY', 'TAMIL NADU', 'BANGLADESH', 'JHARKHAND', 'BAHRAIN', 'LAKSHADWEEP', 'WEST BENGAL', 'ASSAM', 'UTTARANCHAL', 'DELHI', 'JAPAN', 'PONDICHERRY', 'HARYANA', 'DAMAN AND DIU', 'UNITED STATES OF AMERICA', 'RAJASTHAN', 'UTTAR PRADESH', 'SIKKIM', 'CAYMAN ISLAND', 'UNITED ARAB EMIRATES', 'MEGHALAYA', 'LUXEMBOURG', 'UNITED KINGDOM', 'MISSISSIPPI, USA', 'DUBAI', 'LONDON', 'ORISSA', 'KINGDOM OF BAHRAIN', 'ATLANTA, USA', 'KERALA', 'PUDUCHERRY', 'MAHARASHTRA', 'CHANDIGARH', 'THAILAND', 'HONG KONG', 'DUBAI, UAE', 'JAMMU & KASHMIR', 'PUNJAB', 'NAGALAND', 'BIHAR', 'HIMACHAL PRADESH', 'CHHATTISGARH', 'NOT REPORTED', 'UTTARAKHAND', 'QATAR', 'SOUTH AFRICA', 'CHANDIGARH (U.T.) & DELHI', 'UNITED ARAB EMIRATES UAE', 'GUJARAT', 'KARNATAKA', 'AUSTRALIA', 'SRI LANKA'}
+2025-10-20 15:39:16,947 - INFO - Starting batch search for date: 31-12-24
+2025-10-20 15:39:16,949 - DEBUG - Using proactor: IocpProactor
+2025-10-20 15:39:18,501 - INFO - Browser launched.
+2025-10-20 15:39:19,575 - INFO - Page loaded.
+2025-10-20 15:39:19,577 - INFO - Performing search for date:31-12-24, state:ARUNACHAL PRADESH, Defaulters type:>25 lacs
+2025-10-20 15:39:23,407 - INFO - Waiting for search results...
+2025-10-20 15:39:23,462 - INFO - Loader disappeared after clicking Search.
+2025-10-20 15:39:31,254 - INFO - Pagination text: View 1 - 2 of 2
+2025-10-20 15:39:31,255 - INFO - Fetched 2 out of 2 rows.
+2025-10-20 15:39:31,255 - INFO - Pagination limit = 1
+2025-10-20 15:39:31,272 - INFO - Found 2 rows for state: ARUNACHAL PRADESH, page: 1.
+2025-10-20 15:39:31,697 - INFO - Row 1/2 extracted for ARUNACHAL PRADESH.
+2025-10-20 15:39:32,100 - INFO - Row 2/2 extracted for ARUNACHAL PRADESH.
+2025-10-20 15:39:32,750 - INFO - Saved 2 rows to cibil_data_31-12-24_ARUNACHAL PRADESH_state_page_1_20251020_153932.xlsx
+2025-10-20 15:39:32,899 - INFO - Loader disappeared.
+2025-10-20 15:39:33,969 - INFO - Found 1 director rows.
+2025-10-20 15:39:34,121 - INFO - Successfully extracted director data.
+2025-10-20 15:39:39,961 - INFO - Loader disappeared.
+2025-10-20 15:39:41,283 - INFO - Loader disappeared.
+2025-10-20 15:39:42,361 - INFO - Found 1 director rows.
+2025-10-20 15:39:42,443 - INFO - Successfully extracted director data.
+2025-10-20 15:39:48,567 - INFO - Loader disappeared.
+2025-10-20 15:39:50,263 - INFO - Current working folder: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final
+2025-10-20 15:39:50,265 - INFO - Folders found for processing: [WindowsPath('C:/Users/DELL/Downloads/cibil_web_scrapping_automation/fetched_data/final/cibil_data_with_directors__25_lacs_31-12-24_for_state')]
+2025-10-20 15:39:50,266 - INFO - All states loaded successfully: 87 states found.
+2025-10-20 15:39:50,310 - INFO - Extracted state: ANDAMAN AND NICOBAR ISLANDS, date: 31-12-24
+2025-10-20 15:39:50,311 - INFO - Added file cibil_data_with_directors_31-12-24_ANDAMAN AND NICOBAR ISLANDS_state_page_1_20251020_122509.xlsx to key ('ANDAMAN AND NICOBAR ISLANDS', '31-12-24')
+2025-10-20 15:39:50,312 - INFO - Extracted state: ARUNACHAL PRADESH, date: 31-12-24
+2025-10-20 15:39:50,313 - INFO - Added file cibil_data_with_directors_31-12-24_ARUNACHAL PRADESH_state_page_1_20251020_153949.xlsx to key ('ARUNACHAL PRADESH', '31-12-24')
+2025-10-20 15:39:50,313 - INFO - Extracted state: PUDUCHERRY, date: 31-12-24
+2025-10-20 15:39:50,314 - INFO - Added file cibil_data_with_directors_31-12-24_PUDUCHERRY_state_page_1_20251018_185553.xlsx to key ('PUDUCHERRY', '31-12-24')
+2025-10-20 15:39:50,315 - INFO - Extracted state: ROHTAK, date: 31-12-24
+2025-10-20 15:39:50,315 - INFO - Added file cibil_data_with_directors_31-12-24_ROHTAK_state_page_1_20251018_185708.xlsx to key ('ROHTAK', '31-12-24')
+2025-10-20 15:39:50,316 - INFO - Extracted state: SIKKIM, date: 31-12-24
+2025-10-20 15:39:50,316 - INFO - Added file cibil_data_with_directors_31-12-24_SIKKIM_state_page_1_20251018_185821.xlsx to key ('SIKKIM', '31-12-24')
+2025-10-20 15:39:50,317 - INFO - Extracted state: SRI LANKA, date: 31-12-24
+2025-10-20 15:39:50,317 - INFO - Added file cibil_data_with_directors_31-12-24_SRI LANKA_state_page_1_20251018_185933.xlsx to key ('SRI LANKA', '31-12-24')
+2025-10-20 15:39:50,318 - INFO - Extracted state: THAILAND, date: 31-12-24
+2025-10-20 15:39:50,318 - INFO - Added file cibil_data_with_directors_31-12-24_THAILAND_state_page_1_20251018_190045.xlsx to key ('THAILAND', '31-12-24')
+2025-10-20 15:39:50,319 - INFO - State-Date wise file mapping created with 7 keys.
+2025-10-20 15:39:50,322 - INFO - Starting merge for state=ANDAMAN AND NICOBAR ISLANDS, date=31-12-24, files=1
+2025-10-20 15:39:50,366 - INFO - Rows read: 1
+2025-10-20 15:39:50,423 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_ANDAMAN AND NICOBAR ISLANDS_merged.xlsx
+
+2025-10-20 15:39:50,425 - INFO - Starting merge for state=ARUNACHAL PRADESH, date=31-12-24, files=1
+2025-10-20 15:39:50,489 - INFO - Rows read: 2
+2025-10-20 15:39:50,548 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_ARUNACHAL PRADESH_merged.xlsx
+
+2025-10-20 15:39:50,550 - INFO - Starting merge for state=PUDUCHERRY, date=31-12-24, files=1
+2025-10-20 15:39:50,605 - INFO - Rows read: 1
+2025-10-20 15:39:50,665 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_PUDUCHERRY_merged.xlsx
+
+2025-10-20 15:39:50,667 - INFO - Starting merge for state=ROHTAK, date=31-12-24, files=1
+2025-10-20 15:39:50,721 - INFO - Rows read: 0
+2025-10-20 15:39:50,767 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_ROHTAK_merged.xlsx
+
+2025-10-20 15:39:50,768 - INFO - Starting merge for state=SIKKIM, date=31-12-24, files=1
+2025-10-20 15:39:50,816 - INFO - Rows read: 0
+2025-10-20 15:39:50,845 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_SIKKIM_merged.xlsx
+
+2025-10-20 15:39:50,846 - INFO - Starting merge for state=SRI LANKA, date=31-12-24, files=1
+2025-10-20 15:39:50,898 - INFO - Rows read: 0
+2025-10-20 15:39:50,921 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_SRI LANKA_merged.xlsx
+
+2025-10-20 15:39:50,922 - INFO - Starting merge for state=THAILAND, date=31-12-24, files=1
+2025-10-20 15:39:51,007 - INFO - Rows read: 0
+2025-10-20 15:39:51,032 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_THAILAND_merged.xlsx
+
+2025-10-20 15:39:51,034 - INFO - Current folder path: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final
+2025-10-20 15:39:51,035 - INFO - Folders found for processing: [WindowsPath('C:/Users/DELL/Downloads/cibil_web_scrapping_automation/fetched_data/final/31-12-24_merged')]
+2025-10-20 15:39:51,037 - INFO - Files found: ['31-12-24_ANDAMAN AND NICOBAR ISLANDS_merged.xlsx', '31-12-24_ARUNACHAL PRADESH_merged.xlsx', '31-12-24_PUDUCHERRY_merged.xlsx', '31-12-24_ROHTAK_merged.xlsx', '31-12-24_SIKKIM_merged.xlsx', '31-12-24_SRI LANKA_merged.xlsx', '31-12-24_THAILAND_merged.xlsx']
+
+2025-10-20 15:39:51,037 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_ANDAMAN AND NICOBAR ISLANDS_merged.xlsx
+2025-10-20 15:39:51,078 - INFO - Loaded Excel file successfully with 1 rows
+2025-10-20 15:39:51,106 - INFO - Expanded 3 rows from 1 original rows
+2025-10-20 15:39:51,115 - INFO - Cleaned and standardized text/numeric fields
+2025-10-20 15:39:51,124 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-10-20 15:39:51,182 - INFO - Saved expanded file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-12-24_ANDAMAN AND NICOBAR ISLANDS_merged.xlsx (3 rows)
+2025-10-20 15:39:51,231 - INFO - \U0001f552 Time taken: 0.19 seconds
+
+2025-10-20 15:39:51,232 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_ARUNACHAL PRADESH_merged.xlsx
+2025-10-20 15:39:51,273 - INFO - Loaded Excel file successfully with 2 rows
+2025-10-20 15:39:51,279 - INFO - Expanded 2 rows from 2 original rows
+2025-10-20 15:39:51,281 - INFO - Cleaned and standardized text/numeric fields
+2025-10-20 15:39:51,285 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-10-20 15:39:51,330 - INFO - Saved expanded file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-12-24_ARUNACHAL PRADESH_merged.xlsx (2 rows)
+2025-10-20 15:39:51,351 - INFO - \U0001f552 Time taken: 0.12 seconds
+
+2025-10-20 15:39:51,351 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_PUDUCHERRY_merged.xlsx
+2025-10-20 15:39:51,383 - INFO - Loaded Excel file successfully with 1 rows
+2025-10-20 15:39:51,390 - INFO - Expanded 1 rows from 1 original rows
+2025-10-20 15:39:51,394 - INFO - Cleaned and standardized text/numeric fields
+2025-10-20 15:39:51,397 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-10-20 15:39:51,448 - INFO - Saved expanded file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-12-24_PUDUCHERRY_merged.xlsx (1 rows)
+2025-10-20 15:39:51,490 - INFO - \U0001f552 Time taken: 0.14 seconds
+
+2025-10-20 15:39:51,490 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_ROHTAK_merged.xlsx
+2025-10-20 15:39:51,528 - INFO - Loaded Excel file successfully with 0 rows
+2025-10-20 15:39:51,528 - WARNING - \u26a0\ufe0f Skipping empty file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_ROHTAK_merged.xlsx
+2025-10-20 15:39:51,529 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_SIKKIM_merged.xlsx
+2025-10-20 15:39:51,545 - INFO - Loaded Excel file successfully with 0 rows
+2025-10-20 15:39:51,545 - WARNING - \u26a0\ufe0f Skipping empty file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_SIKKIM_merged.xlsx
+2025-10-20 15:39:51,545 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_SRI LANKA_merged.xlsx
+2025-10-20 15:39:51,561 - INFO - Loaded Excel file successfully with 0 rows
+2025-10-20 15:39:51,561 - WARNING - \u26a0\ufe0f Skipping empty file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_SRI LANKA_merged.xlsx
+2025-10-20 15:39:51,561 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_THAILAND_merged.xlsx
+2025-10-20 15:39:51,611 - INFO - Loaded Excel file successfully with 0 rows
+2025-10-20 15:39:51,611 - WARNING - \u26a0\ufe0f Skipping empty file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_THAILAND_merged.xlsx

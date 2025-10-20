@@ -74,8 +74,8 @@ def expand_directors_data(file_path, output_folder, logger):
     # )
 
     if 'Borrower Name' in df_expanded.columns:
-        df_expanded['Borrower Name'] = df_expanded['Borrower Name'].str.replace(r'\bPVT\b', 'PRIVATE', regex=True)
-        df_expanded['Borrower Name'] = df_expanded['Borrower Name'].str.replace(r'\bLTD\b', 'LIMITED', regex=True)
+        df_expanded['Borrower Name'] = df_expanded['Borrower Name'].str.lower().replace('pvt', 'private', regex=True)
+        df_expanded['Borrower Name'] = df_expanded['Borrower Name'].str.lower().replace('ltd', 'limited', regex=True)
     
     logger.info("Cleaned and standardized text/numeric fields")
 

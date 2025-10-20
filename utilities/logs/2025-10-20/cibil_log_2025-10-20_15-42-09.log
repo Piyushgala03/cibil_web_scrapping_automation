@@ -1,0 +1,161 @@
+2025-10-20 15:42:09,177 - INFO - Running script...
+2025-10-20 15:42:09,199 - INFO - State selection configuration: state
+2025-10-20 15:42:09,200 - INFO - Selected states: {'SINGAPORE', 'MIZORAM', 'BRITISH VIRGIN ISLAND', 'PUDUCHERRY', 'NAGALAND', 'PUNJAB', 'SRI LANKA', 'MANIPUR', 'CHANDIGARH & DELHI', 'UTTAR PRADESH', 'GUJARAT', 'UTTARANCHAL', 'HYDERABAD', 'WEST BENGAL', 'DADRA AND NAGAR HAVELI', 'ABCD', 'RAJASTHAN', 'OMAN', 'HARYANA', 'JAMMU & KASHMIR', 'CAYMAN ISLAND', 'BAHRAIN', 'KARNATAKA', 'OBU', 'KINGDOM OF BAHRAIN', 'CYPRUS', 'MAHARASHTRA', 'UNITED STATES OF AMERICA', 'MISSISSIPPI, USA', 'GOA', 'WASHINGTON', 'CHANDIGARH (U.T.) & DELHI', 'MEGHALAYA', 'SOUTH AFRICA', 'DELHI', 'BELGIUM', 'NOT REPORTED', 'UNITED ARAB EMIRATES UAE', 'CHANDIGARH', 'CHHATTISGARH', 'ORISSA', 'ROHTAK', 'HIMACHAL PRADESH', 'PANAMA', 'DUBAI, UAE', 'UNITED ARAB EMIRATES', 'ANDAMAN AND NICOBAR ISLANDS', 'MADHYA PRADESH', 'UTTARAKHAND', 'PONDICHERRY', 'AMSTERDAM', 'LUXEMBOURG', 'MALDIVES', 'BIHAR', 'TAMIL NADU', 'AUSTRALIA', 'ARUNACHAL PRADESH', 'OVERSEAS', 'BHOPAL', 'QATAR', 'BANGLADESH', 'TELANGANA', 'MANCHESTER', 'DUBAI', 'KERALA', 'NEW DELHI', 'ATLANTA, USA', 'GERMANY', 'UNITED KINGDOM', 'ENGLAND', 'LONDON', 'ASSAM', 'JHARKHAND', 'DAMAN AND DIU', 'BANGKOK', 'SIKKIM', 'ANDHRA PRADESH', 'JAKARTA', 'JAPAN', 'COLOMBO', 'NEW YORK', 'HONG KONG', 'TRIPURA', 'THAILAND', 'LAKSHADWEEP', 'UTAH', 'ISRAEL'}
+2025-10-20 15:42:09,244 - INFO - Starting batch search for date: 31-12-24
+2025-10-20 15:42:09,246 - DEBUG - Using proactor: IocpProactor
+2025-10-20 15:42:10,516 - INFO - Browser launched.
+2025-10-20 15:42:11,633 - INFO - Page loaded.
+2025-10-20 15:42:11,634 - INFO - Performing search for date:31-12-24, state:GOA, Defaulters type:>25 lacs
+2025-10-20 15:42:15,612 - INFO - Waiting for search results...
+2025-10-20 15:42:15,685 - INFO - Loader disappeared after clicking Search.
+2025-10-20 15:42:24,996 - INFO - Pagination text: View 1 - 25 of 25
+2025-10-20 15:42:24,999 - INFO - Fetched 25 out of 25 rows.
+2025-10-20 15:42:25,000 - INFO - Pagination limit = 1
+2025-10-20 15:42:25,055 - INFO - Found 25 rows for state: GOA, page: 1.
+2025-10-20 15:42:25,623 - INFO - Row 1/25 extracted for GOA.
+2025-10-20 15:42:26,037 - INFO - Row 2/25 extracted for GOA.
+2025-10-20 15:42:26,448 - INFO - Row 3/25 extracted for GOA.
+2025-10-20 15:42:26,509 - WARNING - Skipped a table row due to error: Locator.evaluate: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("table.ui-jqgrid-btable tr.jqgrow").nth(3).locator("td").first
+
+2025-10-20 15:42:26,513 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,515 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,518 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,521 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,523 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,525 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,527 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,529 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,531 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,533 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,537 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,541 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,543 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,545 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,547 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,549 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,553 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,560 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,563 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,565 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,568 - WARNING - Skipped a table row due to error: Locator.count: Target page, context or browser has been closed
+2025-10-20 15:42:26,990 - INFO - Saved 3 rows to cibil_data_31-12-24_GOA_state_page_1_20251020_154226.xlsx
+2025-10-20 15:42:26,995 - ERROR - Error parsing or fetching directors: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\main.py", line 79, in extract_directors_from_href
+    page.evaluate(href_js)
+    ~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 8531, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_page.py", line 468, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+2025-10-20 15:42:27,298 - ERROR - Error for GOA: Page.reload: Target page, context or browser has been closed
+2025-10-20 15:42:27,298 - INFO - Current working folder: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final
+2025-10-20 15:42:27,299 - INFO - Folders found for processing: [WindowsPath('C:/Users/DELL/Downloads/cibil_web_scrapping_automation/fetched_data/final/cibil_data_with_directors__25_lacs_31-12-24_for_state')]
+2025-10-20 15:42:27,301 - INFO - All states loaded successfully: 87 states found.
+2025-10-20 15:42:27,302 - INFO - Extracted state: ANDAMAN AND NICOBAR ISLANDS, date: 31-12-24
+2025-10-20 15:42:27,302 - INFO - Added file cibil_data_with_directors_31-12-24_ANDAMAN AND NICOBAR ISLANDS_state_page_1_20251020_122509.xlsx to key ('ANDAMAN AND NICOBAR ISLANDS', '31-12-24')
+2025-10-20 15:42:27,302 - INFO - Extracted state: ARUNACHAL PRADESH, date: 31-12-24
+2025-10-20 15:42:27,303 - INFO - Added file cibil_data_with_directors_31-12-24_ARUNACHAL PRADESH_state_page_1_20251020_153949.xlsx to key ('ARUNACHAL PRADESH', '31-12-24')
+2025-10-20 15:42:27,303 - INFO - Extracted state: PUDUCHERRY, date: 31-12-24
+2025-10-20 15:42:27,303 - INFO - Added file cibil_data_with_directors_31-12-24_PUDUCHERRY_state_page_1_20251018_185553.xlsx to key ('PUDUCHERRY', '31-12-24')
+2025-10-20 15:42:27,304 - INFO - Extracted state: ROHTAK, date: 31-12-24
+2025-10-20 15:42:27,304 - INFO - Added file cibil_data_with_directors_31-12-24_ROHTAK_state_page_1_20251018_185708.xlsx to key ('ROHTAK', '31-12-24')
+2025-10-20 15:42:27,304 - INFO - Extracted state: SIKKIM, date: 31-12-24
+2025-10-20 15:42:27,304 - INFO - Added file cibil_data_with_directors_31-12-24_SIKKIM_state_page_1_20251018_185821.xlsx to key ('SIKKIM', '31-12-24')
+2025-10-20 15:42:27,305 - INFO - Extracted state: SRI LANKA, date: 31-12-24
+2025-10-20 15:42:27,305 - INFO - Added file cibil_data_with_directors_31-12-24_SRI LANKA_state_page_1_20251018_185933.xlsx to key ('SRI LANKA', '31-12-24')
+2025-10-20 15:42:27,305 - INFO - Extracted state: THAILAND, date: 31-12-24
+2025-10-20 15:42:27,306 - INFO - Added file cibil_data_with_directors_31-12-24_THAILAND_state_page_1_20251018_190045.xlsx to key ('THAILAND', '31-12-24')
+2025-10-20 15:42:27,306 - INFO - State-Date wise file mapping created with 7 keys.
+2025-10-20 15:42:27,308 - INFO - Starting merge for state=ANDAMAN AND NICOBAR ISLANDS, date=31-12-24, files=1
+2025-10-20 15:42:27,319 - INFO - Rows read: 1
+2025-10-20 15:42:27,331 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_ANDAMAN AND NICOBAR ISLANDS_merged.xlsx
+
+2025-10-20 15:42:27,331 - INFO - Starting merge for state=ARUNACHAL PRADESH, date=31-12-24, files=1
+2025-10-20 15:42:27,342 - INFO - Rows read: 2
+2025-10-20 15:42:27,357 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_ARUNACHAL PRADESH_merged.xlsx
+
+2025-10-20 15:42:27,358 - INFO - Starting merge for state=PUDUCHERRY, date=31-12-24, files=1
+2025-10-20 15:42:27,366 - INFO - Rows read: 1
+2025-10-20 15:42:27,384 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_PUDUCHERRY_merged.xlsx
+
+2025-10-20 15:42:27,386 - INFO - Starting merge for state=ROHTAK, date=31-12-24, files=1
+2025-10-20 15:42:27,403 - INFO - Rows read: 0
+2025-10-20 15:42:27,428 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_ROHTAK_merged.xlsx
+
+2025-10-20 15:42:27,430 - INFO - Starting merge for state=SIKKIM, date=31-12-24, files=1
+2025-10-20 15:42:27,445 - INFO - Rows read: 0
+2025-10-20 15:42:27,472 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_SIKKIM_merged.xlsx
+
+2025-10-20 15:42:27,473 - INFO - Starting merge for state=SRI LANKA, date=31-12-24, files=1
+2025-10-20 15:42:27,491 - INFO - Rows read: 0
+2025-10-20 15:42:27,516 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_SRI LANKA_merged.xlsx
+
+2025-10-20 15:42:27,520 - INFO - Starting merge for state=THAILAND, date=31-12-24, files=1
+2025-10-20 15:42:27,539 - INFO - Rows read: 0
+2025-10-20 15:42:27,563 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_THAILAND_merged.xlsx
+
+2025-10-20 15:42:27,565 - INFO - Current folder path: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final
+2025-10-20 15:42:27,566 - INFO - Folders found for processing: [WindowsPath('C:/Users/DELL/Downloads/cibil_web_scrapping_automation/fetched_data/final/31-12-24_merged')]
+2025-10-20 15:42:27,568 - INFO - Files found: ['31-12-24_ANDAMAN AND NICOBAR ISLANDS_merged.xlsx', '31-12-24_ARUNACHAL PRADESH_merged.xlsx', '31-12-24_PUDUCHERRY_merged.xlsx', '31-12-24_ROHTAK_merged.xlsx', '31-12-24_SIKKIM_merged.xlsx', '31-12-24_SRI LANKA_merged.xlsx', '31-12-24_THAILAND_merged.xlsx']
+
+2025-10-20 15:42:27,569 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_ANDAMAN AND NICOBAR ISLANDS_merged.xlsx
+2025-10-20 15:42:27,612 - INFO - Loaded Excel file successfully with 1 rows
+2025-10-20 15:42:27,625 - INFO - Expanded 3 rows from 1 original rows
+2025-10-20 15:42:27,630 - INFO - Cleaned and standardized text/numeric fields
+2025-10-20 15:42:27,637 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-10-20 15:42:27,663 - INFO - Saved expanded file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-12-24_ANDAMAN AND NICOBAR ISLANDS_merged.xlsx (3 rows)
+2025-10-20 15:42:27,700 - INFO - \U0001f552 Time taken: 0.13 seconds
+
+2025-10-20 15:42:27,701 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_ARUNACHAL PRADESH_merged.xlsx
+2025-10-20 15:42:27,730 - INFO - Loaded Excel file successfully with 2 rows
+2025-10-20 15:42:27,736 - INFO - Expanded 2 rows from 2 original rows
+2025-10-20 15:42:27,738 - INFO - Cleaned and standardized text/numeric fields
+2025-10-20 15:42:27,741 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-10-20 15:42:27,756 - INFO - Saved expanded file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-12-24_ARUNACHAL PRADESH_merged.xlsx (2 rows)
+2025-10-20 15:42:27,773 - INFO - \U0001f552 Time taken: 0.07 seconds
+
+2025-10-20 15:42:27,773 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_PUDUCHERRY_merged.xlsx
+2025-10-20 15:42:27,813 - INFO - Loaded Excel file successfully with 1 rows
+2025-10-20 15:42:27,820 - INFO - Expanded 1 rows from 1 original rows
+2025-10-20 15:42:27,823 - INFO - Cleaned and standardized text/numeric fields
+2025-10-20 15:42:27,830 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-10-20 15:42:27,850 - INFO - Saved expanded file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-12-24_PUDUCHERRY_merged.xlsx (1 rows)
+2025-10-20 15:42:27,869 - INFO - \U0001f552 Time taken: 0.1 seconds
+
+2025-10-20 15:42:27,870 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_ROHTAK_merged.xlsx
+2025-10-20 15:42:27,908 - INFO - Loaded Excel file successfully with 0 rows
+2025-10-20 15:42:27,908 - WARNING - \u26a0\ufe0f Skipping empty file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_ROHTAK_merged.xlsx
+2025-10-20 15:42:27,908 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_SIKKIM_merged.xlsx
+2025-10-20 15:42:27,925 - INFO - Loaded Excel file successfully with 0 rows
+2025-10-20 15:42:27,925 - WARNING - \u26a0\ufe0f Skipping empty file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_SIKKIM_merged.xlsx
+2025-10-20 15:42:27,925 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_SRI LANKA_merged.xlsx
+2025-10-20 15:42:27,939 - INFO - Loaded Excel file successfully with 0 rows
+2025-10-20 15:42:27,940 - WARNING - \u26a0\ufe0f Skipping empty file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_SRI LANKA_merged.xlsx
+2025-10-20 15:42:27,940 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_THAILAND_merged.xlsx
+2025-10-20 15:42:27,950 - INFO - Loaded Excel file successfully with 0 rows
+2025-10-20 15:42:27,950 - WARNING - \u26a0\ufe0f Skipping empty file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-12-24_merged\31-12-24_THAILAND_merged.xlsx
