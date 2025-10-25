@@ -1,0 +1,104 @@
+2025-10-24 16:00:46,029 - INFO - Running script...
+2025-10-24 16:00:46,031 - INFO - State selection configuration: state
+2025-10-24 16:00:46,031 - INFO - Selected states: {'MEGHALAYA', 'BRITISH VIRGIN ISLAND', 'NOT REPORTED', 'MADHYA PRADESH', 'JAMMU & KASHMIR', 'BIHAR', 'KINGDOM OF BAHRAIN', 'PANAMA', 'HYDERABAD', 'RAJASTHAN', 'DAMAN AND DIU', 'ASSAM', 'LONDON', 'NAGALAND', 'WEST BENGAL', 'MISSISSIPPI, USA', 'CYPRUS', 'JHARKHAND', 'UNITED STATES OF AMERICA', 'GUJARAT', 'MANIPUR', 'UNITED ARAB EMIRATES', 'HARYANA', 'KERALA', 'DUBAI, UAE', 'PUDUCHERRY', 'OMAN', 'UTTAR PRADESH', 'BANGKOK', 'ABCD', 'PONDICHERRY', 'CAYMAN ISLAND', 'JAKARTA', 'BHOPAL', 'SINGAPORE', 'HONG KONG', 'BELGIUM', 'LAKSHADWEEP', 'BANGLADESH', 'AMSTERDAM', 'TELANGANA', 'DUBAI', 'QATAR', 'BAHRAIN', 'DADRA AND NAGAR HAVELI', 'JAPAN', 'ARUNACHAL PRADESH', 'MAHARASHTRA', 'CHANDIGARH (U.T.) & DELHI', 'ATLANTA, USA', 'UTAH', 'GOA', 'NEW DELHI', 'UNITED KINGDOM', 'MIZORAM', 'ROHTAK', 'KARNATAKA', 'GERMANY', 'UTTARANCHAL', 'TAMIL NADU', 'CHHATTISGARH', 'PUNJAB', 'THAILAND', 'SIKKIM', 'OVERSEAS', 'HIMACHAL PRADESH', 'SOUTH AFRICA', 'CHANDIGARH & DELHI', 'SRI LANKA', 'AUSTRALIA', 'CHANDIGARH', 'ANDHRA PRADESH', 'TRIPURA', 'MANCHESTER', 'ISRAEL', 'ENGLAND', 'OBU', 'LUXEMBOURG', 'UTTARAKHAND', 'MALDIVES', 'COLOMBO', 'DELHI', 'ANDAMAN AND NICOBAR ISLANDS', 'NEW YORK', 'UNITED ARAB EMIRATES UAE', 'ORISSA', 'WASHINGTON'}
+2025-10-24 16:00:46,091 - INFO - Starting batch search for date: 31-08-25
+2025-10-24 16:00:46,094 - DEBUG - Using proactor: IocpProactor
+2025-10-24 16:00:47,509 - INFO - Browser launched.
+2025-10-24 16:00:49,394 - INFO - Page loaded.
+2025-10-24 16:00:49,395 - INFO - Performing search for date:31-08-25, state:ANDAMAN AND NICOBAR ISLANDS, Defaulters type:>25 lacs
+2025-10-24 16:00:54,591 - INFO - Waiting for search results...
+2025-10-24 16:00:54,608 - INFO - Loader disappeared after clicking Search.
+2025-10-24 16:01:02,236 - INFO - Pagination text: View 1 - 2 of 2
+2025-10-24 16:01:02,237 - INFO - Fetched 2 out of 2 rows.
+2025-10-24 16:01:02,237 - INFO - Pagination limit = 1
+2025-10-24 16:01:02,261 - INFO - Found 2 rows for state: ANDAMAN AND NICOBAR ISLANDS, page: 1.
+2025-10-24 16:01:02,494 - INFO - Row 1/2 extracted for ANDAMAN AND NICOBAR ISLANDS.
+2025-10-24 16:01:02,708 - INFO - Row 2/2 extracted for ANDAMAN AND NICOBAR ISLANDS.
+2025-10-24 16:01:03,119 - INFO - Saved 2 rows to cibil_data_31-08-25_ANDAMAN AND NICOBAR ISLANDS_state_page_1_20251024_160102.xlsx
+2025-10-24 16:01:03,899 - INFO - Loader disappeared.
+2025-10-24 16:01:04,997 - INFO - Found 3 director rows.
+2025-10-24 16:01:05,108 - INFO - Successfully extracted director data.
+2025-10-24 16:01:12,049 - INFO - Loader disappeared.
+2025-10-24 16:01:14,855 - INFO - Loader disappeared.
+2025-10-24 16:01:15,889 - INFO - Found 2 director rows.
+2025-10-24 16:01:15,960 - INFO - Successfully extracted director data.
+2025-10-24 16:01:22,443 - INFO - Loader disappeared.
+2025-10-24 16:01:23,895 - DEBUG - Using proactor: IocpProactor
+2025-10-24 16:01:25,145 - INFO - Browser launched.
+2025-10-24 16:01:26,492 - INFO - Page loaded.
+2025-10-24 16:01:26,493 - INFO - Performing search for date:31-08-25, state:ARUNACHAL PRADESH, Defaulters type:>25 lacs
+2025-10-24 16:01:29,520 - INFO - Waiting for search results...
+2025-10-24 16:01:29,540 - INFO - Loader disappeared after clicking Search.
+2025-10-24 16:01:37,091 - INFO - Pagination text: View 1 - 6 of 6
+2025-10-24 16:01:37,091 - INFO - Fetched 6 out of 6 rows.
+2025-10-24 16:01:37,092 - INFO - Pagination limit = 1
+2025-10-24 16:01:37,105 - INFO - Found 6 rows for state: ARUNACHAL PRADESH, page: 1.
+2025-10-24 16:01:37,323 - INFO - Row 1/6 extracted for ARUNACHAL PRADESH.
+2025-10-24 16:01:37,540 - INFO - Row 2/6 extracted for ARUNACHAL PRADESH.
+2025-10-24 16:01:37,746 - INFO - Row 3/6 extracted for ARUNACHAL PRADESH.
+2025-10-24 16:01:37,953 - INFO - Row 4/6 extracted for ARUNACHAL PRADESH.
+2025-10-24 16:01:38,183 - INFO - Row 5/6 extracted for ARUNACHAL PRADESH.
+2025-10-24 16:01:38,396 - INFO - Row 6/6 extracted for ARUNACHAL PRADESH.
+2025-10-24 16:01:38,425 - INFO - Saved 6 rows to cibil_data_31-08-25_ARUNACHAL PRADESH_state_page_1_20251024_160138.xlsx
+2025-10-24 16:01:38,841 - INFO - Loader disappeared.
+2025-10-24 16:01:39,882 - INFO - Found 1 director rows.
+2025-10-24 16:01:39,919 - INFO - Successfully extracted director data.
+2025-10-24 16:01:45,585 - INFO - Loader disappeared.
+2025-10-24 16:01:46,732 - INFO - Loader disappeared.
+2025-10-24 16:01:47,775 - INFO - Found 1 director rows.
+2025-10-24 16:01:47,816 - INFO - Successfully extracted director data.
+2025-10-24 16:01:53,521 - INFO - Loader disappeared.
+2025-10-24 16:01:55,003 - INFO - Loader disappeared.
+2025-10-24 16:01:56,047 - INFO - Found 1 director rows.
+2025-10-24 16:01:56,088 - INFO - Successfully extracted director data.
+2025-10-24 16:02:02,402 - INFO - Loader disappeared.
+2025-10-24 16:02:04,515 - INFO - Loader disappeared.
+2025-10-24 16:02:05,556 - INFO - Found 1 director rows.
+2025-10-24 16:02:05,594 - INFO - Successfully extracted director data.
+2025-10-24 16:02:11,205 - INFO - Loader disappeared.
+2025-10-24 16:02:12,360 - INFO - Loader disappeared.
+2025-10-24 16:02:13,382 - INFO - Found 1 director rows.
+2025-10-24 16:02:13,420 - INFO - Successfully extracted director data.
+2025-10-24 16:02:19,104 - INFO - Loader disappeared.
+2025-10-24 16:02:20,260 - INFO - Loader disappeared.
+2025-10-24 16:02:21,303 - INFO - Found 1 director rows.
+2025-10-24 16:02:21,339 - INFO - Successfully extracted director data.
+2025-10-24 16:02:27,440 - INFO - Loader disappeared.
+2025-10-24 16:02:28,895 - INFO - Current working folder: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final
+2025-10-24 16:02:28,896 - INFO - Folders found for processing: [WindowsPath('C:/Users/DELL/Downloads/cibil_web_scrapping_automation/fetched_data/final/cibil_data_with_directors__25_lacs_31-08-25_for_state')]
+2025-10-24 16:02:28,898 - INFO - All states loaded successfully: 87 states found.
+2025-10-24 16:02:28,900 - INFO - Extracted state: ANDAMAN AND NICOBAR ISLANDS, date: 31-08-25
+2025-10-24 16:02:28,900 - INFO - Added file cibil_data_with_directors_31-08-25_ANDAMAN AND NICOBAR ISLANDS_state_page_1_20251024_160123.xlsx to key ('ANDAMAN AND NICOBAR ISLANDS', '31-08-25')
+2025-10-24 16:02:28,900 - INFO - Extracted state: ARUNACHAL PRADESH, date: 31-08-25
+2025-10-24 16:02:28,900 - INFO - Added file cibil_data_with_directors_31-08-25_ARUNACHAL PRADESH_state_page_1_20251024_160228.xlsx to key ('ARUNACHAL PRADESH', '31-08-25')
+2025-10-24 16:02:28,901 - INFO - State-Date wise file mapping created with 2 keys.
+2025-10-24 16:02:28,902 - INFO - Starting merge for state=ANDAMAN AND NICOBAR ISLANDS, date=31-08-25, files=1
+2025-10-24 16:02:28,936 - INFO - Rows read: 2
+2025-10-24 16:02:28,961 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_ANDAMAN AND NICOBAR ISLANDS_merged.xlsx
+
+2025-10-24 16:02:28,962 - INFO - Starting merge for state=ARUNACHAL PRADESH, date=31-08-25, files=1
+2025-10-24 16:02:28,992 - INFO - Rows read: 6
+2025-10-24 16:02:29,020 - INFO - \u2705 Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_ARUNACHAL PRADESH_merged.xlsx
+
+2025-10-24 16:02:29,021 - INFO - Current folder path: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final
+2025-10-24 16:02:29,023 - INFO - Folders found for processing: [WindowsPath('C:/Users/DELL/Downloads/cibil_web_scrapping_automation/fetched_data/final/31-08-25_merged')]
+2025-10-24 16:02:29,024 - INFO - Files found: ['31-08-25_ANDAMAN AND NICOBAR ISLANDS_merged.xlsx', '31-08-25_ARUNACHAL PRADESH_merged.xlsx']
+
+2025-10-24 16:02:29,024 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_ANDAMAN AND NICOBAR ISLANDS_merged.xlsx
+2025-10-24 16:02:29,046 - INFO - Loaded Excel file successfully with 2 rows
+2025-10-24 16:02:29,066 - INFO - Expanded 5 rows from 2 original rows
+2025-10-24 16:02:29,076 - INFO - Cleaned and standardized text/numeric fields for 'Borrower Name'
+2025-10-24 16:02:29,079 - INFO - Cleaned and standardized text/numeric fields for 'Ind _Director Name'
+2025-10-24 16:02:29,084 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-10-24 16:02:29,110 - INFO - Saved expanded file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-08-25_ANDAMAN AND NICOBAR ISLANDS_merged.xlsx (5 rows)
+2025-10-24 16:02:29,136 - INFO - \U0001f552 Time taken: 0.11 seconds
+
+2025-10-24 16:02:29,137 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_ARUNACHAL PRADESH_merged.xlsx
+2025-10-24 16:02:29,168 - INFO - Loaded Excel file successfully with 6 rows
+2025-10-24 16:02:29,179 - INFO - Expanded 6 rows from 6 original rows
+2025-10-24 16:02:29,186 - INFO - Cleaned and standardized text/numeric fields for 'Borrower Name'
+2025-10-24 16:02:29,189 - INFO - Cleaned and standardized text/numeric fields for 'Ind _Director Name'
+2025-10-24 16:02:29,192 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-10-24 16:02:29,221 - INFO - Saved expanded file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-08-25_ARUNACHAL PRADESH_merged.xlsx (6 rows)
+2025-10-24 16:02:29,238 - INFO - \U0001f552 Time taken: 0.1 seconds
+

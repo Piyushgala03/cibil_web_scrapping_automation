@@ -3,6 +3,7 @@ import ast  # to safely parse stringified lists/dicts
 import time
 import os
 from pathlib import Path
+import re
 
 def expand_directors_data(file_path, output_folder, logger):
     start_time = time.time()
@@ -74,10 +75,98 @@ def expand_directors_data(file_path, output_folder, logger):
     # )
 
     if 'Borrower Name' in df_expanded.columns:
-        df_expanded['Borrower Name'] = df_expanded['Borrower Name'].str.lower().replace('pvt', 'private', regex=True)
-        df_expanded['Borrower Name'] = df_expanded['Borrower Name'].str.lower().replace('ltd', 'limited', regex=True)
+        df_expanded['Borrower Name'] = (
+            df_expanded['Borrower Name'].astype(str)
+            .str.lower()
+            .str.strip()
+            
+            # --- Remove dots ---
+            .str.replace(r'\.', ' ', regex=True)
+            
+            # --- Remove honorifics ---
+            .replace(r'\bm/s\b', '', regex=True)
+            .replace(r'\bmr\b', '', regex=True)
+            .replace(r'\bmrs\b', '', regex=True)
+            .replace(r'\bms\b', '', regex=True)
+            .replace(r'\bdr\b', '', regex=True)
+            
+            # --- Company type replacements ---
+            .replace(r'\bpvt\b', 'private', regex=True)
+            .replace(r'\bltd\b', 'limited', regex=True)
+            .replace(r'\blimi\b', 'limited', regex=True)
+            .replace(r'\b(p)\b', 'private', regex=True)
+            .replace(r'\bp limited\b', 'private limited', regex=True)
+            .replace(r'\bsoc\b', 'Society', regex=True)
+            .replace(r'\bcorp\b', 'Corporation', regex=True)
+            
+            # --- Other unwanted words / suffixes with word boundaries ---
+            .replace(r'\bindividual\b', '', regex=True)
+            .replace(r'\bchairman\b', '', regex=True)
+            .replace(r'\bmanaging director\b', '', regex=True)
+            .replace(r'\bpartner\b', '', regex=True)
+            .replace(r'\bin liquidation\b', '', regex=True)
+            .replace(r'\(proprieter\)$', '', regex=True)  # keep $ to ensure end of string
+            .replace(r'\(proprietor\)$', '', regex=True)
+            
+            # --- Remove text after s/o, d/o, w/o ---
+            .str.replace(r'\(?\s*(s|d|w)/o.*\)?', '', regex=True, flags=re.IGNORECASE)
+            
+            # --- Normalize multiple spaces ---
+            .str.replace(r'\s+', ' ', regex=True)
+            
+            # --- Final formatting ---
+            .str.upper()
+            .str.strip()
+        ) 
+    logger.info("Cleaned and standardized text/numeric fields for 'Borrower Name'")
     
-    logger.info("Cleaned and standardized text/numeric fields")
+    if 'Ind _Director Name' in df_expanded.columns:
+        df_expanded['Ind _Director Name'] = (
+            df_expanded['Ind _Director Name'].astype(str)
+            .str.lower()
+            .str.strip()
+            
+            # --- Remove dots ---
+            .str.replace(r'\.', ' ', regex=True)
+            
+            # --- Remove honorifics ---
+            .replace(r'\bm/s\b', '', regex=True)
+            .replace(r'\bmr\b', '', regex=True)
+            .replace(r'\bmrs\b', '', regex=True)
+            .replace(r'\bms\b', '', regex=True)
+            .replace(r'\bdr\b', '', regex=True)
+            
+            # --- Company type replacements ---
+            .replace(r'\bpvt\b', 'private', regex=True)
+            .replace(r'\bltd\b', 'limited', regex=True)
+            .replace(r'\blimi\b', 'limited', regex=True)
+            .replace(r'\b(p)\b', 'private', regex=True)
+            .replace(r'\bp limited\b', 'private limited', regex=True)
+            .replace(r'\bsoc\b', 'Society', regex=True)
+            .replace(r'\bcorp\b', 'Corporation', regex=True)
+            
+            # --- Other unwanted words / suffixes with word boundaries ---
+            .replace(r'\bindividual\b', '', regex=True)
+            .replace(r'\bchairman\b', '', regex=True)
+            .replace(r'\bmanaging director\b', '', regex=True)
+            .replace(r'\bpartner\b', '', regex=True)
+            .replace(r'\bin liquidation\b', '', regex=True)
+            .replace(r'\(proprieter\)$', '', regex=True)  # keep $ to ensure end of string
+            .replace(r'\(proprietor\)$', '', regex=True)
+            .replace(r'\b()\b', '', regex=True)
+            .str.replace(r'\(\)', '', regex=True)
+            
+            # --- Remove text after s/o, d/o, w/o ---
+            .str.replace(r'\(?\s*(s|d|w)/o.*\)?', '', regex=True, flags=re.IGNORECASE)
+            
+            # --- Normalize multiple spaces ---
+            .str.replace(r'\s+', ' ', regex=True)
+            
+            # --- Final formatting ---
+            .str.upper()
+            .str.strip()
+        ) 
+    logger.info("Cleaned and standardized text/numeric fields for 'Ind _Director Name'")
 
     extra_cols = ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName','CIN NO','Order Type','Remarks']
     for col in extra_cols:
