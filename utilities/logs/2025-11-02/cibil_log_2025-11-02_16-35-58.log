@@ -1,0 +1,68 @@
+2025-11-02 16:35:58,121 - INFO - Running script...
+2025-11-02 16:35:58,122 - INFO - Selected Configurations: 
+state type: state, 
+Defaulters type: >25 lacs, 
+Date: 31-08-25, 
+Timeout: 60 seconds
+2025-11-02 16:35:58,122 - INFO - All States: {'WASHINGTON', 'MIZORAM', 'OMAN', 'CHHATTISGARH', 'NEW YORK', 'KERALA', 'HIMACHAL PRADESH', 'QATAR', 'DELHI', 'UNITED STATES OF AMERICA', 'MANCHESTER', 'PANAMA', 'RAJASTHAN', 'ROHTAK', 'AUSTRALIA', 'THAILAND', 'UTTARANCHAL', 'DAMAN AND DIU', 'BIHAR', 'ISRAEL', 'LUXEMBOURG', 'ORISSA', 'AMSTERDAM', 'NEW DELHI', 'BANGKOK', 'ATLANTA, USA', 'ABCD', 'UTTAR PRADESH', 'JHARKHAND', 'TRIPURA', 'BANGLADESH', 'TAMIL NADU', 'OBU', 'CHANDIGARH & DELHI', 'CHANDIGARH', 'COLOMBO', 'NOT REPORTED', 'WEST BENGAL', 'MISSISSIPPI, USA', 'ARUNACHAL PRADESH', 'JAKARTA', 'GOA', 'ENGLAND', 'DUBAI, UAE', 'OVERSEAS', 'CHANDIGARH (U.T.) & DELHI', 'BHOPAL', 'PUDUCHERRY', 'CAYMAN ISLAND', 'MADHYA PRADESH', 'BRITISH VIRGIN ISLAND', 'UNITED ARAB EMIRATES UAE', 'JAMMU & KASHMIR', 'ANDHRA PRADESH', 'BAHRAIN', 'UNITED ARAB EMIRATES', 'UTTARAKHAND', 'DADRA AND NAGAR HAVELI', 'SINGAPORE', 'LONDON', 'LAKSHADWEEP', 'KARNATAKA', 'MANIPUR', 'BELGIUM', 'GERMANY', 'NAGALAND', 'SOUTH AFRICA', 'CYPRUS', 'HARYANA', 'PUNJAB', 'JAPAN', 'MEGHALAYA', 'MALDIVES', 'MAHARASHTRA', 'UTAH', 'UNITED KINGDOM', 'HYDERABAD', 'SIKKIM', 'TELANGANA', 'SRI LANKA', 'ASSAM', 'GUJARAT', 'PONDICHERRY', 'HONG KONG', 'ANDAMAN AND NICOBAR ISLANDS', 'KINGDOM OF BAHRAIN', 'DUBAI'}
+2025-11-02 16:35:58,132 - INFO - Selected States: ['ANDAMAN AND NICOBAR ISLANDS', 'ARUNACHAL PRADESH', 'GOA', 'GUJARAT']
+2025-11-02 16:35:58,132 - INFO - Starting batch search for date: 31-08-25
+2025-11-02 16:35:58,133 - INFO - Running automation for State: ANDAMAN AND NICOBAR ISLANDS, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 16:35:58,962 - INFO - Browser launched.
+2025-11-02 16:36:00,269 - INFO - Page loaded.
+2025-11-02 16:36:00,270 - INFO - Performing search for date:31-08-25, state:ANDAMAN AND NICOBAR ISLANDS, Defaulters type:>25 lacs
+2025-11-02 16:36:02,935 - INFO - Waiting for search results...
+2025-11-02 16:36:02,950 - INFO - Loader disappeared after clicking Search.
+2025-11-02 16:36:10,464 - INFO - Pagination text: View 1 - 2 of 2
+2025-11-02 16:36:10,465 - INFO - Fetched: 2, Total: 2
+2025-11-02 16:36:10,465 - INFO - Fetched 2 out of 2 rows.
+2025-11-02 16:36:10,465 - INFO - Pagination limit: 1
+2025-11-02 16:36:10,465 - INFO - Raw Data for ANDAMAN AND NICOBAR ISLANDS already exists. Skipping raw table extraction.
+2025-11-02 16:36:10,465 - INFO - Found 1 raw Excel files for ANDAMAN AND NICOBAR ISLANDS
+2025-11-02 16:36:10,649 - INFO - \u25b6 Extracting directors for row 1: Kuber (India ) Sales Pvt Ltd A
+2025-11-02 16:36:10,766 - INFO - Loader disappeared.
+2025-11-02 16:36:11,783 - INFO - Found 3 director rows.
+2025-11-02 16:36:11,850 - INFO - Successfully extracted director data.
+2025-11-02 16:36:17,320 - INFO - Loader disappeared.
+2025-11-02 16:36:18,340 - INFO - Checkpoint saved at row 1 for C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_ANDAMAN AND NICOBAR ISLANDS_state_page_1.xlsx
+2025-11-02 16:36:18,341 - INFO - \u25b6 Extracting directors for row 2: ANDAMAN TRADING PVT. LTD.
+2025-11-02 16:36:18,459 - INFO - Loader disappeared.
+2025-11-02 16:36:19,474 - INFO - Found 2 director rows.
+2025-11-02 16:36:19,519 - INFO - Successfully extracted director data.
+2025-11-02 16:36:24,619 - INFO - Loader disappeared.
+2025-11-02 16:36:25,640 - INFO - \u2705 Updated raw file saved with director info \u2192 C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_ANDAMAN AND NICOBAR ISLANDS_state_page_1.xlsx
+2025-11-02 16:36:25,879 - INFO - Running automation for State: ARUNACHAL PRADESH, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 16:36:26,706 - INFO - Browser launched.
+2025-11-02 16:36:27,694 - INFO - Page loaded.
+2025-11-02 16:36:27,694 - INFO - Performing search for date:31-08-25, state:ARUNACHAL PRADESH, Defaulters type:>25 lacs
+2025-11-02 16:36:30,298 - INFO - Waiting for search results...
+2025-11-02 16:36:30,313 - INFO - Loader disappeared after clicking Search.
+2025-11-02 16:36:37,781 - INFO - Pagination text: View 1 - 6 of 6
+2025-11-02 16:36:37,781 - INFO - Fetched: 6, Total: 6
+2025-11-02 16:36:37,781 - INFO - Fetched 6 out of 6 rows.
+2025-11-02 16:36:37,781 - INFO - Pagination limit: 1
+2025-11-02 16:36:37,782 - INFO - Raw Data for ARUNACHAL PRADESH already exists. Skipping raw table extraction.
+2025-11-02 16:36:37,782 - INFO - Found 1 raw Excel files for ARUNACHAL PRADESH
+2025-11-02 16:36:37,801 - INFO - \u25b6 Extracting directors for row 1: HOTEL BENJAMIN
+2025-11-02 16:36:37,912 - INFO - Loader disappeared.
+2025-11-02 16:36:38,928 - INFO - Found 1 director rows.
+2025-11-02 16:36:38,954 - INFO - Successfully extracted director data.
+2025-11-02 16:36:44,438 - INFO - Loader disappeared.
+2025-11-02 16:36:45,450 - INFO - Checkpoint saved at row 1 for C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_ARUNACHAL PRADESH_state_page_1.xlsx
+2025-11-02 16:36:45,451 - INFO - \u25b6 Extracting directors for row 2: MANGAM  TAKANG
+2025-11-02 16:36:45,560 - INFO - Loader disappeared.
+2025-11-02 16:36:46,579 - INFO - Found 1 director rows.
+2025-11-02 16:36:46,600 - INFO - Successfully extracted director data.
+2025-11-02 16:36:52,070 - INFO - Loader disappeared.
+2025-11-02 16:36:53,072 - INFO - \u25b6 Extracting directors for row 3: R.B.TRADING CO
+2025-11-02 16:36:53,210 - INFO - Loader disappeared.
+2025-11-02 16:36:54,229 - INFO - Found 1 director rows.
+2025-11-02 16:36:54,253 - INFO - Successfully extracted director data.
+2025-11-02 16:36:59,717 - INFO - Loader disappeared.
+2025-11-02 16:37:00,731 - INFO - \u2705 Updated raw file saved with director info \u2192 C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_ARUNACHAL PRADESH_state_page_1.xlsx
+2025-11-02 16:37:00,970 - INFO - Running automation for State: GOA, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 16:37:01,849 - INFO - Browser launched.
+2025-11-02 16:37:02,854 - INFO - Page loaded.
+2025-11-02 16:37:02,854 - INFO - Performing search for date:31-08-25, state:GOA, Defaulters type:>25 lacs
+2025-11-02 16:37:05,481 - INFO - Waiting for search results...
+2025-11-02 16:37:05,497 - INFO - Loader disappeared after clicking Search.

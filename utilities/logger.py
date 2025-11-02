@@ -1,58 +1,3 @@
-# logger.py
-
-# import logging
-# import time
-# from pathlib import Path
-
-# def setup_logger():
-#     current_date = time.strftime("%Y-%m-%d")
-
-#     # Create folder path: logs/<date>/
-#     log_dir = Path("logs") / current_date
-#     log_dir.mkdir(parents=True, exist_ok=True)
-
-#     # Create log file name inside date folder
-#     log_filename = log_dir / f"cibil_log_{time.strftime('%Y-%m-%d_%H-%M-%S')}.log"
-
-#     logging.basicConfig(
-#         filename=log_filename,
-#         level=logging.DEBUG, # capture DEBUG, INFO, WARNING, ERROR, CRITICAL
-#         format="%(asctime)s - %(levelname)s - %(message)s"
-#     )
-#     return logging
-
-
-# import logging
-# import time
-# import os
-# from pathlib import Path
-
-
-# def setup_logger():
-#     # ✅ Detect base path for both script and PyInstaller EXE
-#     if getattr(os, 'frozen', False):
-#         base_path = os.path.dirname(os.path.abspath(os.sys.executable))
-#     else:
-#         base_path = os.path.dirname(os.path.abspath(__file__))
-
-#     current_date = time.strftime("%Y-%m-%d")
-
-#     # ✅ Logs inside <base_path>/logs/<date>/
-#     log_dir = Path(base_path) / "logs" / current_date
-#     log_dir.mkdir(parents=True, exist_ok=True)
-
-#     # ✅ Create log file name
-#     log_filename = log_dir / f"cibil_log_{time.strftime('%Y-%m-%d_%H-%M-%S')}.log"
-
-#     logging.basicConfig(
-#         filename=log_filename,
-#         level=logging.DEBUG,
-#         format="%(asctime)s - %(levelname)s - %(message)s"
-#     )
-
-#     return logging
-
-
 import logging
 import time
 import os
@@ -79,11 +24,34 @@ def setup_logger():
 
     log_filename = log_dir / f"cibil_log_{time.strftime('%Y-%m-%d_%H-%M-%S')}.log"
 
-    logging.basicConfig(
-        filename=log_filename,
-        level=logging.DEBUG,
-        format="%(asctime)s - %(levelname)s - %(message)s"
-    )
+    # logging.basicConfig(
+    #     filename=log_filename,
+    #     level=logging.INFO,
+    #     format="%(asctime)s - %(levelname)s - %(message)s"
+    # )
 
-    print(f"✅ Logging initialized at: {log_filename}")
-    return logging
+    # logger.info(f"✅ Logging initialized at: {log_filename}")
+    # return logging
+    # ✅ Create logger instance
+    logger = logging.getLogger("CIBILLogger")
+    logger.setLevel(logging.INFO)
+    logger.handlers.clear()  # Prevent duplicate handlers on rerun
+
+    # --- File Handler ---
+    file_handler = logging.FileHandler(log_filename, encoding="utf-8")
+    file_handler.setLevel(logging.INFO)
+    file_formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    file_handler.setFormatter(file_formatter)
+
+    # --- Console Handler ---
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)
+    console_formatter = logging.Formatter("▶ %(message)s")  # cleaner console output
+    console_handler.setFormatter(console_formatter)
+
+    # --- Add Handlers ---
+    logger.addHandler(file_handler)
+    logger.addHandler(console_handler)
+
+    logger.info(f"Logging initialized at: {log_filename}")
+    return logger

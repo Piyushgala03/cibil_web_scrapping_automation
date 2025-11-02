@@ -2,7 +2,7 @@
 
 import re
 
-def extract_row_counts(page, logging):
+def extract_row_counts(page, logging, timeout_ms:int = 60000):
     """
     Extracts the 'fetched' and 'total' row counts from the pagination info div.
     Example text: 'View 1 - 1,000 of 43,116'
@@ -11,14 +11,12 @@ def extract_row_counts(page, logging):
     # Wait until the pagination info appears
     # page.wait_for_selector('div.ui-paging-info', timeout=10000)
     try:
-        page.wait_for_selector('div.ui-paging-info', timeout=10000)
+        page.wait_for_selector('div.ui-paging-info', timeout=min(timeout_ms, 10000))
         text = page.locator('div.ui-paging-info').inner_text().strip()
     except Exception:
-        print("⚠️ Pagination info not found, returning 0.")
-        logging.warning("Pagination info not found, returning 0.")
+        logging.warning("Pagination not found")
         return 0, 0
     text = page.locator('div.ui-paging-info').inner_text().strip()
-    print(f"📄 Pagination text: {text}")
     logging.info(f"Pagination text: {text}")
 
     if text.lower() == 'no records':
@@ -30,9 +28,8 @@ def extract_row_counts(page, logging):
         if match:
             fetched = int(match.group(1).replace(',', ''))
             total = int(match.group(2).replace(',', ''))
-            print(f"✅ Fetched: {fetched}, Total: {total}")
+            logging.info(f"Fetched: {fetched}, Total: {total}")
             return fetched, total
         else:
-            print("⚠️ Could not parse pagination info.")
             logging.warning("Could not parse pagination info.")
             return 0, 0

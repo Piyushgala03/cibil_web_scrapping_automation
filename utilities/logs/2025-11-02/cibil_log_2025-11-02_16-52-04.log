@@ -1,0 +1,62 @@
+2025-11-02 16:52:04,190 - INFO - ✅ Logging initialized at: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\utilities\logs\2025-11-02\cibil_log_2025-11-02_16-52-04.log
+2025-11-02 16:52:04,190 - INFO - Running script...
+2025-11-02 16:52:04,191 - INFO - Selected Configurations: 
+state type: state, 
+Defaulters type: >25 lacs, 
+Date: 31-08-25, 
+Timeout: 60 seconds
+2025-11-02 16:52:04,191 - INFO - All States: {'BAHRAIN', 'MALDIVES', 'JAPAN', 'JHARKHAND', 'ISRAEL', 'GERMANY', 'ORISSA', 'DAMAN AND DIU', 'HIMACHAL PRADESH', 'CHANDIGARH', 'BANGLADESH', 'UTTAR PRADESH', 'HONG KONG', 'UNITED STATES OF AMERICA', 'HYDERABAD', 'DUBAI', 'OMAN', 'QATAR', 'UTTARANCHAL', 'BIHAR', 'PONDICHERRY', 'ENGLAND', 'COLOMBO', 'SRI LANKA', 'MADHYA PRADESH', 'GOA', 'BANGKOK', 'GUJARAT', 'WEST BENGAL', 'DUBAI, UAE', 'PANAMA', 'CHANDIGARH & DELHI', 'TAMIL NADU', 'BRITISH VIRGIN ISLAND', 'DADRA AND NAGAR HAVELI', 'ANDAMAN AND NICOBAR ISLANDS', 'SOUTH AFRICA', 'CAYMAN ISLAND', 'ABCD', 'NOT REPORTED', 'OVERSEAS', 'MEGHALAYA', 'UNITED KINGDOM', 'AUSTRALIA', 'RAJASTHAN', 'HARYANA', 'MANIPUR', 'LONDON', 'TRIPURA', 'OBU', 'KINGDOM OF BAHRAIN', 'CHHATTISGARH', 'SIKKIM', 'UNITED ARAB EMIRATES', 'DELHI', 'MAHARASHTRA', 'ROHTAK', 'TELANGANA', 'KERALA', 'THAILAND', 'SINGAPORE', 'WASHINGTON', 'ASSAM', 'JAKARTA', 'CHANDIGARH (U.T.) & DELHI', 'PUNJAB', 'UNITED ARAB EMIRATES UAE', 'JAMMU & KASHMIR', 'ARUNACHAL PRADESH', 'BELGIUM', 'AMSTERDAM', 'PUDUCHERRY', 'MIZORAM', 'ATLANTA, USA', 'LAKSHADWEEP', 'ANDHRA PRADESH', 'MISSISSIPPI, USA', 'UTTARAKHAND', 'CYPRUS', 'UTAH', 'NAGALAND', 'LUXEMBOURG', 'NEW DELHI', 'KARNATAKA', 'BHOPAL', 'MANCHESTER', 'NEW YORK'}
+2025-11-02 16:52:04,191 - INFO - Selected States: ['BIHAR', 'GOA', 'GUJARAT']
+2025-11-02 16:52:04,191 - INFO - Starting batch search for date: 31-08-25
+2025-11-02 16:52:04,192 - INFO - Running automation for State: BIHAR, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 16:52:05,024 - INFO - Browser launched.
+2025-11-02 16:52:07,055 - INFO - Page loaded.
+2025-11-02 16:52:07,056 - INFO - Performing search for date:31-08-25, state:BIHAR, Defaulters type:>25 lacs
+2025-11-02 16:52:09,639 - INFO - Waiting for search results...
+2025-11-02 16:52:09,655 - INFO - Loader disappeared after clicking Search.
+2025-11-02 16:52:17,132 - INFO - Pagination text: View 1 - 125 of 125
+2025-11-02 16:52:17,133 - INFO - Fetched: 125, Total: 125
+2025-11-02 16:52:17,133 - INFO - Fetched 125 out of 125 rows.
+2025-11-02 16:52:17,133 - INFO - Pagination limit: 1
+2025-11-02 16:52:17,133 - INFO - Raw Data for BIHAR already exists. Skipping raw table extraction.
+2025-11-02 16:52:17,133 - INFO - Found 1 raw Excel files for BIHAR
+2025-11-02 16:52:17,302 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 16:52:17,302 - INFO - Directors already extracted for row 2, skipping...
+2025-11-02 16:52:17,303 - INFO - Directors already extracted for row 3, skipping...
+2025-11-02 16:52:17,315 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_BIHAR_state_page_1.xlsx
+2025-11-02 16:52:17,540 - INFO - Running automation for State: GOA, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 16:52:18,328 - INFO - Browser launched.
+2025-11-02 16:52:20,313 - INFO - Page loaded.
+2025-11-02 16:52:20,313 - INFO - Performing search for date:31-08-25, state:GOA, Defaulters type:>25 lacs
+2025-11-02 16:52:22,478 - INFO - Waiting for search results...
+2025-11-02 16:52:22,493 - INFO - Loader disappeared after clicking Search.
+2025-11-02 16:52:30,028 - INFO - Pagination text: View 1 - 25 of 25
+2025-11-02 16:52:30,028 - INFO - Fetched: 25, Total: 25
+2025-11-02 16:52:30,028 - INFO - Fetched 25 out of 25 rows.
+2025-11-02 16:52:30,028 - INFO - Pagination limit: 1
+2025-11-02 16:52:30,029 - INFO - Raw Data for GOA already exists. Skipping raw table extraction.
+2025-11-02 16:52:30,029 - INFO - Found 1 raw Excel files for GOA
+2025-11-02 16:52:30,047 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 16:52:30,048 - INFO - Directors already extracted for row 2, skipping...
+2025-11-02 16:52:30,048 - INFO - Directors already extracted for row 3, skipping...
+2025-11-02 16:52:30,056 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_GOA_state_page_1.xlsx
+2025-11-02 16:52:30,283 - INFO - Running automation for State: GUJARAT, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 16:52:31,091 - INFO - Browser launched.
+2025-11-02 16:52:33,072 - INFO - Page loaded.
+2025-11-02 16:52:33,073 - INFO - Performing search for date:31-08-25, state:GUJARAT, Defaulters type:>25 lacs
+2025-11-02 16:52:35,786 - INFO - Waiting for search results...
+2025-11-02 16:52:35,801 - INFO - Loader disappeared after clicking Search.
+2025-11-02 16:52:43,292 - INFO - Pagination text: View 1 - 1,000 of 1,233
+2025-11-02 16:52:43,292 - INFO - Fetched: 1000, Total: 1233
+2025-11-02 16:52:43,292 - INFO - Fetched 1000 out of 1233 rows.
+2025-11-02 16:52:43,293 - INFO - Pagination limit: 2
+2025-11-02 16:52:43,293 - INFO - Raw Data for GUJARAT already exists. Skipping raw table extraction.
+2025-11-02 16:52:43,293 - INFO - Found 2 raw Excel files for GUJARAT
+2025-11-02 16:52:43,313 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 16:52:43,313 - INFO - Directors already extracted for row 2, skipping...
+2025-11-02 16:52:43,314 - INFO - Directors already extracted for row 3, skipping...
+2025-11-02 16:52:43,323 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_GUJARAT_state_page_1.xlsx
+2025-11-02 16:52:43,340 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 16:52:43,340 - INFO - Directors already extracted for row 2, skipping...
+2025-11-02 16:52:43,340 - INFO - Directors already extracted for row 3, skipping...
+2025-11-02 16:52:43,349 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_GUJARAT_state_page_2.xlsx

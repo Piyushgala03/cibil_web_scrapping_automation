@@ -1,0 +1,209 @@
+2025-11-02 21:03:26,218 - INFO - Logging initialized at: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\utilities\logs\2025-11-02\cibil_log_2025-11-02_21-03-26.log
+2025-11-02 21:03:26,219 - INFO - Read path: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation
+2025-11-02 21:03:26,219 - INFO - Write path: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation
+2025-11-02 21:03:26,219 - INFO - ▶ Running script...
+2025-11-02 21:03:26,220 - INFO - Running script...
+2025-11-02 21:03:26,222 - INFO - Selected Configurations: 
+state type: state, 
+Defaulters type: >25 lacs, 
+Date: 31-08-25, 
+Timeout: 60 seconds
+2025-11-02 21:03:26,222 - INFO - All States: {'KARNATAKA', 'JAKARTA', 'ASSAM', 'ENGLAND', 'GERMANY', 'TRIPURA', 'BRITISH VIRGIN ISLAND', 'AUSTRALIA', 'ANDAMAN AND NICOBAR ISLANDS', 'UNITED ARAB EMIRATES', 'THAILAND', 'CYPRUS', 'JAMMU & KASHMIR', 'UTTAR PRADESH', 'MIZORAM', 'RAJASTHAN', 'SOUTH AFRICA', 'DUBAI, UAE', 'DUBAI', 'MEGHALAYA', 'ARUNACHAL PRADESH', 'ROHTAK', 'MALDIVES', 'BANGLADESH', 'TAMIL NADU', 'BHOPAL', 'MADHYA PRADESH', 'SIKKIM', 'NEW YORK', 'LUXEMBOURG', 'HYDERABAD', 'DAMAN AND DIU', 'CHANDIGARH (U.T.) & DELHI', 'ATLANTA, USA', 'AMSTERDAM', 'SINGAPORE', 'UTTARANCHAL', 'DELHI', 'WASHINGTON', 'LONDON', 'JAPAN', 'CHHATTISGARH', 'UNITED ARAB EMIRATES UAE', 'UTTARAKHAND', 'UNITED KINGDOM', 'HIMACHAL PRADESH', 'BANGKOK', 'OVERSEAS', 'UTAH', 'CAYMAN ISLAND', 'OBU', 'ANDHRA PRADESH', 'WEST BENGAL', 'JHARKHAND', 'ABCD', 'DADRA AND NAGAR HAVELI', 'HARYANA', 'KINGDOM OF BAHRAIN', 'BIHAR', 'CHANDIGARH', 'QATAR', 'ORISSA', 'HONG KONG', 'TELANGANA', 'GOA', 'MANCHESTER', 'KERALA', 'MAHARASHTRA', 'OMAN', 'GUJARAT', 'LAKSHADWEEP', 'BAHRAIN', 'MANIPUR', 'PUDUCHERRY', 'PANAMA', 'NOT REPORTED', 'UNITED STATES OF AMERICA', 'COLOMBO', 'MISSISSIPPI, USA', 'PONDICHERRY', 'SRI LANKA', 'BELGIUM', 'ISRAEL', 'CHANDIGARH & DELHI', 'NAGALAND', 'NEW DELHI', 'PUNJAB'}
+2025-11-02 21:03:26,223 - INFO - Selected States: ['GUJARAT']
+2025-11-02 21:03:26,223 - INFO - ▶ Starting batch search for Date: 31-08-25
+2025-11-02 21:03:26,225 - INFO - Running automation for State: GUJARAT, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 21:03:28,286 - INFO - Browser launched.
+2025-11-02 21:03:29,398 - INFO - Page loaded.
+2025-11-02 21:03:29,398 - INFO - ▶ Performing search for Date:31-08-25, State:GUJARAT, Defaulters type:>25 lacs
+2025-11-02 21:03:33,120 - INFO - ▶ Waiting for search results...
+2025-11-02 21:03:41,064 - INFO - Pagination text: View 1 - 1,000 of 1,233
+2025-11-02 21:03:41,065 - INFO - Fetched: 1000, Total: 1233
+2025-11-02 21:03:41,065 - INFO - ▶ Fetched 1000 out of 1233 rows.
+2025-11-02 21:03:41,065 - INFO - Pagination limit: 2
+2025-11-02 21:03:41,066 - INFO - Raw Data for GUJARAT already exists. Skipping raw table extraction.
+2025-11-02 21:03:41,067 - INFO - Found 2 raw Excel files for GUJARAT
+2025-11-02 21:03:41,618 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 21:03:41,619 - INFO - Directors already extracted for row 2, skipping...
+2025-11-02 21:03:41,619 - INFO - Directors already extracted for row 3, skipping...
+2025-11-02 21:03:41,620 - INFO - Directors already extracted for row 4, skipping...
+2025-11-02 21:03:41,621 - INFO - Directors already extracted for row 5, skipping...
+2025-11-02 21:03:41,621 - INFO - Directors already extracted for row 6, skipping...
+2025-11-02 21:03:41,622 - INFO - Directors already extracted for row 7, skipping...
+2025-11-02 21:03:41,622 - INFO - Directors already extracted for row 8, skipping...
+2025-11-02 21:03:41,623 - INFO - Directors already extracted for row 9, skipping...
+2025-11-02 21:03:41,623 - INFO - Directors already extracted for row 10, skipping...
+2025-11-02 21:03:41,624 - INFO - Directors already extracted for row 11, skipping...
+2025-11-02 21:03:41,690 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_GUJARAT_state_page_1.xlsx
+2025-11-02 21:03:41,717 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 21:03:41,719 - INFO - Directors already extracted for row 2, skipping...
+2025-11-02 21:03:41,719 - INFO - Directors already extracted for row 3, skipping...
+2025-11-02 21:03:41,722 - INFO - Directors already extracted for row 4, skipping...
+2025-11-02 21:03:41,722 - INFO - Directors already extracted for row 5, skipping...
+2025-11-02 21:03:41,723 - INFO - Directors already extracted for row 6, skipping...
+2025-11-02 21:03:41,724 - INFO - Directors already extracted for row 7, skipping...
+2025-11-02 21:03:41,725 - INFO - Directors already extracted for row 8, skipping...
+2025-11-02 21:03:41,725 - INFO - Directors already extracted for row 9, skipping...
+2025-11-02 21:03:41,726 - INFO - Directors already extracted for row 10, skipping...
+2025-11-02 21:03:41,727 - INFO - Directors already extracted for row 11, skipping...
+2025-11-02 21:03:41,779 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_GUJARAT_state_page_2.xlsx
+2025-11-02 21:03:42,368 - INFO - 📂 Current folder path: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw
+
+2025-11-02 21:03:42,370 - INFO - 📁 Folders found for processing: [WindowsPath('C:/Users/piyush gala/PC/Portfolio/cibil_web_scrapping_automation/fetched_data/raw/cibil_data__25_lacs_31-08-25_for_state')]
+
+2025-11-02 21:03:42,371 - INFO - All states loaded successfully: 87 states found.
+2025-11-02 21:03:42,371 - INFO - --- Opening folder: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state ---
+2025-11-02 21:03:42,372 - INFO - Files found: ['cibil_data_31-08-25_ANDHRA PRADESH_state_page_1.xlsx', 'cibil_data_31-08-25_ANDHRA PRADESH_state_page_2.xlsx', 'cibil_data_31-08-25_ARUNACHAL PRADESH_state_page_1.xlsx', 'cibil_data_31-08-25_BIHAR_state_page_1.xlsx', 'cibil_data_31-08-25_GOA_state_page_1.xlsx', 'cibil_data_31-08-25_GUJARAT_state_page_1.xlsx', 'cibil_data_31-08-25_GUJARAT_state_page_2.xlsx', 'cibil_data_31-08-25_MAHARASHTRA_state_page_1.xlsx', 'cibil_data_31-08-25_MAHARASHTRA_state_page_2.xlsx', 'cibil_data_31-08-25_MAHARASHTRA_state_page_3.xlsx', 'cibil_data_31-08-25_MAHARASHTRA_state_page_4.xlsx']
+
+2025-11-02 21:03:42,373 - INFO - Processing file: cibil_data_31-08-25_ANDHRA PRADESH_state_page_1.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'ANDHRA PRADESH', 'state', 'page', '1.xlsx']
+2025-11-02 21:03:42,373 - INFO - Extracted state: ANDHRA PRADESH, date: 31-08-25
+2025-11-02 21:03:42,373 - INFO - Added file cibil_data_31-08-25_ANDHRA PRADESH_state_page_1.xlsx to key ('ANDHRA PRADESH', '31-08-25')
+2025-11-02 21:03:42,374 - INFO - Processing file: cibil_data_31-08-25_ANDHRA PRADESH_state_page_2.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'ANDHRA PRADESH', 'state', 'page', '2.xlsx']
+2025-11-02 21:03:42,374 - INFO - Extracted state: ANDHRA PRADESH, date: 31-08-25
+2025-11-02 21:03:42,374 - INFO - Added file cibil_data_31-08-25_ANDHRA PRADESH_state_page_2.xlsx to key ('ANDHRA PRADESH', '31-08-25')
+2025-11-02 21:03:42,374 - INFO - Processing file: cibil_data_31-08-25_ARUNACHAL PRADESH_state_page_1.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'ARUNACHAL PRADESH', 'state', 'page', '1.xlsx']
+2025-11-02 21:03:42,375 - INFO - Extracted state: ARUNACHAL PRADESH, date: 31-08-25
+2025-11-02 21:03:42,375 - INFO - Added file cibil_data_31-08-25_ARUNACHAL PRADESH_state_page_1.xlsx to key ('ARUNACHAL PRADESH', '31-08-25')
+2025-11-02 21:03:42,375 - INFO - Processing file: cibil_data_31-08-25_BIHAR_state_page_1.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'BIHAR', 'state', 'page', '1.xlsx']
+2025-11-02 21:03:42,376 - INFO - Extracted state: BIHAR, date: 31-08-25
+2025-11-02 21:03:42,376 - INFO - Added file cibil_data_31-08-25_BIHAR_state_page_1.xlsx to key ('BIHAR', '31-08-25')
+2025-11-02 21:03:42,376 - INFO - Processing file: cibil_data_31-08-25_GOA_state_page_1.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'GOA', 'state', 'page', '1.xlsx']
+2025-11-02 21:03:42,376 - INFO - Extracted state: GOA, date: 31-08-25
+2025-11-02 21:03:42,377 - INFO - Added file cibil_data_31-08-25_GOA_state_page_1.xlsx to key ('GOA', '31-08-25')
+2025-11-02 21:03:42,377 - INFO - Processing file: cibil_data_31-08-25_GUJARAT_state_page_1.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'GUJARAT', 'state', 'page', '1.xlsx']
+2025-11-02 21:03:42,377 - INFO - Extracted state: GUJARAT, date: 31-08-25
+2025-11-02 21:03:42,377 - INFO - Added file cibil_data_31-08-25_GUJARAT_state_page_1.xlsx to key ('GUJARAT', '31-08-25')
+2025-11-02 21:03:42,377 - INFO - Processing file: cibil_data_31-08-25_GUJARAT_state_page_2.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'GUJARAT', 'state', 'page', '2.xlsx']
+2025-11-02 21:03:42,377 - INFO - Extracted state: GUJARAT, date: 31-08-25
+2025-11-02 21:03:42,378 - INFO - Added file cibil_data_31-08-25_GUJARAT_state_page_2.xlsx to key ('GUJARAT', '31-08-25')
+2025-11-02 21:03:42,378 - INFO - Processing file: cibil_data_31-08-25_MAHARASHTRA_state_page_1.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'MAHARASHTRA', 'state', 'page', '1.xlsx']
+2025-11-02 21:03:42,378 - INFO - Extracted state: MAHARASHTRA, date: 31-08-25
+2025-11-02 21:03:42,378 - INFO - Added file cibil_data_31-08-25_MAHARASHTRA_state_page_1.xlsx to key ('MAHARASHTRA', '31-08-25')
+2025-11-02 21:03:42,378 - INFO - Processing file: cibil_data_31-08-25_MAHARASHTRA_state_page_2.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'MAHARASHTRA', 'state', 'page', '2.xlsx']
+2025-11-02 21:03:42,379 - INFO - Extracted state: MAHARASHTRA, date: 31-08-25
+2025-11-02 21:03:42,379 - INFO - Added file cibil_data_31-08-25_MAHARASHTRA_state_page_2.xlsx to key ('MAHARASHTRA', '31-08-25')
+2025-11-02 21:03:42,379 - INFO - Processing file: cibil_data_31-08-25_MAHARASHTRA_state_page_3.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'MAHARASHTRA', 'state', 'page', '3.xlsx']
+2025-11-02 21:03:42,379 - INFO - Extracted state: MAHARASHTRA, date: 31-08-25
+2025-11-02 21:03:42,380 - INFO - Added file cibil_data_31-08-25_MAHARASHTRA_state_page_3.xlsx to key ('MAHARASHTRA', '31-08-25')
+2025-11-02 21:03:42,380 - INFO - Processing file: cibil_data_31-08-25_MAHARASHTRA_state_page_4.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'MAHARASHTRA', 'state', 'page', '4.xlsx']
+2025-11-02 21:03:42,380 - INFO - Extracted state: MAHARASHTRA, date: 31-08-25
+2025-11-02 21:03:42,380 - INFO - Added file cibil_data_31-08-25_MAHARASHTRA_state_page_4.xlsx to key ('MAHARASHTRA', '31-08-25')
+2025-11-02 21:03:42,380 - INFO - --- End of folder processing ---
+2025-11-02 21:03:42,381 - INFO - State-Date wise file mapping created with 6 keys.
+2025-11-02 21:03:42,381 - INFO -   ('ANDHRA PRADESH', '31-08-25'): ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_ANDHRA PRADESH_state_page_1.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_ANDHRA PRADESH_state_page_2.xlsx']
+2025-11-02 21:03:42,381 - INFO -   ('ARUNACHAL PRADESH', '31-08-25'): ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_ARUNACHAL PRADESH_state_page_1.xlsx']
+2025-11-02 21:03:42,381 - INFO -   ('BIHAR', '31-08-25'): ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_BIHAR_state_page_1.xlsx']
+2025-11-02 21:03:42,382 - INFO -   ('GOA', '31-08-25'): ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_GOA_state_page_1.xlsx']
+2025-11-02 21:03:42,382 - INFO -   ('GUJARAT', '31-08-25'): ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_GUJARAT_state_page_1.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_GUJARAT_state_page_2.xlsx']
+2025-11-02 21:03:42,382 - INFO -   ('MAHARASHTRA', '31-08-25'): ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_MAHARASHTRA_state_page_1.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_MAHARASHTRA_state_page_2.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_MAHARASHTRA_state_page_3.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_MAHARASHTRA_state_page_4.xlsx']
+2025-11-02 21:03:42,383 - INFO - Starting merge for state=ANDHRA PRADESH, date=31-08-25, files=2
+2025-11-02 21:03:42,383 - INFO - Files after sorting by page: ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_ANDHRA PRADESH_state_page_1.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_ANDHRA PRADESH_state_page_2.xlsx']
+2025-11-02 21:03:42,383 - INFO - 📖 Reading file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_ANDHRA PRADESH_state_page_1.xlsx
+2025-11-02 21:03:42,404 - INFO - Rows read: 11
+2025-11-02 21:03:42,405 - INFO - 📖 Reading file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_ANDHRA PRADESH_state_page_2.xlsx
+2025-11-02 21:03:42,421 - INFO - Rows read: 11
+2025-11-02 21:03:42,422 - INFO - 🔗 Total rows after merging: 22
+2025-11-02 21:03:42,474 - INFO - ✅ Merged file saved: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_ANDHRA PRADESH_merged.xlsx
+
+2025-11-02 21:03:42,475 - INFO - Starting merge for state=ARUNACHAL PRADESH, date=31-08-25, files=1
+2025-11-02 21:03:42,475 - INFO - Files after sorting by page: ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_ARUNACHAL PRADESH_state_page_1.xlsx']
+2025-11-02 21:03:42,476 - INFO - 📖 Reading file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_ARUNACHAL PRADESH_state_page_1.xlsx
+2025-11-02 21:03:42,491 - INFO - Rows read: 6
+2025-11-02 21:03:42,492 - INFO - 🔗 Total rows after merging: 6
+2025-11-02 21:03:42,513 - INFO - ✅ Merged file saved: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_ARUNACHAL PRADESH_merged.xlsx
+
+2025-11-02 21:03:42,514 - INFO - Starting merge for state=BIHAR, date=31-08-25, files=1
+2025-11-02 21:03:42,514 - INFO - Files after sorting by page: ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_BIHAR_state_page_1.xlsx']
+2025-11-02 21:03:42,515 - INFO - 📖 Reading file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_BIHAR_state_page_1.xlsx
+2025-11-02 21:03:42,530 - INFO - Rows read: 11
+2025-11-02 21:03:42,531 - INFO - 🔗 Total rows after merging: 11
+2025-11-02 21:03:42,573 - INFO - ✅ Merged file saved: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_BIHAR_merged.xlsx
+
+2025-11-02 21:03:42,574 - INFO - Starting merge for state=GOA, date=31-08-25, files=1
+2025-11-02 21:03:42,574 - INFO - Files after sorting by page: ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_GOA_state_page_1.xlsx']
+2025-11-02 21:03:42,574 - INFO - 📖 Reading file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_GOA_state_page_1.xlsx
+2025-11-02 21:03:42,591 - INFO - Rows read: 11
+2025-11-02 21:03:42,592 - INFO - 🔗 Total rows after merging: 11
+2025-11-02 21:03:42,637 - INFO - ✅ Merged file saved: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_GOA_merged.xlsx
+
+2025-11-02 21:03:42,638 - INFO - Starting merge for state=GUJARAT, date=31-08-25, files=2
+2025-11-02 21:03:42,638 - INFO - Files after sorting by page: ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_GUJARAT_state_page_1.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_GUJARAT_state_page_2.xlsx']
+2025-11-02 21:03:42,638 - INFO - 📖 Reading file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_GUJARAT_state_page_1.xlsx
+2025-11-02 21:03:42,677 - INFO - Rows read: 11
+2025-11-02 21:03:42,678 - INFO - 📖 Reading file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_GUJARAT_state_page_2.xlsx
+2025-11-02 21:03:42,715 - INFO - Rows read: 11
+2025-11-02 21:03:42,717 - INFO - 🔗 Total rows after merging: 22
+2025-11-02 21:03:42,774 - INFO - ✅ Merged file saved: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_GUJARAT_merged.xlsx
+
+2025-11-02 21:03:42,774 - INFO - Starting merge for state=MAHARASHTRA, date=31-08-25, files=4
+2025-11-02 21:03:42,775 - INFO - Files after sorting by page: ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_MAHARASHTRA_state_page_1.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_MAHARASHTRA_state_page_2.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_MAHARASHTRA_state_page_3.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_MAHARASHTRA_state_page_4.xlsx']
+2025-11-02 21:03:42,775 - INFO - 📖 Reading file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_MAHARASHTRA_state_page_1.xlsx
+2025-11-02 21:03:42,791 - INFO - Rows read: 11
+2025-11-02 21:03:42,792 - INFO - 📖 Reading file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_MAHARASHTRA_state_page_2.xlsx
+2025-11-02 21:03:42,807 - INFO - Rows read: 11
+2025-11-02 21:03:42,807 - INFO - 📖 Reading file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_MAHARASHTRA_state_page_3.xlsx
+2025-11-02 21:03:42,823 - INFO - Rows read: 11
+2025-11-02 21:03:42,824 - INFO - 📖 Reading file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_MAHARASHTRA_state_page_4.xlsx
+2025-11-02 21:03:42,840 - INFO - Rows read: 11
+2025-11-02 21:03:42,841 - INFO - 🔗 Total rows after merging: 44
+2025-11-02 21:03:42,899 - INFO - ✅ Merged file saved: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_MAHARASHTRA_merged.xlsx
+
+2025-11-02 21:03:42,901 - INFO - Current folder path: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final
+2025-11-02 21:03:42,902 - INFO - Folders found for processing: [WindowsPath('C:/Users/piyush gala/PC/Portfolio/cibil_web_scrapping_automation/fetched_data/final/31-08-25_merged'), WindowsPath('C:/Users/piyush gala/PC/Portfolio/cibil_web_scrapping_automation/fetched_data/final/cibil_data_with_directors__25_lacs_31-08-25_for_state')]
+2025-11-02 21:03:42,903 - INFO - Files found: ['31-08-25_ANDHRA PRADESH_merged.xlsx', '31-08-25_ARUNACHAL PRADESH_merged.xlsx', '31-08-25_BIHAR_merged.xlsx', '31-08-25_GOA_merged.xlsx', '31-08-25_GUJARAT_merged.xlsx', '31-08-25_MAHARASHTRA_merged.xlsx']
+
+2025-11-02 21:03:42,904 - INFO - Processing file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_ANDHRA PRADESH_merged.xlsx
+2025-11-02 21:03:42,942 - INFO - Loaded Excel file successfully with 22 rows
+2025-11-02 21:03:43,010 - INFO - Expanded 24 rows from 22 original rows
+2025-11-02 21:03:43,022 - INFO - Cleaned and standardized text/numeric fields for 'Borrower Name'
+2025-11-02 21:03:43,030 - INFO - Cleaned and standardized text/numeric fields for 'Ind _Director Name'
+2025-11-02 21:03:43,036 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-11-02 21:03:43,093 - INFO - Saved expanded file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-08-25_ANDHRA PRADESH_merged.xlsx (24 rows)
+2025-11-02 21:03:43,126 - INFO - 🕒 Time taken: 0.22 seconds
+
+2025-11-02 21:03:43,127 - INFO - Processing file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_ARUNACHAL PRADESH_merged.xlsx
+2025-11-02 21:03:43,163 - INFO - Loaded Excel file successfully with 6 rows
+2025-11-02 21:03:43,180 - INFO - Expanded 6 rows from 6 original rows
+2025-11-02 21:03:43,188 - INFO - Cleaned and standardized text/numeric fields for 'Borrower Name'
+2025-11-02 21:03:43,194 - INFO - Cleaned and standardized text/numeric fields for 'Ind _Director Name'
+2025-11-02 21:03:43,199 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-11-02 21:03:43,225 - INFO - Saved expanded file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-08-25_ARUNACHAL PRADESH_merged.xlsx (6 rows)
+2025-11-02 21:03:43,255 - INFO - 🕒 Time taken: 0.13 seconds
+
+2025-11-02 21:03:43,256 - INFO - Processing file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_BIHAR_merged.xlsx
+2025-11-02 21:03:43,291 - INFO - Loaded Excel file successfully with 11 rows
+2025-11-02 21:03:43,323 - INFO - Expanded 15 rows from 11 original rows
+2025-11-02 21:03:43,331 - INFO - Cleaned and standardized text/numeric fields for 'Borrower Name'
+2025-11-02 21:03:43,337 - INFO - Cleaned and standardized text/numeric fields for 'Ind _Director Name'
+2025-11-02 21:03:43,342 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-11-02 21:03:43,395 - INFO - Saved expanded file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-08-25_BIHAR_merged.xlsx (15 rows)
+2025-11-02 21:03:43,422 - INFO - 🕒 Time taken: 0.16 seconds
+
+2025-11-02 21:03:43,423 - INFO - Processing file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_GOA_merged.xlsx
+2025-11-02 21:03:43,461 - INFO - Loaded Excel file successfully with 11 rows
+2025-11-02 21:03:43,503 - INFO - Expanded 20 rows from 11 original rows
+2025-11-02 21:03:43,510 - INFO - Cleaned and standardized text/numeric fields for 'Borrower Name'
+2025-11-02 21:03:43,517 - INFO - Cleaned and standardized text/numeric fields for 'Ind _Director Name'
+2025-11-02 21:03:43,521 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-11-02 21:03:43,575 - INFO - Saved expanded file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-08-25_GOA_merged.xlsx (20 rows)
+2025-11-02 21:03:43,604 - INFO - 🕒 Time taken: 0.18 seconds
+
+2025-11-02 21:03:43,604 - INFO - Processing file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_GUJARAT_merged.xlsx
+2025-11-02 21:03:43,649 - INFO - Loaded Excel file successfully with 22 rows
+2025-11-02 21:03:43,757 - INFO - Expanded 55 rows from 22 original rows
+2025-11-02 21:03:43,766 - INFO - Cleaned and standardized text/numeric fields for 'Borrower Name'
+2025-11-02 21:03:43,774 - INFO - Cleaned and standardized text/numeric fields for 'Ind _Director Name'
+2025-11-02 21:03:43,777 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-11-02 21:03:43,853 - INFO - Saved expanded file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-08-25_GUJARAT_merged.xlsx (55 rows)
+2025-11-02 21:03:43,879 - INFO - 🕒 Time taken: 0.27 seconds
+
+2025-11-02 21:03:43,880 - INFO - Processing file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final\31-08-25_merged\31-08-25_MAHARASHTRA_merged.xlsx
+2025-11-02 21:03:43,929 - INFO - Loaded Excel file successfully with 44 rows
+2025-11-02 21:03:44,065 - INFO - Expanded 71 rows from 44 original rows
+2025-11-02 21:03:44,075 - INFO - Cleaned and standardized text/numeric fields for 'Borrower Name'
+2025-11-02 21:03:44,084 - INFO - Cleaned and standardized text/numeric fields for 'Ind _Director Name'
+2025-11-02 21:03:44,089 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-11-02 21:03:44,173 - INFO - Saved expanded file: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-08-25_MAHARASHTRA_merged.xlsx (71 rows)
+2025-11-02 21:03:44,201 - INFO - 🕒 Time taken: 0.32 seconds
+
+2025-11-02 21:03:44,203 - INFO - Files found: []
+

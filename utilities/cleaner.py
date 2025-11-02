@@ -58,21 +58,20 @@ def expand_directors_data(file_path, output_folder, logger):
     # Safely clean numeric field only if column exists
     if 'OutStanding Amount ( Rs. in Lacs)' in df_expanded.columns:
         df_expanded['OutStanding Amount ( Rs. in Lacs)'] = (
-            df_expanded['OutStanding Amount ( Rs. in Lacs)']
-                .astype(str)
-                .str.replace(',', '', regex=False)
-                .astype(float)
+            pd.to_numeric(
+                df_expanded['OutStanding Amount ( Rs. in Lacs)'].astype(str).str.replace(',', '', regex=False),
+                errors='coerce'
+            )
         )
+        # df_expanded['OutStanding Amount ( Rs. in Lacs)'] = (
+        #     df_expanded['OutStanding Amount ( Rs. in Lacs)']
+        #         .astype(str)
+        #         .str.replace(',', '', regex=False)
+        #         .astype(float)
+        # )
     else:
         logger.warning(f"⚠️ Missing column 'OutStanding Amount ( Rs. in Lacs)' in {file_path}")
         df_expanded['OutStanding Amount ( Rs. in Lacs)'] = None
-
-    # df_expanded['OutStanding Amount ( Rs. in Lacs)'] = (
-    # df_expanded['OutStanding Amount ( Rs. in Lacs)']
-    #     .astype(str)                  # ensure everything is string
-    #     .str.replace(',', '   ', regex=False)  
-    #     .astype(float)                # convert back to float
-    # )
 
     if 'Borrower Name' in df_expanded.columns:
         df_expanded['Borrower Name'] = (
@@ -199,7 +198,7 @@ def cleaner(logger):
         os.makedirs(output_folder, exist_ok=True)  # create folder if it doesn't exist
         print(f'📂 Current folder path: {current_path}\n')
         logger.info(f"Current folder path: {current_path}")
-        folder_list = [f for f in current_path.iterdir() if f.is_dir() and 'merged' in f.name.lower()]
+        folder_list = [f for f in current_path.iterdir() if f.is_dir()]
         print(f'📁 Folders found for processing: {folder_list}\n')
         logger.info(f"Folders found for processing: {folder_list}")
         for folder in folder_list:

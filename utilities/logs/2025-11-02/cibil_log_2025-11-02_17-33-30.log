@@ -1,0 +1,118 @@
+2025-11-02 17:33:30,296 - INFO - Logging initialized at: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\utilities\logs\2025-11-02\cibil_log_2025-11-02_17-33-30.log
+2025-11-02 17:33:30,297 - INFO - ▶ Running script...
+2025-11-02 17:33:30,297 - INFO - Running script...
+2025-11-02 17:33:30,299 - INFO - Selected Configurations: 
+state type: state, 
+Defaulters type: >25 lacs, 
+Date: 31-08-25, 
+Timeout: 60 seconds
+2025-11-02 17:33:30,299 - INFO - All States: {'CHANDIGARH', 'UNITED STATES OF AMERICA', 'MEGHALAYA', 'SOUTH AFRICA', 'OMAN', 'ANDHRA PRADESH', 'ROHTAK', 'ISRAEL', 'ANDAMAN AND NICOBAR ISLANDS', 'UTAH', 'JAKARTA', 'KERALA', 'LONDON', 'BELGIUM', 'ATLANTA, USA', 'SIKKIM', 'GUJARAT', 'CAYMAN ISLAND', 'COLOMBO', 'LUXEMBOURG', 'BRITISH VIRGIN ISLAND', 'MADHYA PRADESH', 'RAJASTHAN', 'THAILAND', 'KINGDOM OF BAHRAIN', 'BANGKOK', 'MANIPUR', 'NOT REPORTED', 'OVERSEAS', 'CHHATTISGARH', 'PUNJAB', 'UTTARANCHAL', 'DADRA AND NAGAR HAVELI', 'SINGAPORE', 'BHOPAL', 'MANCHESTER', 'ASSAM', 'DUBAI', 'WASHINGTON', 'NEW YORK', 'UNITED KINGDOM', 'BAHRAIN', 'ENGLAND', 'UTTAR PRADESH', 'TELANGANA', 'HARYANA', 'SRI LANKA', 'CYPRUS', 'DELHI', 'JAMMU & KASHMIR', 'MALDIVES', 'PUDUCHERRY', 'UTTARAKHAND', 'BANGLADESH', 'KARNATAKA', 'JAPAN', 'TAMIL NADU', 'DUBAI, UAE', 'PANAMA', 'GERMANY', 'AMSTERDAM', 'CHANDIGARH & DELHI', 'MIZORAM', 'ORISSA', 'UNITED ARAB EMIRATES', 'QATAR', 'HYDERABAD', 'AUSTRALIA', 'WEST BENGAL', 'LAKSHADWEEP', 'MAHARASHTRA', 'TRIPURA', 'CHANDIGARH (U.T.) & DELHI', 'ABCD', 'PONDICHERRY', 'JHARKHAND', 'HIMACHAL PRADESH', 'NAGALAND', 'BIHAR', 'GOA', 'OBU', 'HONG KONG', 'NEW DELHI', 'ARUNACHAL PRADESH', 'UNITED ARAB EMIRATES UAE', 'DAMAN AND DIU', 'MISSISSIPPI, USA'}
+2025-11-02 17:33:30,301 - INFO - Selected States: ['BIHAR', 'GOA', 'GUJARAT', 'MAHARASHTRA']
+2025-11-02 17:33:30,301 - INFO - ▶ Starting batch search for date: 31-08-25
+2025-11-02 17:33:30,302 - INFO - Running automation for State: BIHAR, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 17:33:32,105 - INFO - Browser launched.
+2025-11-02 17:33:33,074 - INFO - Page loaded.
+2025-11-02 17:33:33,075 - INFO - ▶ Performing search for date:31-08-25, state:BIHAR, Defaulters type:>25 lacs
+2025-11-02 17:33:36,302 - INFO - ▶ Waiting for search results...
+2025-11-02 17:33:43,863 - INFO - Pagination text: View 1 - 125 of 125
+2025-11-02 17:33:43,864 - INFO - Fetched: 125, Total: 125
+2025-11-02 17:33:43,864 - INFO - ▶ Fetched 125 out of 125 rows.
+2025-11-02 17:33:43,865 - INFO - Pagination limit: 1
+2025-11-02 17:33:43,865 - INFO - Raw Data for BIHAR already exists. Skipping raw table extraction.
+2025-11-02 17:33:43,866 - INFO - Found 1 raw Excel files for BIHAR
+2025-11-02 17:33:44,336 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 17:33:44,337 - INFO - Directors already extracted for row 2, skipping...
+2025-11-02 17:33:44,337 - INFO - Directors already extracted for row 3, skipping...
+2025-11-02 17:33:44,384 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_BIHAR_state_page_1.xlsx
+2025-11-02 17:33:44,948 - INFO - Running automation for State: GOA, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 17:33:46,590 - INFO - Browser launched.
+2025-11-02 17:33:47,741 - INFO - Page loaded.
+2025-11-02 17:33:47,742 - INFO - ▶ Performing search for date:31-08-25, state:GOA, Defaulters type:>25 lacs
+2025-11-02 17:33:50,965 - INFO - ▶ Waiting for search results...
+2025-11-02 17:33:58,594 - INFO - Pagination text: View 1 - 25 of 25
+2025-11-02 17:33:58,595 - INFO - Fetched: 25, Total: 25
+2025-11-02 17:33:58,595 - INFO - ▶ Fetched 25 out of 25 rows.
+2025-11-02 17:33:58,595 - INFO - Pagination limit: 1
+2025-11-02 17:33:58,596 - INFO - Raw Data for GOA already exists. Skipping raw table extraction.
+2025-11-02 17:33:58,596 - INFO - Found 1 raw Excel files for GOA
+2025-11-02 17:33:58,636 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 17:33:58,637 - INFO - Directors already extracted for row 2, skipping...
+2025-11-02 17:33:58,638 - INFO - Directors already extracted for row 3, skipping...
+2025-11-02 17:33:58,662 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_GOA_state_page_1.xlsx
+2025-11-02 17:33:59,202 - INFO - Running automation for State: GUJARAT, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 17:34:00,890 - INFO - Browser launched.
+2025-11-02 17:34:01,899 - INFO - Page loaded.
+2025-11-02 17:34:01,899 - INFO - ▶ Performing search for date:31-08-25, state:GUJARAT, Defaulters type:>25 lacs
+2025-11-02 17:34:05,216 - INFO - ▶ Waiting for search results...
+2025-11-02 17:34:12,869 - INFO - Pagination text: View 1 - 1,000 of 1,233
+2025-11-02 17:34:12,869 - INFO - Fetched: 1000, Total: 1233
+2025-11-02 17:34:12,869 - INFO - ▶ Fetched 1000 out of 1233 rows.
+2025-11-02 17:34:12,870 - INFO - Pagination limit: 2
+2025-11-02 17:34:12,870 - INFO - Raw Data for GUJARAT already exists. Skipping raw table extraction.
+2025-11-02 17:34:12,871 - INFO - Found 2 raw Excel files for GUJARAT
+2025-11-02 17:34:12,910 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 17:34:12,911 - INFO - Directors already extracted for row 2, skipping...
+2025-11-02 17:34:12,911 - INFO - Directors already extracted for row 3, skipping...
+2025-11-02 17:34:12,933 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_GUJARAT_state_page_1.xlsx
+2025-11-02 17:34:12,975 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 17:34:12,975 - INFO - Directors already extracted for row 2, skipping...
+2025-11-02 17:34:12,976 - INFO - Directors already extracted for row 3, skipping...
+2025-11-02 17:34:12,998 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_GUJARAT_state_page_2.xlsx
+2025-11-02 17:34:13,531 - INFO - Running automation for State: MAHARASHTRA, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 17:34:15,161 - INFO - Browser launched.
+2025-11-02 17:34:16,200 - INFO - Page loaded.
+2025-11-02 17:34:16,201 - INFO - ▶ Performing search for date:31-08-25, state:MAHARASHTRA, Defaulters type:>25 lacs
+2025-11-02 17:34:19,583 - INFO - ▶ Waiting for search results...
+2025-11-02 17:34:27,262 - INFO - Pagination text: View 1 - 1,000 of 3,659
+2025-11-02 17:34:27,263 - INFO - Fetched: 1000, Total: 3659
+2025-11-02 17:34:27,263 - INFO - ▶ Fetched 1000 out of 3659 rows.
+2025-11-02 17:34:27,264 - INFO - Pagination limit: 4
+2025-11-02 17:34:27,264 - INFO - Raw Data for MAHARASHTRA already exists. Skipping raw table extraction.
+2025-11-02 17:34:27,265 - INFO - Found 4 raw Excel files for MAHARASHTRA
+2025-11-02 17:34:27,279 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 17:34:27,279 - INFO - Directors already extracted for row 2, skipping...
+2025-11-02 17:34:27,280 - INFO - Directors already extracted for row 3, skipping...
+2025-11-02 17:34:27,300 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_MAHARASHTRA_state_page_1.xlsx
+2025-11-02 17:34:27,314 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 17:34:27,315 - INFO - Directors already extracted for row 2, skipping...
+2025-11-02 17:34:27,315 - INFO - Directors already extracted for row 3, skipping...
+2025-11-02 17:34:27,336 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_MAHARASHTRA_state_page_2.xlsx
+2025-11-02 17:34:27,349 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 17:34:27,350 - INFO - ▶ Extracting directors for row 2: SWASTISH ENTERPRISES LIMITED & SATISH KRISHNAKANT MOHOLE
+2025-11-02 17:34:27,522 - INFO - Loader disappeared.
+2025-11-02 17:34:28,555 - INFO - Found 3 director rows.
+2025-11-02 17:34:28,749 - INFO - Successfully extracted director data.
+2025-11-02 17:34:28,976 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-02 17:34:35,303 - INFO - Loader disappeared.
+2025-11-02 17:34:36,304 - INFO - 🔄 Page reloaded successfully.
+2025-11-02 17:34:36,306 - INFO - ▶ Extracting directors for row 3: Z ENGINEERING WORKS    RAJU S MUDIYAR  - Prop
+2025-11-02 17:34:36,497 - INFO - Loader disappeared.
+2025-11-02 17:34:37,530 - INFO - Found 1 director rows.
+2025-11-02 17:34:37,585 - INFO - Successfully extracted director data.
+2025-11-02 17:34:37,811 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-02 17:34:43,227 - INFO - Loader disappeared.
+2025-11-02 17:34:44,228 - INFO - 🔄 Page reloaded successfully.
+2025-11-02 17:34:44,251 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_MAHARASHTRA_state_page_3.xlsx
+2025-11-02 17:34:44,296 - INFO - ▶ Extracting directors for row 1: Uttamrao Sahebrao Phadtare
+2025-11-02 17:34:44,495 - INFO - Loader disappeared.
+2025-11-02 17:34:45,524 - INFO - Found 1 director rows.
+2025-11-02 17:34:45,580 - INFO - Successfully extracted director data.
+2025-11-02 17:34:45,807 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-02 17:34:51,398 - INFO - Loader disappeared.
+2025-11-02 17:34:52,399 - INFO - 🔄 Page reloaded successfully.
+2025-11-02 17:34:52,420 - INFO - Checkpoint saved at row 1 for C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_MAHARASHTRA_state_page_4.xlsx
+2025-11-02 17:34:52,421 - INFO - ▶ Extracting directors for row 2: Padmini food Products
+2025-11-02 17:34:52,592 - INFO - Loader disappeared.
+2025-11-02 17:34:53,621 - INFO - Found 1 director rows.
+2025-11-02 17:34:53,676 - INFO - Successfully extracted director data.
+2025-11-02 17:34:53,901 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-02 17:34:59,362 - INFO - Loader disappeared.
+2025-11-02 17:35:00,363 - INFO - 🔄 Page reloaded successfully.
+2025-11-02 17:35:00,364 - INFO - ▶ Extracting directors for row 3: Digambar Agro Industries
+2025-11-02 17:35:00,595 - INFO - Loader disappeared.
+2025-11-02 17:35:01,623 - INFO - Found 1 director rows.
+2025-11-02 17:35:01,671 - INFO - Successfully extracted director data.
+2025-11-02 17:35:01,903 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-02 17:35:07,534 - INFO - Loader disappeared.
+2025-11-02 17:35:08,535 - INFO - 🔄 Page reloaded successfully.
+2025-11-02 17:35:08,561 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_MAHARASHTRA_state_page_4.xlsx

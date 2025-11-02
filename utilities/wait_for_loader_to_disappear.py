@@ -1,4 +1,6 @@
-def wait_for_loader_to_disappear(page, logging, timeout=60000):
+# wait_for_loader_to_disappear.py
+
+def wait_for_loader_to_disappear(page, logger, timeout_ms:int=60000):
     """
     Waits for the page loader to disappear.
     
@@ -10,10 +12,9 @@ def wait_for_loader_to_disappear(page, logging, timeout=60000):
         page.wait_for_selector(
             "div.blockUI.blockMsg.blockPage",
             state="detached",
-            timeout=timeout
+            timeout=timeout_ms
         )
-        print("✅ Loader disappeared.")
-        logging.info("Loader disappeared.")
+        logger.info("Loader disappeared.")
     except Exception:
-        print(f"⚠️ Loader did not disappear within {timeout/1000} seconds.")
-        logging.warning(f"Loader did not disappear within {timeout/1000} seconds.")
+        logger.warning(f"⚠️ Loader did not disappear within {timeout_ms/1000} seconds...")
+        

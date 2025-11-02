@@ -1,0 +1,54 @@
+2025-11-02 15:20:19,752 - INFO - Running script...
+2025-11-02 15:20:19,754 - INFO - Selected Configurations: 
+state type: state, 
+Defaulters type: >25 lacs, 
+Date: 31-08-25, 
+Timeout: 60 seconds
+2025-11-02 15:20:19,754 - INFO - All States: {'AUSTRALIA', 'MANIPUR', 'NAGALAND', 'JAKARTA', 'ATLANTA, USA', 'SOUTH AFRICA', 'JHARKHAND', 'CAYMAN ISLAND', 'BELGIUM', 'COLOMBO', 'BRITISH VIRGIN ISLAND', 'OMAN', 'CYPRUS', 'NEW YORK', 'UTTARAKHAND', 'UNITED KINGDOM', 'PUDUCHERRY', 'LAKSHADWEEP', 'SRI LANKA', 'MADHYA PRADESH', 'AMSTERDAM', 'CHHATTISGARH', 'DUBAI', 'RAJASTHAN', 'UNITED ARAB EMIRATES UAE', 'HARYANA', 'ASSAM', 'DAMAN AND DIU', 'QATAR', 'SINGAPORE', 'THAILAND', 'BIHAR', 'GERMANY', 'OVERSEAS', 'TELANGANA', 'MIZORAM', 'WASHINGTON', 'KINGDOM OF BAHRAIN', 'ROHTAK', 'OBU', 'GOA', 'DUBAI, UAE', 'LONDON', 'LUXEMBOURG', 'MALDIVES', 'PANAMA', 'HIMACHAL PRADESH', 'MANCHESTER', 'WEST BENGAL', 'DADRA AND NAGAR HAVELI', 'ENGLAND', 'BHOPAL', 'UNITED STATES OF AMERICA', 'JAMMU & KASHMIR', 'BAHRAIN', 'BANGLADESH', 'TAMIL NADU', 'TRIPURA', 'ABCD', 'UNITED ARAB EMIRATES', 'ARUNACHAL PRADESH', 'NOT REPORTED', 'SIKKIM', 'JAPAN', 'UTTAR PRADESH', 'DELHI', 'ANDHRA PRADESH', 'UTAH', 'PONDICHERRY', 'NEW DELHI', 'ISRAEL', 'CHANDIGARH & DELHI', 'CHANDIGARH (U.T.) & DELHI', 'HYDERABAD', 'MISSISSIPPI, USA', 'ANDAMAN AND NICOBAR ISLANDS', 'KARNATAKA', 'ORISSA', 'UTTARANCHAL', 'HONG KONG', 'KERALA', 'GUJARAT', 'MAHARASHTRA', 'BANGKOK', 'MEGHALAYA', 'CHANDIGARH', 'PUNJAB'}
+2025-11-02 15:20:19,755 - INFO - Selected States: ['ANDAMAN AND NICOBAR ISLANDS', 'ARUNACHAL PRADESH', 'GOA']
+2025-11-02 15:20:19,755 - INFO - Starting batch search for date: 31-08-25
+2025-11-02 15:20:19,756 - INFO - Running automation for State: ANDAMAN AND NICOBAR ISLANDS, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 15:20:19,757 - DEBUG - Using proactor: IocpProactor
+2025-11-02 15:20:21,762 - INFO - Browser launched.
+2025-11-02 15:20:22,788 - INFO - Page loaded.
+2025-11-02 15:20:22,789 - INFO - Performing search for date:31-08-25, state:ANDAMAN AND NICOBAR ISLANDS, Defaulters type:>25 lacs
+2025-11-02 15:20:26,083 - INFO - Waiting for search results...
+2025-11-02 15:20:26,112 - INFO - Loader disappeared after clicking Search.
+2025-11-02 15:20:33,587 - INFO - Pagination text: View 1 - 2 of 2
+2025-11-02 15:20:33,588 - INFO - Fetched: 2, Total: 2
+2025-11-02 15:20:33,588 - INFO - Fetched 2 out of 2 rows.
+2025-11-02 15:20:33,589 - INFO - Pagination limit: 1
+2025-11-02 15:20:33,589 - INFO - Raw Data for ANDAMAN AND NICOBAR ISLANDS already exists. Skipping raw table extraction.
+2025-11-02 15:20:34,107 - INFO - \u2705 Updated raw file saved with director info \u2192 C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_ANDAMAN AND NICOBAR ISLANDS_state_page_1_20251102_151517.xlsx
+2025-11-02 15:20:34,679 - INFO - Running automation for State: ARUNACHAL PRADESH, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 15:20:34,680 - DEBUG - Using proactor: IocpProactor
+2025-11-02 15:20:36,382 - INFO - Browser launched.
+2025-11-02 15:20:37,700 - INFO - Page loaded.
+2025-11-02 15:20:37,700 - INFO - Performing search for date:31-08-25, state:ARUNACHAL PRADESH, Defaulters type:>25 lacs
+2025-11-02 15:20:40,965 - INFO - Waiting for search results...
+2025-11-02 15:20:40,992 - INFO - Loader disappeared after clicking Search.
+2025-11-02 15:20:48,536 - INFO - Pagination text: View 1 - 6 of 6
+2025-11-02 15:20:48,536 - INFO - Fetched: 6, Total: 6
+2025-11-02 15:20:48,537 - INFO - Fetched 6 out of 6 rows.
+2025-11-02 15:20:48,537 - INFO - Pagination limit: 1
+2025-11-02 15:20:48,538 - INFO - Raw Data for ARUNACHAL PRADESH already exists. Skipping raw table extraction.
+2025-11-02 15:20:48,610 - INFO - \u2705 Updated raw file saved with director info \u2192 C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_ARUNACHAL PRADESH_state_page_1_20251102_151551.xlsx
+2025-11-02 15:20:49,220 - INFO - Running automation for State: GOA, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 15:20:49,220 - DEBUG - Using proactor: IocpProactor
+2025-11-02 15:20:51,018 - INFO - Browser launched.
+2025-11-02 15:20:52,266 - INFO - Page loaded.
+2025-11-02 15:20:52,266 - INFO - Performing search for date:31-08-25, state:GOA, Defaulters type:>25 lacs
+2025-11-02 15:20:55,585 - INFO - Waiting for search results...
+2025-11-02 15:20:55,614 - INFO - Loader disappeared after clicking Search.
+2025-11-02 15:21:03,211 - INFO - Pagination text: View 1 - 25 of 25
+2025-11-02 15:21:03,211 - INFO - Fetched: 25, Total: 25
+2025-11-02 15:21:03,211 - INFO - Fetched 25 out of 25 rows.
+2025-11-02 15:21:03,212 - INFO - Pagination limit: 1
+2025-11-02 15:21:03,212 - INFO - Raw Data for GOA already exists. Skipping raw table extraction.
+2025-11-02 15:21:03,244 - INFO - \u2705 Updated raw file saved with director info \u2192 C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_GOA_state_page_1_20251102_151657.xlsx
+2025-11-02 15:21:03,786 - INFO - Current working folder: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final
+2025-11-02 15:21:03,787 - INFO - Folders found for processing: [WindowsPath('C:/Users/piyush gala/PC/Portfolio/cibil_web_scrapping_automation/fetched_data/final/cibil_data_with_directors__25_lacs_31-08-25_for_state')]
+2025-11-02 15:21:03,788 - INFO - All states loaded successfully: 87 states found.
+2025-11-02 15:21:03,790 - INFO - State-Date wise file mapping created with 0 keys.
+2025-11-02 15:21:03,791 - INFO - Current folder path: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final
+2025-11-02 15:21:03,792 - INFO - Folders found for processing: []

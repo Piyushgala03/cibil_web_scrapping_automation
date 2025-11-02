@@ -1,0 +1,107 @@
+2025-11-02 20:49:44,962 - INFO - Logging initialized at: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\utilities\logs\2025-11-02\cibil_log_2025-11-02_20-49-44.log
+2025-11-02 20:49:44,964 - INFO - Read path: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation
+2025-11-02 20:49:44,964 - INFO - Write path: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation
+2025-11-02 20:49:44,965 - INFO - ▶ Running script...
+2025-11-02 20:49:44,965 - INFO - Running script...
+2025-11-02 20:49:44,967 - INFO - Selected Configurations: 
+state type: state, 
+Defaulters type: >25 lacs, 
+Date: 31-08-25, 
+Timeout: 60 seconds
+2025-11-02 20:49:44,968 - INFO - All States: {'HIMACHAL PRADESH', 'WASHINGTON', 'LONDON', 'TAMIL NADU', 'BHOPAL', 'GOA', 'BANGKOK', 'KINGDOM OF BAHRAIN', 'RAJASTHAN', 'UTTARAKHAND', 'DUBAI, UAE', 'DUBAI', 'ENGLAND', 'OBU', 'ARUNACHAL PRADESH', 'BAHRAIN', 'KARNATAKA', 'AMSTERDAM', 'UNITED ARAB EMIRATES UAE', 'DAMAN AND DIU', 'ASSAM', 'COLOMBO', 'UTAH', 'PONDICHERRY', 'OVERSEAS', 'MAHARASHTRA', 'QATAR', 'ROHTAK', 'AUSTRALIA', 'UNITED ARAB EMIRATES', 'LAKSHADWEEP', 'CHHATTISGARH', 'GUJARAT', 'ABCD', 'TRIPURA', 'NAGALAND', 'BELGIUM', 'MADHYA PRADESH', 'PANAMA', 'THAILAND', 'ANDHRA PRADESH', 'PUDUCHERRY', 'LUXEMBOURG', 'SOUTH AFRICA', 'KERALA', 'JAKARTA', 'ORISSA', 'MANCHESTER', 'CHANDIGARH', 'DELHI', 'BIHAR', 'MIZORAM', 'HYDERABAD', 'GERMANY', 'ISRAEL', 'CYPRUS', 'PUNJAB', 'JHARKHAND', 'ANDAMAN AND NICOBAR ISLANDS', 'SRI LANKA', 'OMAN', 'BANGLADESH', 'MALDIVES', 'BRITISH VIRGIN ISLAND', 'WEST BENGAL', 'TELANGANA', 'MEGHALAYA', 'UNITED STATES OF AMERICA', 'NEW YORK', 'HONG KONG', 'JAPAN', 'HARYANA', 'JAMMU & KASHMIR', 'DADRA AND NAGAR HAVELI', 'UTTARANCHAL', 'UNITED KINGDOM', 'SINGAPORE', 'MANIPUR', 'CHANDIGARH (U.T.) & DELHI', 'NEW DELHI', 'CAYMAN ISLAND', 'UTTAR PRADESH', 'ATLANTA, USA', 'CHANDIGARH & DELHI', 'MISSISSIPPI, USA', 'NOT REPORTED', 'SIKKIM'}
+2025-11-02 20:49:44,969 - INFO - Selected States: ['GUJARAT']
+2025-11-02 20:49:44,969 - INFO - ▶ Starting batch search for Date: 31-08-25
+2025-11-02 20:49:44,970 - INFO - Running automation for State: GUJARAT, Date: 31-08-25, Defaulters type: >25 lacs
+2025-11-02 20:49:47,044 - INFO - Browser launched.
+2025-11-02 20:49:48,128 - INFO - Page loaded.
+2025-11-02 20:49:48,128 - INFO - ▶ Performing search for Date:31-08-25, State:GUJARAT, Defaulters type:>25 lacs
+2025-11-02 20:49:51,876 - INFO - ▶ Waiting for search results...
+2025-11-02 20:50:00,530 - INFO - Pagination text: View 1 - 1,000 of 1,233
+2025-11-02 20:50:00,531 - INFO - Fetched: 1000, Total: 1233
+2025-11-02 20:50:00,532 - INFO - ▶ Fetched 1000 out of 1233 rows.
+2025-11-02 20:50:00,532 - INFO - Pagination limit: 2
+2025-11-02 20:50:00,532 - INFO - Raw Data for GUJARAT already exists. Skipping raw table extraction.
+2025-11-02 20:50:00,533 - INFO - Found 2 raw Excel files for GUJARAT
+2025-11-02 20:50:01,145 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 20:50:01,145 - INFO - Directors already extracted for row 2, skipping...
+2025-11-02 20:50:01,146 - INFO - Directors already extracted for row 3, skipping...
+2025-11-02 20:50:01,146 - INFO - Directors already extracted for row 4, skipping...
+2025-11-02 20:50:01,147 - INFO - Directors already extracted for row 5, skipping...
+2025-11-02 20:50:01,147 - INFO - Directors already extracted for row 6, skipping...
+2025-11-02 20:50:01,148 - INFO - Directors already extracted for row 7, skipping...
+2025-11-02 20:50:01,148 - INFO - Directors already extracted for row 8, skipping...
+2025-11-02 20:50:01,149 - INFO - Directors already extracted for row 9, skipping...
+2025-11-02 20:50:01,149 - INFO - Directors already extracted for row 10, skipping...
+2025-11-02 20:50:01,150 - INFO - Directors already extracted for row 11, skipping...
+2025-11-02 20:50:01,209 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_GUJARAT_state_page_1.xlsx
+2025-11-02 20:50:01,264 - INFO - Directors already extracted for row 1, skipping...
+2025-11-02 20:50:01,267 - INFO - Directors already extracted for row 2, skipping...
+2025-11-02 20:50:01,270 - INFO - Directors already extracted for row 3, skipping...
+2025-11-02 20:50:01,272 - INFO - Directors already extracted for row 4, skipping...
+2025-11-02 20:50:01,273 - INFO - Directors already extracted for row 5, skipping...
+2025-11-02 20:50:01,274 - INFO - Directors already extracted for row 6, skipping...
+2025-11-02 20:50:01,275 - INFO - Directors already extracted for row 7, skipping...
+2025-11-02 20:50:01,276 - INFO - Directors already extracted for row 8, skipping...
+2025-11-02 20:50:01,277 - INFO - Directors already extracted for row 9, skipping...
+2025-11-02 20:50:01,279 - INFO - Directors already extracted for row 10, skipping...
+2025-11-02 20:50:01,280 - INFO - Directors already extracted for row 11, skipping...
+2025-11-02 20:50:01,330 - INFO - ✅ Updated raw file saved with director info → C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state\cibil_data_31-08-25_GUJARAT_state_page_2.xlsx
+2025-11-02 20:50:01,965 - INFO - 📂 Current folder path: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw
+
+2025-11-02 20:50:01,967 - INFO - 📁 Folders found for processing: [WindowsPath('C:/Users/piyush gala/PC/Portfolio/cibil_web_scrapping_automation/fetched_data/raw/cibil_data__25_lacs_31-08-25_for_state')]
+
+2025-11-02 20:50:01,968 - INFO - All states loaded successfully: 87 states found.
+2025-11-02 20:50:01,968 - INFO - --- Opening folder: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\raw\cibil_data__25_lacs_31-08-25_for_state ---
+2025-11-02 20:50:01,969 - INFO - Files found: ['cibil_data_31-08-25_ANDHRA PRADESH_state_page_1.xlsx', 'cibil_data_31-08-25_ANDHRA PRADESH_state_page_2.xlsx', 'cibil_data_31-08-25_ARUNACHAL PRADESH_state_page_1.xlsx', 'cibil_data_31-08-25_BIHAR_state_page_1.xlsx', 'cibil_data_31-08-25_GOA_state_page_1.xlsx', 'cibil_data_31-08-25_GUJARAT_state_page_1.xlsx', 'cibil_data_31-08-25_GUJARAT_state_page_2.xlsx', 'cibil_data_31-08-25_MAHARASHTRA_state_page_1.xlsx', 'cibil_data_31-08-25_MAHARASHTRA_state_page_2.xlsx', 'cibil_data_31-08-25_MAHARASHTRA_state_page_3.xlsx', 'cibil_data_31-08-25_MAHARASHTRA_state_page_4.xlsx']
+
+2025-11-02 20:50:01,969 - INFO - Processing file: cibil_data_31-08-25_ANDHRA PRADESH_state_page_1.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'ANDHRA PRADESH', 'state', 'page', '1.xlsx']
+2025-11-02 20:50:01,970 - INFO - Extracted state: ANDHRA PRADESH, date: 31-08-25
+2025-11-02 20:50:01,970 - INFO - Added file cibil_data_31-08-25_ANDHRA PRADESH_state_page_1.xlsx to key ('ANDHRA PRADESH', '31-08-25')
+2025-11-02 20:50:01,971 - INFO - Processing file: cibil_data_31-08-25_ANDHRA PRADESH_state_page_2.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'ANDHRA PRADESH', 'state', 'page', '2.xlsx']
+2025-11-02 20:50:01,971 - INFO - Extracted state: ANDHRA PRADESH, date: 31-08-25
+2025-11-02 20:50:01,971 - INFO - Added file cibil_data_31-08-25_ANDHRA PRADESH_state_page_2.xlsx to key ('ANDHRA PRADESH', '31-08-25')
+2025-11-02 20:50:01,972 - INFO - Processing file: cibil_data_31-08-25_ARUNACHAL PRADESH_state_page_1.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'ARUNACHAL PRADESH', 'state', 'page', '1.xlsx']
+2025-11-02 20:50:01,972 - INFO - Extracted state: ARUNACHAL PRADESH, date: 31-08-25
+2025-11-02 20:50:01,972 - INFO - Added file cibil_data_31-08-25_ARUNACHAL PRADESH_state_page_1.xlsx to key ('ARUNACHAL PRADESH', '31-08-25')
+2025-11-02 20:50:01,973 - INFO - Processing file: cibil_data_31-08-25_BIHAR_state_page_1.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'BIHAR', 'state', 'page', '1.xlsx']
+2025-11-02 20:50:01,973 - INFO - Extracted state: BIHAR, date: 31-08-25
+2025-11-02 20:50:01,974 - INFO - Added file cibil_data_31-08-25_BIHAR_state_page_1.xlsx to key ('BIHAR', '31-08-25')
+2025-11-02 20:50:01,974 - INFO - Processing file: cibil_data_31-08-25_GOA_state_page_1.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'GOA', 'state', 'page', '1.xlsx']
+2025-11-02 20:50:01,974 - INFO - Extracted state: GOA, date: 31-08-25
+2025-11-02 20:50:01,975 - INFO - Added file cibil_data_31-08-25_GOA_state_page_1.xlsx to key ('GOA', '31-08-25')
+2025-11-02 20:50:01,975 - INFO - Processing file: cibil_data_31-08-25_GUJARAT_state_page_1.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'GUJARAT', 'state', 'page', '1.xlsx']
+2025-11-02 20:50:01,976 - INFO - Extracted state: GUJARAT, date: 31-08-25
+2025-11-02 20:50:01,976 - INFO - Added file cibil_data_31-08-25_GUJARAT_state_page_1.xlsx to key ('GUJARAT', '31-08-25')
+2025-11-02 20:50:01,976 - INFO - Processing file: cibil_data_31-08-25_GUJARAT_state_page_2.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'GUJARAT', 'state', 'page', '2.xlsx']
+2025-11-02 20:50:01,977 - INFO - Extracted state: GUJARAT, date: 31-08-25
+2025-11-02 20:50:01,977 - INFO - Added file cibil_data_31-08-25_GUJARAT_state_page_2.xlsx to key ('GUJARAT', '31-08-25')
+2025-11-02 20:50:01,977 - INFO - Processing file: cibil_data_31-08-25_MAHARASHTRA_state_page_1.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'MAHARASHTRA', 'state', 'page', '1.xlsx']
+2025-11-02 20:50:01,978 - INFO - Extracted state: MAHARASHTRA, date: 31-08-25
+2025-11-02 20:50:01,978 - INFO - Added file cibil_data_31-08-25_MAHARASHTRA_state_page_1.xlsx to key ('MAHARASHTRA', '31-08-25')
+2025-11-02 20:50:01,979 - INFO - Processing file: cibil_data_31-08-25_MAHARASHTRA_state_page_2.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'MAHARASHTRA', 'state', 'page', '2.xlsx']
+2025-11-02 20:50:01,979 - INFO - Extracted state: MAHARASHTRA, date: 31-08-25
+2025-11-02 20:50:01,979 - INFO - Added file cibil_data_31-08-25_MAHARASHTRA_state_page_2.xlsx to key ('MAHARASHTRA', '31-08-25')
+2025-11-02 20:50:01,980 - INFO - Processing file: cibil_data_31-08-25_MAHARASHTRA_state_page_3.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'MAHARASHTRA', 'state', 'page', '3.xlsx']
+2025-11-02 20:50:01,980 - INFO - Extracted state: MAHARASHTRA, date: 31-08-25
+2025-11-02 20:50:01,981 - INFO - Added file cibil_data_31-08-25_MAHARASHTRA_state_page_3.xlsx to key ('MAHARASHTRA', '31-08-25')
+2025-11-02 20:50:01,981 - INFO - Processing file: cibil_data_31-08-25_MAHARASHTRA_state_page_4.xlsx -> Split parts: ['cibil', 'data', '31-08-25', 'MAHARASHTRA', 'state', 'page', '4.xlsx']
+2025-11-02 20:50:01,981 - INFO - Extracted state: MAHARASHTRA, date: 31-08-25
+2025-11-02 20:50:01,982 - INFO - Added file cibil_data_31-08-25_MAHARASHTRA_state_page_4.xlsx to key ('MAHARASHTRA', '31-08-25')
+2025-11-02 20:50:01,982 - INFO - --- End of folder processing ---
+2025-11-02 20:50:01,983 - INFO - State-Date wise file mapping created with 6 keys.
+2025-11-02 20:50:01,983 - INFO -   ('ANDHRA PRADESH', '31-08-25'): ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_ANDHRA PRADESH_state_page_1.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_ANDHRA PRADESH_state_page_2.xlsx']
+2025-11-02 20:50:01,983 - INFO -   ('ARUNACHAL PRADESH', '31-08-25'): ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_ARUNACHAL PRADESH_state_page_1.xlsx']
+2025-11-02 20:50:01,984 - INFO -   ('BIHAR', '31-08-25'): ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_BIHAR_state_page_1.xlsx']
+2025-11-02 20:50:01,984 - INFO -   ('GOA', '31-08-25'): ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_GOA_state_page_1.xlsx']
+2025-11-02 20:50:01,985 - INFO -   ('GUJARAT', '31-08-25'): ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_GUJARAT_state_page_1.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_GUJARAT_state_page_2.xlsx']
+2025-11-02 20:50:01,985 - INFO -   ('MAHARASHTRA', '31-08-25'): ['C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_MAHARASHTRA_state_page_1.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_MAHARASHTRA_state_page_2.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_MAHARASHTRA_state_page_3.xlsx', 'C:\\Users\\piyush gala\\PC\\Portfolio\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data__25_lacs_31-08-25_for_state\\cibil_data_31-08-25_MAHARASHTRA_state_page_4.xlsx']
+2025-11-02 20:50:01,985 - ERROR - ❌ Unexpected error in merge_data: Logger.info() missing 1 required positional argument: 'msg'
+Traceback (most recent call last):
+  File "C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\utilities\merger.py", line 79, in merge_data
+    logger.info()
+    ~~~~~~~~~~~^^
+TypeError: Logger.info() missing 1 required positional argument: 'msg'
+2025-11-02 20:50:01,988 - INFO - Current folder path: C:\Users\piyush gala\PC\Portfolio\cibil_web_scrapping_automation\fetched_data\final
+2025-11-02 20:50:01,989 - INFO - Folders found for processing: [WindowsPath('C:/Users/piyush gala/PC/Portfolio/cibil_web_scrapping_automation/fetched_data/final/cibil_data_with_directors__25_lacs_31-08-25_for_state')]
+2025-11-02 20:50:01,990 - INFO - Files found: []
+

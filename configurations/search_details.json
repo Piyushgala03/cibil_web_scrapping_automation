@@ -1,5 +1,6 @@
 {
     "defaulters_type":">25 lacs",
     "date": "31-08-25",
-    "state_selection": "state"
+    "state_selection": "state",
+    "timeout(seconds)": "60"
 }
