@@ -1,3 +1,5 @@
+# extract_table_data.py
+
 import os
 import pandas as pd
 
@@ -21,8 +23,8 @@ def extract_table_data(page, logging, date, defaulters_type, state, page_no, cib
         return None, pd.DataFrame()
 
     all_rows = []
-    for i in range(min(row_count,11)):  # Limit rows for speed
-    # for i in range(row_count):
+    # for i in range(min(row_count,11)):  # Limit rows for speed
+    for i in range(row_count):
         try:
             row = rows.nth(i)
             cells = row.locator("td")
@@ -57,7 +59,7 @@ def extract_table_data(page, logging, date, defaulters_type, state, page_no, cib
     if len(all_rows) < row_count:
         msg = f"⚠️ Incomplete data: captured {len(all_rows)} of {row_count} rows for {state} (page {page_no})."
         logging.error(msg)
-        # raise Exception(msg)
+        raise Exception(msg)
     
     df = pd.DataFrame(all_rows)
     output_file = f"cibil_data_{date}_{defaulters_type}_{state}_state_page_{page_no}.xlsx"

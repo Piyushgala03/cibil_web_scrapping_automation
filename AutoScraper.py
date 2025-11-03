@@ -240,7 +240,7 @@ def data_search():
     state_selection = search_details.get("state_selection", "state")
     timeout_seconds = int(search_details.get("timeout(seconds)", 60))
     # logger.info(f'State selection configuration: {state_selection}')
-    logger.info(f'Selected Configurations: \nstate type: {state_selection}, \nDefaulters type: {defaulters_type}, \nDate: {date}, \nTimeout: {timeout_seconds} seconds')
+    logger.info(f'Selected Configurations: \nState type: {state_selection}, \nDefaulters type: {defaulters_type}, \nDate: {date}, \nTimeout: {timeout_seconds} seconds')
     timeout_seconds = timeout_seconds * 1000 # conversion to milliseconds
 
     # with open('configurations/state_details.json', 'r') as ff:
@@ -269,11 +269,12 @@ def data_search():
     logger.info(f"▶ Starting batch search for Date: {date}")
     
     # Folder creation for output
-    safe_def_type = re.sub(r'[^\w]+', '_', defaulters_type)
+    defaulters_type = defaulters_type.strip().lower().replace(" ", "_").replace("-", "_").replace(">", "gt_").replace("<", "lt_")
+    # safe_def_type = re.sub(r'[^\w]+', '_', defaulters_type)
     # base_output_dir = Path("fetched_data")
     # base_output_dir = Path(os.path.join(base_path, "fetched_data"))
     base_output_dir = Path(os.path.join(write_path, "fetched_data"))
-    raw_output_folder = base_output_dir / "raw" / f'cibil_data_{safe_def_type}_{date}_for_{state_selection}'
+    raw_output_folder = base_output_dir / "raw" / f'cibil_data_{defaulters_type}_{date}_for_{state_selection}'
     # final_output_folder = base_output_dir / "final" / f'cibil_data_with_directors_{safe_def_type}_{date}_for_{state_selection}'
 
     os.makedirs(raw_output_folder, exist_ok=True)

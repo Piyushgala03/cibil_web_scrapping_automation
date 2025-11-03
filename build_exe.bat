@@ -6,6 +6,6 @@ pyinstaller --noconfirm --onefile --console ^
 --add-data "utilities;utilities/" ^
 --add-data "ms-playwright;ms-playwright/" ^
 --icon "configurations/app.ico" ^
-main.py
+AutoScraper.py
 echo ✅ Build complete! Executable is in the 'dist' folder.
 pause

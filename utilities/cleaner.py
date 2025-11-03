@@ -106,6 +106,8 @@ def expand_directors_data(file_path, output_folder, logger):
             .replace(r'\bin liquidation\b', '', regex=True)
             .replace(r'\(proprieter\)$', '', regex=True)  # keep $ to ensure end of string
             .replace(r'\(proprietor\)$', '', regex=True)
+            .replace(r'\b()\b', '', regex=True)
+            .str.replace(r'\(\)', '', regex=True)
             
             # --- Remove text after s/o, d/o, w/o ---
             .str.replace(r'\(?\s*(s|d|w)/o.*\)?', '', regex=True, flags=re.IGNORECASE)
