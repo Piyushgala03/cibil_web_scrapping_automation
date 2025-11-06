@@ -198,7 +198,8 @@ def run(date, state, defaulters_type, raw_output_folder, timeout_ms:int = 60000)
                     # if df_for_director_fetch.at[idx, "directors_presence"] == 1:
                     directors = extract_directors_from_href(page, href, raw_output_folder, timeout_ms)
                     df_for_director_fetch.at[idx, "directors_data"] = directors
-                    df_for_director_fetch.at[idx, "directors_presence"] = 'fetched'
+                    if directors or len(directors) > 0:
+                        df_for_director_fetch.at[idx, "directors_presence"] = 'fetched'
 
                     try:
                         page.go_back(timeout=60000)

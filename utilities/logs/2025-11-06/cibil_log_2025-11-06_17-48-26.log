@@ -1,0 +1,304 @@
+2025-11-06 17:48:26,803 - INFO - Logging initialized at: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\utilities\logs\2025-11-06\cibil_log_2025-11-06_17-48-26.log
+2025-11-06 17:48:26,803 - INFO - Read path: C:\Users\DELL\Downloads\cibil_web_scrapping_automation
+2025-11-06 17:48:26,803 - INFO - Write path: C:\Users\DELL\Downloads\cibil_web_scrapping_automation
+2025-11-06 17:48:26,804 - INFO - ▶ Running script...
+2025-11-06 17:48:26,804 - INFO - Running script...
+2025-11-06 17:48:26,806 - INFO - Selected Configurations: 
+State type: state, 
+Defaulters type: >25 lacs, 
+Date: 31-07-25, 
+Timeout: 60 seconds
+2025-11-06 17:48:26,806 - INFO - All States: {'LUXEMBOURG', 'UTTARAKHAND', 'DUBAI', 'BAHRAIN', 'BIHAR', 'WASHINGTON', 'MANCHESTER', 'SOUTH AFRICA', 'BANGKOK', 'JAKARTA', 'UNITED ARAB EMIRATES UAE', 'JAPAN', 'HIMACHAL PRADESH', 'KERALA', 'CYPRUS', 'PUDUCHERRY', 'PUNJAB', 'ORISSA', 'RAJASTHAN', 'BHOPAL', 'DELHI', 'OVERSEAS', 'PANAMA', 'NOT REPORTED', 'HARYANA', 'BANGLADESH', 'TELANGANA', 'UTTARANCHAL', 'SRI LANKA', 'AUSTRALIA', 'HYDERABAD', 'MAHARASHTRA', 'BELGIUM', 'OMAN', 'MADHYA PRADESH', 'HONG KONG', 'DADRA AND NAGAR HAVELI', 'ISRAEL', 'LAKSHADWEEP', 'KINGDOM OF BAHRAIN', 'OBU', 'ANDHRA PRADESH', 'COLOMBO', 'TAMIL NADU', 'UNITED STATES OF AMERICA', 'CAYMAN ISLAND', 'ATLANTA, USA', 'NEW YORK', 'ANDAMAN AND NICOBAR ISLANDS', 'GERMANY', 'GOA', 'UNITED ARAB EMIRATES', 'ENGLAND', 'ROHTAK', 'DAMAN AND DIU', 'CHHATTISGARH', 'MIZORAM', 'BRITISH VIRGIN ISLAND', 'DUBAI, UAE', 'WEST BENGAL', 'KARNATAKA', 'MANIPUR', 'ASSAM', 'UNITED KINGDOM', 'MEGHALAYA', 'UTTAR PRADESH', 'JHARKHAND', 'SIKKIM', 'AMSTERDAM', 'UTAH', 'CHANDIGARH (U.T.) & DELHI', 'QATAR', 'SINGAPORE', 'MALDIVES', 'NEW DELHI', 'JAMMU & KASHMIR', 'CHANDIGARH & DELHI', 'GUJARAT', 'PONDICHERRY', 'CHANDIGARH', 'THAILAND', 'NAGALAND', 'MISSISSIPPI, USA', 'ABCD', 'ARUNACHAL PRADESH', 'LONDON', 'TRIPURA'}
+2025-11-06 17:48:26,807 - INFO - Selected States: ['GOA']
+2025-11-06 17:48:26,807 - INFO - ▶ Starting batch search for Date: 31-07-25
+2025-11-06 17:48:26,808 - INFO - Running automation for State: GOA, Date: 31-07-25, Defaulters type: gt_25_lacs
+2025-11-06 17:48:41,320 - INFO - Browser launched.
+2025-11-06 17:48:42,595 - INFO - Page loaded.
+2025-11-06 17:48:42,596 - INFO - ▶ Performing search for Date:31-07-25, State:GOA, Defaulters type:gt_25_lacs
+2025-11-06 17:48:46,154 - INFO - ▶ Waiting for search results...
+2025-11-06 17:48:53,744 - INFO - Pagination text: View 1 - 20 of 20
+2025-11-06 17:48:53,745 - INFO - Fetched: 20, Total: 20
+2025-11-06 17:48:53,745 - INFO - ▶ Fetched 20 out of 20 rows.
+2025-11-06 17:48:53,745 - INFO - Pagination limit: 1
+2025-11-06 17:48:53,746 - INFO - ▶ Extracting table data...
+2025-11-06 17:48:53,760 - INFO - Found 20 rows for state: GOA, page: 1.
+2025-11-06 17:48:53,982 - INFO - Row 1/20 extracted for GOA.
+2025-11-06 17:48:54,190 - INFO - Row 2/20 extracted for GOA.
+2025-11-06 17:48:54,393 - INFO - Row 3/20 extracted for GOA.
+2025-11-06 17:48:54,655 - INFO - Row 4/20 extracted for GOA.
+2025-11-06 17:48:54,867 - INFO - Row 5/20 extracted for GOA.
+2025-11-06 17:48:55,085 - INFO - Row 6/20 extracted for GOA.
+2025-11-06 17:48:55,324 - INFO - Row 7/20 extracted for GOA.
+2025-11-06 17:48:55,523 - INFO - Row 8/20 extracted for GOA.
+2025-11-06 17:48:55,721 - INFO - Row 9/20 extracted for GOA.
+2025-11-06 17:48:55,911 - INFO - Row 10/20 extracted for GOA.
+2025-11-06 17:48:56,098 - INFO - Row 11/20 extracted for GOA.
+2025-11-06 17:48:56,287 - INFO - Row 12/20 extracted for GOA.
+2025-11-06 17:48:56,484 - INFO - Row 13/20 extracted for GOA.
+2025-11-06 17:48:56,669 - INFO - Row 14/20 extracted for GOA.
+2025-11-06 17:48:56,855 - INFO - Row 15/20 extracted for GOA.
+2025-11-06 17:48:57,041 - INFO - Row 16/20 extracted for GOA.
+2025-11-06 17:48:57,222 - INFO - Row 17/20 extracted for GOA.
+2025-11-06 17:48:57,437 - INFO - Row 18/20 extracted for GOA.
+2025-11-06 17:48:57,618 - INFO - Row 19/20 extracted for GOA.
+2025-11-06 17:48:57,804 - INFO - Row 20/20 extracted for GOA.
+2025-11-06 17:48:58,294 - INFO - Saved 20 rows to cibil_data_31-07-25_gt_25_lacs_GOA_state_page_1.xlsx
+2025-11-06 17:48:58,298 - INFO - ▶ Next button is disabled, reached last page.
+2025-11-06 17:49:00,317 - INFO - Found 1 raw Excel files for GOA
+2025-11-06 17:49:00,417 - INFO - ▶ Extracting directors for row 1: KHALID ABDUS SALAM ANSARI
+2025-11-06 17:49:00,725 - INFO - Loader disappeared.
+2025-11-06 17:49:01,759 - INFO - Found 1 director rows.
+2025-11-06 17:49:01,799 - INFO - Successfully extracted director data.
+2025-11-06 17:49:02,021 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:49:08,112 - INFO - Loader disappeared.
+2025-11-06 17:49:09,113 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:49:09,113 - INFO - ▶ Extracting directors for row 2: SIDDHANT HOTEL
+2025-11-06 17:49:09,535 - INFO - Loader disappeared.
+2025-11-06 17:49:10,575 - INFO - Found 1 director rows.
+2025-11-06 17:49:10,611 - INFO - Successfully extracted director data.
+2025-11-06 17:49:10,828 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:49:16,800 - INFO - Loader disappeared.
+2025-11-06 17:49:17,801 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:49:17,802 - INFO - ▶ Extracting directors for row 3: SIDDHANT PARYATAN SUVIDHA KENDRA
+2025-11-06 17:49:18,044 - INFO - Loader disappeared.
+2025-11-06 17:49:19,075 - INFO - Found 1 director rows.
+2025-11-06 17:49:19,127 - INFO - Successfully extracted director data.
+2025-11-06 17:49:19,347 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:49:24,771 - INFO - Loader disappeared.
+2025-11-06 17:49:25,775 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:49:25,776 - INFO - ▶ Extracting directors for row 4: Javed Yusuf Parkar
+2025-11-06 17:49:26,476 - INFO - Loader disappeared.
+2025-11-06 17:49:27,511 - INFO - Found 1 director rows.
+2025-11-06 17:49:27,548 - INFO - Successfully extracted director data.
+2025-11-06 17:49:27,769 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:49:33,335 - INFO - Loader disappeared.
+2025-11-06 17:49:34,336 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:49:34,337 - INFO - ▶ Extracting directors for row 5: CROWN MINERALS TRADING CORPORATION
+2025-11-06 17:49:34,543 - INFO - Loader disappeared.
+2025-11-06 17:49:35,579 - INFO - Found 2 director rows.
+2025-11-06 17:49:35,673 - INFO - Successfully extracted director data.
+2025-11-06 17:49:35,886 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:49:41,315 - INFO - Loader disappeared.
+2025-11-06 17:49:42,316 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:49:42,359 - INFO - Checkpoint saved at row 5 for C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\raw\cibil_data_gt_25_lacs_31-07-25_for_state\cibil_data_31-07-25_gt_25_lacs_GOA_state_page_1.xlsx
+2025-11-06 17:49:42,359 - INFO - ▶ Extracting directors for row 6: GHOTAGE LOGISTICS PVT LTD
+2025-11-06 17:49:42,802 - INFO - Loader disappeared.
+2025-11-06 17:49:43,824 - INFO - Found 3 director rows.
+2025-11-06 17:49:43,934 - INFO - Successfully extracted director data.
+2025-11-06 17:49:44,153 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:49:49,751 - INFO - Loader disappeared.
+2025-11-06 17:49:50,753 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:49:50,755 - INFO - ▶ Extracting directors for row 7: QUADROS AUTOMARK PVT LTD
+2025-11-06 17:49:50,905 - INFO - Loader disappeared.
+2025-11-06 17:49:51,936 - INFO - Found 3 director rows.
+2025-11-06 17:49:52,040 - INFO - Successfully extracted director data.
+2025-11-06 17:49:52,264 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:49:58,408 - INFO - Loader disappeared.
+2025-11-06 17:49:59,408 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:49:59,410 - INFO - ▶ Extracting directors for row 8: QUADROS MOTORS PVT LTD
+2025-11-06 17:49:59,554 - INFO - Loader disappeared.
+2025-11-06 17:50:00,585 - INFO - Found 3 director rows.
+2025-11-06 17:50:00,751 - INFO - Successfully extracted director data.
+2025-11-06 17:50:00,964 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:50:06,331 - INFO - Loader disappeared.
+2025-11-06 17:50:07,332 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:50:07,333 - INFO - ▶ Extracting directors for row 9: SUHAS VASUDEV GHOTAGE
+2025-11-06 17:50:07,482 - INFO - Loader disappeared.
+2025-11-06 17:50:08,515 - INFO - Found 2 director rows.
+2025-11-06 17:50:08,588 - INFO - Successfully extracted director data.
+2025-11-06 17:50:08,814 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:50:14,139 - INFO - Loader disappeared.
+2025-11-06 17:50:15,140 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:50:15,171 - INFO - ▶ Extracting directors for row 10: KHOPE INDUSTRIES
+2025-11-06 17:50:16,067 - INFO - Loader disappeared.
+2025-11-06 17:50:17,103 - INFO - Found 1 director rows.
+2025-11-06 17:50:17,138 - INFO - Successfully extracted director data.
+2025-11-06 17:50:17,352 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:50:23,622 - INFO - Loader disappeared.
+2025-11-06 17:50:24,623 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:50:24,654 - INFO - Checkpoint saved at row 10 for C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\raw\cibil_data_gt_25_lacs_31-07-25_for_state\cibil_data_31-07-25_gt_25_lacs_GOA_state_page_1.xlsx
+2025-11-06 17:50:24,655 - INFO - ▶ Extracting directors for row 11: M/s. Goa Mining and Minerals
+2025-11-06 17:50:25,701 - INFO - Loader disappeared.
+2025-11-06 17:50:26,738 - INFO - Found 2 director rows.
+2025-11-06 17:50:26,811 - INFO - Successfully extracted director data.
+2025-11-06 17:50:27,028 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:50:32,803 - INFO - Loader disappeared.
+2025-11-06 17:50:33,805 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:50:33,806 - INFO - ▶ Extracting directors for row 12: HARISH K A A
+2025-11-06 17:50:46,214 - INFO - Loader disappeared.
+2025-11-06 17:51:47,228 - ERROR - Failed to locate director rows: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("table#DirectorInfoTable tr.jqgrow") to be visible
+Traceback (most recent call last):
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\utilities\extract_directors.py", line 4, in extract_directors
+    page.wait_for_selector("table#DirectorInfoTable tr.jqgrow", timeout=60000)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 8182, in wait_for_selector
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.wait_for_selector(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            selector=selector, timeout=timeout, state=state, strict=strict
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_page.py", line 423, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+        "waitForSelector", self._timeout, locals_to_params(locals())
+    )
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("table#DirectorInfoTable tr.jqgrow") to be visible
+
+2025-11-06 17:51:47,232 - INFO - Successfully extracted director data.
+2025-11-06 17:51:47,480 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:51:59,455 - INFO - Loader disappeared.
+2025-11-06 17:52:00,456 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:52:00,458 - INFO - ▶ Extracting directors for row 13: Nasreen Bano Shaikh
+2025-11-06 17:52:01,483 - INFO - Loader disappeared.
+2025-11-06 17:52:02,529 - INFO - Found 1 director rows.
+2025-11-06 17:52:02,590 - INFO - Successfully extracted director data.
+2025-11-06 17:52:02,817 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:52:09,030 - INFO - Loader disappeared.
+2025-11-06 17:52:10,044 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:52:10,045 - INFO - ▶ Extracting directors for row 14: Riyaz Shaikh
+2025-11-06 17:52:10,316 - INFO - Loader disappeared.
+2025-11-06 17:52:11,350 - INFO - Found 1 director rows.
+2025-11-06 17:52:11,390 - INFO - Successfully extracted director data.
+2025-11-06 17:52:11,603 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:52:17,096 - INFO - Loader disappeared.
+2025-11-06 17:52:18,098 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:52:18,099 - INFO - ▶ Extracting directors for row 15: AMBEY IRON PVT LTD
+2025-11-06 17:52:19,955 - INFO - Loader disappeared.
+2025-11-06 17:52:20,987 - INFO - Found 2 director rows.
+2025-11-06 17:52:21,057 - INFO - Successfully extracted director data.
+2025-11-06 17:52:21,271 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:52:28,195 - INFO - Loader disappeared.
+2025-11-06 17:52:29,196 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:52:29,298 - INFO - Checkpoint saved at row 15 for C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\raw\cibil_data_gt_25_lacs_31-07-25_for_state\cibil_data_31-07-25_gt_25_lacs_GOA_state_page_1.xlsx
+2025-11-06 17:52:29,299 - INFO - ▶ Extracting directors for row 16: ARADHYA TECHNO SOLUTIONS P LTD.
+2025-11-06 17:52:29,306 - ERROR - ⚠️ Error parsing or fetching directors: Page.evaluate: TypeError: Cannot set properties of null (setting 'value')
+    at getDirctorList (https://suit.cibil.com/js/validation.js:915:49)
+    at eval (eval at evaluate (:291:30), <anonymous>:1:12)
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:291:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Traceback (most recent call last):
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\AutoScraper.py", line 77, in extract_directors_from_href
+    page.evaluate(href_js)
+    ~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 8531, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_page.py", line 468, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\DELL\Downloads\cibil_web_scrapping_automation\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: TypeError: Cannot set properties of null (setting 'value')
+    at getDirctorList (https://suit.cibil.com/js/validation.js:915:49)
+    at eval (eval at evaluate (:291:30), <anonymous>:1:12)
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:291:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2025-11-06 17:52:29,321 - INFO - Website response looks fine, wait and retry later.
+2025-11-06 17:52:29,538 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:52:34,959 - INFO - Loader disappeared.
+2025-11-06 17:52:35,960 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:52:35,961 - INFO - ▶ Extracting directors for row 17: SHRI PANKAJAKSHAN NAIR
+2025-11-06 17:52:36,115 - INFO - Loader disappeared.
+2025-11-06 17:52:37,135 - INFO - Found 1 director rows.
+2025-11-06 17:52:37,171 - INFO - Successfully extracted director data.
+2025-11-06 17:52:37,384 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:52:43,074 - INFO - Loader disappeared.
+2025-11-06 17:52:44,076 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:52:44,077 - INFO - ▶ Extracting directors for row 18: SYSTEM SECURITY SERVICE
+2025-11-06 17:52:44,237 - INFO - Loader disappeared.
+2025-11-06 17:52:45,258 - INFO - Found 1 director rows.
+2025-11-06 17:52:45,295 - INFO - Successfully extracted director data.
+2025-11-06 17:52:45,508 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:52:50,891 - INFO - Loader disappeared.
+2025-11-06 17:52:51,891 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:52:51,893 - INFO - ▶ Extracting directors for row 19: DATTA RAMACHANDRA ANVEKAR &  DEEPANJALI ANVEKAR
+2025-11-06 17:52:52,037 - INFO - Loader disappeared.
+2025-11-06 17:52:53,074 - INFO - Found 2 director rows.
+2025-11-06 17:52:53,145 - INFO - Successfully extracted director data.
+2025-11-06 17:52:53,360 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:52:59,538 - INFO - Loader disappeared.
+2025-11-06 17:53:00,539 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:53:00,558 - INFO - ▶ Extracting directors for row 20: TELEFLEX INFOSERVICES PVT. LTD.
+2025-11-06 17:53:00,703 - INFO - Loader disappeared.
+2025-11-06 17:53:01,742 - INFO - Found 5 director rows.
+2025-11-06 17:53:01,913 - INFO - Successfully extracted director data.
+2025-11-06 17:53:02,140 - INFO - ⚠️ Could not navigate back, reloading page...
+2025-11-06 17:53:08,008 - INFO - Loader disappeared.
+2025-11-06 17:53:09,009 - INFO - 🔄 Page reloaded successfully.
+2025-11-06 17:53:09,052 - INFO - Checkpoint saved at row 20 for C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\raw\cibil_data_gt_25_lacs_31-07-25_for_state\cibil_data_31-07-25_gt_25_lacs_GOA_state_page_1.xlsx
+2025-11-06 17:53:09,080 - INFO - ✅ Updated raw file saved with director info → C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\raw\cibil_data_gt_25_lacs_31-07-25_for_state\cibil_data_31-07-25_gt_25_lacs_GOA_state_page_1.xlsx
+2025-11-06 17:53:09,593 - INFO - 📂 Current folder path: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\raw
+
+2025-11-06 17:53:09,594 - INFO - 📁 Folders found for processing: [WindowsPath('C:/Users/DELL/Downloads/cibil_web_scrapping_automation/fetched_data/raw/cibil_data_gt_25_lacs_31-07-25_for_state')]
+
+2025-11-06 17:53:09,594 - INFO - All states loaded successfully: 87 states found.
+2025-11-06 17:53:09,594 - INFO - --- Opening folder: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\raw\cibil_data_gt_25_lacs_31-07-25_for_state ---
+2025-11-06 17:53:09,595 - INFO - Files found: ['cibil_data_31-07-25_gt_25_lacs_GOA_state_page_1.xlsx']
+
+2025-11-06 17:53:09,595 - INFO - Processing file: cibil_data_31-07-25_gt_25_lacs_GOA_state_page_1.xlsx -> Split parts: ['cibil', 'data', '31-07-25', 'gt', '25', 'lacs', 'GOA', 'state', 'page', '1.xlsx']
+2025-11-06 17:53:09,595 - INFO - Extracted state: GOA, date: 31-07-25
+2025-11-06 17:53:09,596 - INFO - Added file cibil_data_31-07-25_gt_25_lacs_GOA_state_page_1.xlsx to key ('GOA', '31-07-25')
+2025-11-06 17:53:09,596 - INFO - --- End of folder processing ---
+2025-11-06 17:53:09,596 - INFO - State-Date wise file mapping created with 1 keys.
+2025-11-06 17:53:09,597 - INFO -   ('GOA', '31-07-25'): ['C:\\Users\\DELL\\Downloads\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data_gt_25_lacs_31-07-25_for_state\\cibil_data_31-07-25_gt_25_lacs_GOA_state_page_1.xlsx']
+2025-11-06 17:53:09,598 - INFO - Starting merge for state=GOA, date=31-07-25, files=1
+2025-11-06 17:53:09,598 - INFO - Files after sorting by page: ['C:\\Users\\DELL\\Downloads\\cibil_web_scrapping_automation\\fetched_data\\raw\\cibil_data_gt_25_lacs_31-07-25_for_state\\cibil_data_31-07-25_gt_25_lacs_GOA_state_page_1.xlsx']
+2025-11-06 17:53:09,598 - INFO - 📖 Reading file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\raw\cibil_data_gt_25_lacs_31-07-25_for_state\cibil_data_31-07-25_gt_25_lacs_GOA_state_page_1.xlsx
+2025-11-06 17:53:09,630 - INFO - Rows read: 20
+2025-11-06 17:53:09,630 - INFO - 🔗 Total rows after merging: 20
+2025-11-06 17:53:09,663 - INFO - ✅ Merged file saved: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-07-25_merged\31-07-25_GOA_merged.xlsx
+
+2025-11-06 17:53:09,664 - INFO - Current folder path: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final
+2025-11-06 17:53:09,665 - INFO - Folders found for processing: [WindowsPath('C:/Users/DELL/Downloads/cibil_web_scrapping_automation/fetched_data/final/31-07-25_merged')]
+2025-11-06 17:53:09,666 - INFO - Files found: ['31-07-25_GOA_merged.xlsx']
+
+2025-11-06 17:53:09,666 - INFO - Processing file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final\31-07-25_merged\31-07-25_GOA_merged.xlsx
+2025-11-06 17:53:09,696 - INFO - Loaded Excel file successfully with 20 rows
+2025-11-06 17:53:09,801 - INFO - Expanded 33 rows from 20 original rows
+2025-11-06 17:53:09,814 - INFO - Cleaned and standardized text/numeric fields for 'Borrower Name'
+2025-11-06 17:53:09,818 - INFO - Cleaned and standardized text/numeric fields for 'Ind _Director Name'
+2025-11-06 17:53:09,832 - INFO - Added extra columns: ['Borrower PAN', 'Final Borrower Name', 'Final_DirectorName', 'CIN NO', 'Order Type', 'Remarks']
+2025-11-06 17:53:09,866 - INFO - Saved expanded file: C:\Users\DELL\Downloads\cibil_web_scrapping_automation\fetched_data\final_preprocessed\final_preprocessed_31-07-25_GOA_merged.xlsx (33 rows)
+2025-11-06 17:53:09,937 - INFO - 🕒 Time taken: 0.27 seconds
+
