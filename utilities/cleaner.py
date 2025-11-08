@@ -7,7 +7,7 @@ import re
 
 def expand_directors_data(file_path, output_folder, logger):
     start_time = time.time()
-    df = pd.read_excel(file_path, engine="openpyxl")
+    df = pd.read_excel(file_path, dtype=str, engine="openpyxl")
     logger.info(f"Loaded Excel file successfully with {len(df)} rows")
 
     if len(df) == 0:
@@ -63,12 +63,6 @@ def expand_directors_data(file_path, output_folder, logger):
                 errors='coerce'
             )
         )
-        # df_expanded['OutStanding Amount ( Rs. in Lacs)'] = (
-        #     df_expanded['OutStanding Amount ( Rs. in Lacs)']
-        #         .astype(str)
-        #         .str.replace(',', '', regex=False)
-        #         .astype(float)
-        # )
     else:
         logger.warning(f"⚠️ Missing column 'OutStanding Amount ( Rs. in Lacs)' in {file_path}")
         df_expanded['OutStanding Amount ( Rs. in Lacs)'] = None
@@ -94,19 +88,23 @@ def expand_directors_data(file_path, output_folder, logger):
             .replace(r'\bltd\b', 'limited', regex=True)
             .replace(r'\blimi\b', 'limited', regex=True)
             .replace(r'\bp limited\b', 'private limited', regex=True)
+            .replace(r'\bpvtltd\b', 'private limited', regex=True)
+            .replace(r'\bprivate ltdd\b', 'private limited', regex=True)
+            .replace(r'\(?\bp\b\)?', 'private', regex=True)
             .replace(r'\bsoc\b', 'Society', regex=True)
             .replace(r'\bcorp\b', 'Corporation', regex=True)
             
             # --- Other unwanted words / suffixes with word boundaries ---
+            .replace(r'\smt\b', '', regex=True)
+            .replace(r'\smti\b', '', regex=True)
             .replace(r'\bindividual\b', '', regex=True)
             .replace(r'\bchairman\b', '', regex=True)
             .replace(r'\bmanaging director\b', '', regex=True)
             .replace(r'\bpartner\b', '', regex=True)
+            .replace(r'\(?\bpartner\b\)?', '', regex=True)
             .replace(r'\bin liquidation\b', '', regex=True)
             .replace(r'\(proprieter\)$', '', regex=True)  # keep $ to ensure end of string
             .replace(r'\(proprietor\)$', '', regex=True)
-            .replace(r'\b()\b', '', regex=True)
-            .str.replace(r'\(\)', '', regex=True)
             
             # --- Remove text after s/o, d/o, w/o ---
             .str.replace(r'\(?\s*(s|d|w)/o.*\)?', '', regex=True, flags=re.IGNORECASE)
@@ -141,6 +139,9 @@ def expand_directors_data(file_path, output_folder, logger):
             .replace(r'\bltd\b', 'limited', regex=True)
             .replace(r'\blimi\b', 'limited', regex=True)
             .replace(r'\bp limited\b', 'private limited', regex=True)
+            .replace(r'\bpvtltd\b', 'private limited', regex=True)
+            .replace(r'\bprivate ltdd\b', 'private limited', regex=True)
+            .replace(r'\(?\bp\b\)?', 'private', regex=True, flags=re.IGNORECASE)
             .replace(r'\bsoc\b', 'Society', regex=True)
             .replace(r'\bcorp\b', 'Corporation', regex=True)
             
@@ -149,11 +150,10 @@ def expand_directors_data(file_path, output_folder, logger):
             .replace(r'\bchairman\b', '', regex=True)
             .replace(r'\bmanaging director\b', '', regex=True)
             .replace(r'\bpartner\b', '', regex=True)
+            .replace(r'\(?\bpartner\b\)?', '', regex=True)
             .replace(r'\bin liquidation\b', '', regex=True)
             .replace(r'\(proprieter\)$', '', regex=True)  # keep $ to ensure end of string
             .replace(r'\(proprietor\)$', '', regex=True)
-            .replace(r'\b()\b', '', regex=True)
-            .str.replace(r'\(\)', '', regex=True)
             
             # --- Remove text after s/o, d/o, w/o ---
             .str.replace(r'\(?\s*(s|d|w)/o.*\)?', '', regex=True, flags=re.IGNORECASE)
