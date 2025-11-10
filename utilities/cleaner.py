@@ -80,17 +80,17 @@ def expand_directors_data(file_path, output_folder, logger):
             .str.replace(r'\.', ' ', regex=True)
 
             # --- Remove honorifics ---
-            .replace(r'\bm/s\b', '', regex=True, case=False)
-            .replace(r'\bmr\b', '', regex=True, case=False)
-            .replace(r'\bmrs\b', '', regex=True, case=False)
-            .replace(r'\bms\b', '', regex=True, case=False)
-            .replace(r'\bdr\b', '', regex=True, case=False)
+            .replace(r'\bm/s\b', '', regex=True)
+            .replace(r'\bmr\b', '', regex=True)
+            .replace(r'\bmrs\b', '', regex=True)
+            .replace(r'\bms\b', '', regex=True)
+            .replace(r'\bdr\b', '', regex=True)
 
             # --- Company type replacements ---
             .replace(r'\bpvt\b', 'private', regex=True)
             .replace(r'\bltd\b', 'limited', regex=True)
             .replace(r'\b(pvt|pvt\.|pvtltd|p limited)\b', 'private limited', regex=True)
-            .replace(r'\b\(p\)\b', 'private', regex=True, case=False)
+            .replace(r'\b\(p\)\b', 'private', regex=True)
             .replace(r'\bsoc\b', 'society', regex=True)
             .replace(r'\bcorp\b', 'corporation', regex=True)
 
@@ -107,16 +107,16 @@ def expand_directors_data(file_path, output_folder, logger):
             .replace(r'\bin liquidation\b', '', regex=True)
 
             # --- Remove titles before name (start only) ---
-            .replace(r'^\s*\(?propriet[eo]r\)?\s*', '', regex=True, case=False)
-            .replace(r'^\s*co[-\s]*applicant\s*', '', regex=True, case=False)
-            .replace(r'^\s*\(?whole\s*time\s*director\)?\s*', '', regex=True, case=False)
-            .replace(r'^\s*directors?\s*/\s*corporate\s*', '', regex=True, case=False)
-            .replace(r'^\s*(ch|sh)\b\s*', '', regex=True, case=False)
-            .replace(r'^\s*\(\s*\)\s*', '', regex=True, case=False)
+            .replace(r'^\s*\(?propriet[eo]r\)?\s*', '', regex=True)
+            .replace(r'^\s*co[-\s]*applicant\s*', '', regex=True)
+            .replace(r'^\s*\(?whole\s*time\s*director\)?\s*', '', regex=True)
+            .replace(r'^\s*directors?\s*/\s*corporate\s*', '', regex=True)
+            .replace(r'^\s*(ch|sh)\b\s*', '', regex=True)
+            .replace(r'^\s*\(\s*\)\s*', '', regex=True)
 
             # --- Remove designations after name (end only) ---
-            .replace(r'\s*\(?ex(?:ecutive)?\s*director[s]?\)?\s*$', '', regex=True, case=False)
-            .replace(r'\s*\(?director[s]?\)?\s*$', '', regex=True, case=False)
+            .replace(r'\s*\(?ex(?:ecutive)?\s*director[s]?\)?\s*$', '', regex=True)
+            .replace(r'\s*\(?director[s]?\)?\s*$', '', regex=True)
 
             # --- Remove parent info (S/O, D/O, W/O ...) ---
             .replace(r'\(?\s*(s|d|w)/o[^,;]*', '', regex=True, flags=re.IGNORECASE)
@@ -139,17 +139,17 @@ def expand_directors_data(file_path, output_folder, logger):
             .str.replace(r'\.', ' ', regex=True)
 
             # --- Remove honorifics ---
-            .replace(r'\bm/s\b', '', regex=True, case=False)
-            .replace(r'\bmr\b', '', regex=True, case=False)
-            .replace(r'\bmrs\b', '', regex=True, case=False)
-            .replace(r'\bms\b', '', regex=True, case=False)
-            .replace(r'\bdr\b', '', regex=True, case=False)
+            .replace(r'\bm/s\b', '', regex=True)
+            .replace(r'\bmr\b', '', regex=True)
+            .replace(r'\bmrs\b', '', regex=True)
+            .replace(r'\bms\b', '', regex=True)
+            .replace(r'\bdr\b', '', regex=True)
 
             # --- Company type replacements ---
             .replace(r'\bpvt\b', 'private', regex=True)
             .replace(r'\bltd\b', 'limited', regex=True)
             .replace(r'\b(pvt|pvt\.|pvtltd|p limited)\b', 'private limited', regex=True)
-            .replace(r'\b\(p\)\b', 'private', regex=True, case=False)
+            .replace(r'\b\(p\)\b', 'private', regex=True)
             .replace(r'\bsoc\b', 'society', regex=True)
             .replace(r'\bcorp\b', 'corporation', regex=True)
 
@@ -166,16 +166,16 @@ def expand_directors_data(file_path, output_folder, logger):
             .replace(r'\bin liquidation\b', '', regex=True)
 
             # --- Remove titles before name (start only) ---
-            .replace(r'^\s*\(?propriet[eo]r\)?\s*', '', regex=True, case=False)
-            .replace(r'^\s*co[-\s]*applicant\s*', '', regex=True, case=False)
-            .replace(r'^\s*\(?whole\s*time\s*director\)?\s*', '', regex=True, case=False)
-            .replace(r'^\s*directors?\s*/\s*corporate\s*', '', regex=True, case=False)
-            .replace(r'^\s*(ch|sh)\b\s*', '', regex=True, case=False)
-            .replace(r'^\s*\(\s*\)\s*', '', regex=True, case=False)
+            .replace(r'^\s*\(?propriet[eo]r\)?\s*', '', regex=True)
+            .replace(r'^\s*co[-\s]*applicant\s*', '', regex=True)
+            .replace(r'^\s*\(?whole\s*time\s*director\)?\s*', '', regex=True)
+            .replace(r'^\s*directors?\s*/\s*corporate\s*', '', regex=True)
+            .replace(r'^\s*(ch|sh)\b\s*', '', regex=True)
+            .replace(r'^\s*\(\s*\)\s*', '', regex=True)
 
             # --- Remove designations after name (end only) ---
-            .replace(r'\s*\(?ex(?:ecutive)?\s*director[s]?\)?\s*$', '', regex=True, case=False)
-            .replace(r'\s*\(?director[s]?\)?\s*$', '', regex=True, case=False)
+            .replace(r'\s*\(?ex(?:ecutive)?\s*director[s]?\)?\s*$', '', regex=True)
+            .replace(r'\s*\(?director[s]?\)?\s*$', '', regex=True)
 
             # --- Remove parent info (S/O, D/O, W/O ...) ---
             .replace(r'\(?\s*(s|d|w)/o[^,;]*', '', regex=True, flags=re.IGNORECASE)
