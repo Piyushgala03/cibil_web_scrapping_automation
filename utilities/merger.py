@@ -11,6 +11,7 @@ def merge_data(logger):
         current_path = Path.cwd() / "fetched_data" / "raw" 
         output_path = Path.cwd() / "fetched_data" / "final"
         output_path.mkdir(parents=True, exist_ok=True)
+        current_path.mkdir(parents=True, exist_ok=True)
         logger.info(f'📂 Current folder path: {current_path}\n')
 
         # Step 2: List all folders containing 'directors'
