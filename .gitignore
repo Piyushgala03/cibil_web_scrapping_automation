@@ -2,4 +2,4 @@
 build/
 dist/
 ms-playwright/
-main.spec
+AutoScaper.spec

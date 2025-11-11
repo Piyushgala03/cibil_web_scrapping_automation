@@ -76,25 +76,26 @@ def expand_directors_data(file_path, output_folder, logger):
             .str.lower()
             .str.strip()
 
-            # --- Remove dots ---
+            # Remove dots
             .str.replace(r'\.', ' ', regex=True)
 
-            # --- Remove honorifics ---
+            # Remove honorifics
             .replace(r'\bm/s\b', '', regex=True)
             .replace(r'\bmr\b', '', regex=True)
             .replace(r'\bmrs\b', '', regex=True)
             .replace(r'\bms\b', '', regex=True)
             .replace(r'\bdr\b', '', regex=True)
 
-            # --- Company type replacements ---
+            # Company type replacements
+            .replace(r'\(?p\)?\s*ltd\b', 'private limited', regex=True)
+            .replace(r'\(p\)\s*', 'private', regex=True)
+            .replace(r'\bpvtltd\b', 'private limited', regex=True)
             .replace(r'\bpvt\b', 'private', regex=True)
             .replace(r'\bltd\b', 'limited', regex=True)
-            .replace(r'\b(pvt|pvt\.|pvtltd|p limited)\b', 'private limited', regex=True)
-            .replace(r'\b\(p\)\b', 'private', regex=True)
             .replace(r'\bsoc\b', 'society', regex=True)
             .replace(r'\bcorp\b', 'corporation', regex=True)
 
-            # --- Other unwanted words / suffixes ---
+            # Unwanted words / suffixes
             .replace(r'\bsmt\b', '', regex=True)
             .replace(r'\bsmti\b', '', regex=True)
             .replace(r'\bmiss\b', '', regex=True)
@@ -102,26 +103,35 @@ def expand_directors_data(file_path, output_folder, logger):
             .replace(r'\bchairman\b', '', regex=True)
             .replace(r'\bmanaging director\b', '', regex=True)
             .replace(r'\bpartner\b', '', regex=True)
-            .replace(r'\(?bprop\)?', '', regex=True)
-            .replace(r'\b\(ind\)\b', '', regex=True)
+            .replace(r'\(?\b(b)?prop(riet([oe]r)?)?\)?', '', regex=True)   # handles (prop), bprop, proprietor, etc.
             .replace(r'\bin liquidation\b', '', regex=True)
+            .replace(r'\(ind\)\s*', '', regex=True)
+            .replace(r'\berstwhile\s+promoter\b', '', regex=True)
 
-            # --- Remove titles before name (start only) ---
-            .replace(r'^\s*\(?propriet[eo]r\)?\s*', '', regex=True)
+            # Remove titles before name (start only)
             .replace(r'^\s*co[-\s]*applicant\s*', '', regex=True)
             .replace(r'^\s*\(?whole\s*time\s*director\)?\s*', '', regex=True)
+            .replace(r'^\s*guarantors?\s+of\s+', '', regex=True)        # e.g., "Guarantors of Rajesh Kumar"
+            .replace(r'\bguarantors?\s+of\b', '', regex=True)
+            .replace(r'\(.*promoter.*guarantor.*\)', '', regex=True)    # e.g., (PROMOTER DIRECTOR/ GUARANTOR)
+            .replace(r'\(.*guarantor.*promoter.*\)', '', regex=True)
             .replace(r'^\s*directors?\s*/\s*corporate\s*', '', regex=True)
-            .replace(r'^\s*(ch|sh)\b\s*', '', regex=True)
+            .replace(r'\berstwhile\s+promoter\b', '', regex=True)
+            .replace(r'\(co-borrower\)\s*', '', regex=True)
+            .replace(r'^\s*(sh|ch)\.?\s+', '', regex=True)
             .replace(r'^\s*\(\s*\)\s*', '', regex=True)
 
-            # --- Remove designations after name (end only) ---
+            # Remove director variants at END
             .replace(r'\s*\(?ex(?:ecutive)?\s*director[s]?\)?\s*$', '', regex=True)
-            .replace(r'\s*\(?director[s]?\)?\s*$', '', regex=True)
+            .replace(r'\s*\(?director\s*(?:ex|\(ex\))?\)?\s*$', '', regex=True)  # handles Director EX or (EX)
 
-            # --- Remove parent info (S/O, D/O, W/O ...) ---
-            .replace(r'\(?\s*(s|d|w)/o[^,;]*', '', regex=True, flags=re.IGNORECASE)
+            # Remove parent info
+            .replace(r'\(?\s*(s|d|w)/o[^,;]*', '', regex=True)
 
-            # --- Normalize spaces and format ---
+            # Remove leftover empty parentheses
+            .replace(r'\(\s*\)', '', regex=True)
+
+            # Normalize spaces and format
             .replace(r'\s+', ' ', regex=True)
             .str.upper()
             .str.strip()
@@ -135,25 +145,26 @@ def expand_directors_data(file_path, output_folder, logger):
             .str.lower()
             .str.strip()
 
-            # --- Remove dots ---
+            # Remove dots
             .str.replace(r'\.', ' ', regex=True)
 
-            # --- Remove honorifics ---
+            # Remove honorifics
             .replace(r'\bm/s\b', '', regex=True)
             .replace(r'\bmr\b', '', regex=True)
             .replace(r'\bmrs\b', '', regex=True)
             .replace(r'\bms\b', '', regex=True)
             .replace(r'\bdr\b', '', regex=True)
 
-            # --- Company type replacements ---
+            # Company type replacements
+            .replace(r'\(?p\)?\s*ltd\b', 'private limited', regex=True)
+            .replace(r'\(p\)\s*', 'private', regex=True)
+            .replace(r'\bpvtltd\b', 'private limited', regex=True)
             .replace(r'\bpvt\b', 'private', regex=True)
             .replace(r'\bltd\b', 'limited', regex=True)
-            .replace(r'\b(pvt|pvt\.|pvtltd|p limited)\b', 'private limited', regex=True)
-            .replace(r'\b\(p\)\b', 'private', regex=True)
             .replace(r'\bsoc\b', 'society', regex=True)
             .replace(r'\bcorp\b', 'corporation', regex=True)
 
-            # --- Other unwanted words / suffixes ---
+            # Unwanted words / suffixes
             .replace(r'\bsmt\b', '', regex=True)
             .replace(r'\bsmti\b', '', regex=True)
             .replace(r'\bmiss\b', '', regex=True)
@@ -161,26 +172,35 @@ def expand_directors_data(file_path, output_folder, logger):
             .replace(r'\bchairman\b', '', regex=True)
             .replace(r'\bmanaging director\b', '', regex=True)
             .replace(r'\bpartner\b', '', regex=True)
-            .replace(r'\(?bprop\)?', '', regex=True)
-            .replace(r'\b\(ind\)\b', '', regex=True)
+            .replace(r'\(?\b(b)?prop(riet([oe]r)?)?\)?', '', regex=True)   # handles (prop), bprop, proprietor, etc.
+            .replace(r'\(ind\)\s*', '', regex=True)
             .replace(r'\bin liquidation\b', '', regex=True)
+            .replace(r'\berstwhile\s+promoter\b', '', regex=True)
 
-            # --- Remove titles before name (start only) ---
-            .replace(r'^\s*\(?propriet[eo]r\)?\s*', '', regex=True)
+            # Remove titles before name (start only)
             .replace(r'^\s*co[-\s]*applicant\s*', '', regex=True)
             .replace(r'^\s*\(?whole\s*time\s*director\)?\s*', '', regex=True)
+            .replace(r'^\s*guarantors?\s+of\s+', '', regex=True)        # e.g., "Guarantors of Rajesh Kumar"
+            .replace(r'\bguarantors?\s+of\b', '', regex=True)
+            .replace(r'\(.*promoter.*guarantor.*\)', '', regex=True)    # e.g., (PROMOTER DIRECTOR/ GUARANTOR)
+            .replace(r'\(.*guarantor.*promoter.*\)', '', regex=True)
             .replace(r'^\s*directors?\s*/\s*corporate\s*', '', regex=True)
-            .replace(r'^\s*(ch|sh)\b\s*', '', regex=True)
+            .replace(r'\berstwhile\s+promoter\b', '', regex=True)
+            .replace(r'\(co-borrower\)\s*', '', regex=True)
+            .replace(r'^\s*(sh|ch)\.?\s+', '', regex=True)
             .replace(r'^\s*\(\s*\)\s*', '', regex=True)
 
-            # --- Remove designations after name (end only) ---
+            # Remove director variants at END
             .replace(r'\s*\(?ex(?:ecutive)?\s*director[s]?\)?\s*$', '', regex=True)
-            .replace(r'\s*\(?director[s]?\)?\s*$', '', regex=True)
+            .replace(r'\s*\(?director\s*(?:ex|\(ex\))?\)?\s*$', '', regex=True)  # handles Director EX or (EX)
 
-            # --- Remove parent info (S/O, D/O, W/O ...) ---
-            .replace(r'\(?\s*(s|d|w)/o[^,;]*', '', regex=True, flags=re.IGNORECASE)
+            # Remove parent info
+            .replace(r'\(?\s*(s|d|w)/o[^,;]*', '', regex=True)
 
-            # --- Normalize spaces and format ---
+            # Remove leftover empty parentheses
+            .replace(r'\(\s*\)', '', regex=True)
+
+            # Normalize spaces and format
             .replace(r'\s+', ' ', regex=True)
             .str.upper()
             .str.strip()
